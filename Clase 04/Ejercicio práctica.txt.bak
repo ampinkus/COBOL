@@ -1,0 +1,42 @@
+Diseñar el algoritmo que lea un vector V, que está cargado en memoria, 
+este vector contiene número natural aleatorios, comprendidos entre 1 y 20. 
+Por cada elemento leído del vector V, se pide convertir el valor a binario.
+
+Como solo tengo 20 numeros posible puedo ahorrarme la conversion decimal a binario y 
+reemplazar en el vector Binario el resultado ya pre definido.
+Supongo que ya tengo definido un vector al que llamo Decimal cargado con los numeros que debo convertir.
+
+Algoritmo ConvertirDecimalBinario // genera un vector llamado Binario con los valores del vector Decimal convertidos a binario.
+	Definir Entero numero_elementos = 0;  // cantidad de elementos de los vectores.
+	Definir Entero indice = 0;  // Indice usado para recorrer los vectores, el indice del vector comienza en 0. 
+	
+	Imprimir: "Ingrese el numero de elementos a convertir: "
+	Leer numero_elementos;
+	Definir Entero Binario[numero_elementos];  // Defino un vector para los números binarios.
+	
+	Mientras ( indice < numero_elementos ) Entonces   // recorro los vectores fila por fila desde 0 hasta numero_elementos - 1
+		Segun Decimal[indice] Hacer  // ingreso el numero binario al vector Binario en base al valor decimal de cada fila del vector Decimal.
+			0:
+				Binario[numero_elementos] = 0;
+			1:
+				Binario[numero_elementos] = 1;
+			2:
+				Binario[numero_elementos] = 10;
+			3:
+				Binario[numero_elementos] = 11;
+			.
+			.
+			.
+			18:
+				Binario[numero_elementos = 10010;
+			19:
+				Binario[numero_elementos] = 10011;
+			20:
+				Binario[numero_elementos] = 10100;
+			Imprimir "Los numeros decimales deben estar comprendidos entre 0 y 20"		
+		FinSegun;
+		
+		indice += 1; // incremento el indice
+	Fin Mientras;
+	
+FinAlgoritmo;

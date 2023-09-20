@@ -1,0 +1,30 @@
+Hacer un ejercicio en pseudocodigo que dada la base y la altura calcule el área de un rectángulo
+
+// Defino 3 variables reales llamadas Base, Altura y Area como de punto flotante.
+float base = 0;
+float altura = 0;
+float area = 0;
+float perimetro = 0;
+
+
+// entrada de datos
+escribir "Introduzca el valor de la base: ";
+leer base;
+escribir "Introduzca el valor de la altura: ";
+leer altura;
+
+// Proceso
+area = base * altura;
+perimetro = 2 * (base + altura);
+
+// salida 
+escribir "El áera del rectangulo es: ";  
+escribir area;
+
+escribir "El perimetro del rectangulo es: ";  
+escribir perimetro;
+
+fin del programa;
+
+
+

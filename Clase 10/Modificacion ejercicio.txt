@@ -1,0 +1,1 @@
+Si hay un registro con error grabar ese registro en un archivo externo llamado "Errores"

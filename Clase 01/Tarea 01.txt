@@ -1,0 +1,52 @@
+1) Desarrollar un Algoritmo que lea tres números distintos y nos diga cual de ellos es el mayor
+
+2) Realizar un algoritmo que dado un número entero, visualice en pantalla si es par o impar. 
+En el caso de ser 0, debe visualizar “el número no es par ni impar” (para que un numero sea par, 
+se debe dividir entre dos y que su resto sea 0)
+
+Mail:
+consultasCOBOL@soysilvertech.org
+
+
+Pseudocódigo:
+
+1)
+Iniciar programa
+	Introducir número 1
+	Guardar número 1 en num1
+	Introducir número 2
+	Guardar número 2 en num2
+	Introducir número 3
+	Guardar número 3 en mayor
+	
+	Si (num2 > mayor)
+		mayor = num2
+	
+	Si (num1 > mayor)
+		mayor = num1
+
+	Imprimir mayor 
+Fin programa
+
+
+2)
+Iniciar programa
+	Introducir numero
+	Si (numero == 0)
+		Imprimir “El número no es par ni impar” 
+		Fin programa
+	
+	Si (numero divisionModulo 2) = 0
+		Imprimir "El numero es par"
+		Fin programa
+		
+	Imprimir "El numero es impar"	
+Fin programa
+	
+	
+	
+
+	
+
+	
+	

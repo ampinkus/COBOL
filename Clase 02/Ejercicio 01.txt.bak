@@ -1,0 +1,64 @@
+string nombre = "Juan";
+string apellido = "Perez";
+string dirección = "Av de Mayo";
+int numero = 1234;
+int codigo_postal = 1038;
+string provincia = "Buenos Aires";
+string teléfono = "5544-6677";
+string email = "juan.perez@mail.com";
+float donacion = 1000.00;
+bool argentino = TRUE;
+bool ingles = FALSE;
+
+---------------------------------------------
+Ej ANSES
+string 11 CUIL-menor = "";
+string 11 CUIL-responsable = "";
+int 3 edad-menor = 0;
+string 30 calle = "";
+int 5 numero = 0;
+int 2 piso = 0;
+string 4 depto = "";
+string 8 codigo_postal = "";
+int 8 fecha = 0;
+
+string 50 apelli-nombre-menor = "";
+string 50 apelli-nombre-responsable = "";
+string 50 localidad = "";
+string 50 provincia = "";
+string 13 telefono = "";
+bool es-celular = FALSE;
+string 50 email = "";
+string 13 establecimiento-salud = "";
+string 11 establecimiento-codigo = "";
+string 50 apelli-nombre-profesional = "";
+string 2 tipo-matricula = "";
+int 10 numero-matricula = 0;
+int 8 fecha = 0;
+bol vacunacion-completo = FALSE;
+bol vacunacion-enCurso = FALSE;
+
+string 9 establecimiento-codigo-CUE = "";
+string 32 establecimiento-educativo-nombre = "";
+bool estatal = FALSE;
+bool privada = FALSE;
+bool otra-no-privada-estatal = FALSE;
+bool nivel-inicial = FALSE;
+bool primario = FALSE;
+bool secundario = FALSE;
+bool otro-no-inicial-primario-secundario = FALSE;
+string 2 regular-ciclo-20 = "";
+bool si-es-regular-ciclo-20 = FALSE;
+bool no-es-regular-ciclo-20 = FALSE;
+int 1 grado-año = 0;
+string 2 fue-regular-ciclo-20 = "";
+bool si-fue-regular-ciclo-20 = FALSE;
+bool no-fue-regular-ciclo-20 = FALSE;
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+Delacaracion de archivo:
+    ENVIRONMENT DIVISION.
+     
+       INPUT-OUTPUT SECTION.
+       FILE-CONTROL.
+       SELECT ENTRADA
+           ASSIGN TO '../AAAAAA.TXT'
+           ORGANIZATION IS LINE SEQUENTIAL
+           FILE STATUS IS FS-ENTRADA.
+---------------------------------------------------------------------
+Declaracion de estructura de archivo:
+   DATA DIVISION.
+
+       FILE SECTION.
+
+       FD ENTRADA.
+       01 ENT-ARCHIVOS.
+          05 ENT-ID-EMPLEADO                PIC 9(5).
+          05 ENT-NOMBRE                     PIC X(15).
+          05 ENT-APELLIDO                   PIC X(15).
+          05 ENT-DIAS-TRABAJADO             PIC 9(2).
+          05 ENT-SUELDO                     PIC 9(8)V9(2).
+---------------------------------------------------------------------
+Declaracion de variable de FILE-STATUS
+     WORKING-STORAGE SECTION.
+
+       01 FS-STATUS.
+          05 FS-ENTRADA                      PIC X(2).
+             88 FS-ENTRADA-OK                VALUE '00'.
+             88 FS-ENTRADA-EOF               VALUE '10'.
+			 
+---------------------------------------------------------------------			 
+Instruccion para abrir un archivo:
+	OPEN INPUT ENTRADA.
+--------------------------------------------------------------------- 
+Instruccion para Leer un archivo:
+
+READ ENTRADA
+  AT END
+    ........   "Instruccion para fin de archivo"
+  NOT AT END
+    ....... "Instruccion para caso ok "
+END-READ.
+---------------------------------------------------------------------
+Instruccion para Cerrar un archivo:
+
+  CLOSE ENTRADA.
+---------------------------------------------------------------------
