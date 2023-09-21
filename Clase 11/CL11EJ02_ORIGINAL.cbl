@@ -129,17 +129,16 @@
       *----------------------------------------------------------------*
        2000-PROCESAR-PROGRAMA.
 
-           MOVE ZEROS                       TO WS-CC-IMPORTE-ACUM.
-           MOVE ZEROS                       TO WS-CC-CANT-VENTAS-ACUM.
-
-           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
+           MOVE ZEROS TO WS-CC-IMPORTE-ACUM.
+           MOVE ZEROS TO WS-CC-CANT-VENTAS-ACUM.
+           MOVE ENT-FECHA TO WS-CC-FECHA-ANT.
 
            DISPLAY WS-LIS-SEPARADOR-2.
            DISPLAY 'FECHA: ' WS-CC-FECHA-ANT
            DISPLAY WS-LIS-SEPARADOR-1.
 
            PERFORM 2100-PROCESAR-CORTE-X-DIA
-              THRU 2100-PROCESAR-CORTE-X-DIA
+              THRU 2100-PROCESAR-CORTE-X-DIA-FIN
              UNTIL FS-ENTRADA-EOF
                 OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT.
 
@@ -150,7 +149,6 @@
 
            MOVE ZEROS                       TO WS-CC-IMPORTE-ACUM.
            MOVE ZEROS                       TO WS-CC-CANT-VENTAS-ACUM.
-
            MOVE ENT-CATEGORIA               TO WS-CC-CATEGORIA-ANT.
 
            PERFORM 2200-PROCESAR-CORTE-X-CATEG

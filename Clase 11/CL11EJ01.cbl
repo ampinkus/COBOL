@@ -1,7 +1,13 @@
       ******************************************************************
       * Author: Alfredo Pinkus
-      * Date: 07/09/2023
-      * Purpose: CLASE 11 - EJERCICIO 1
+      * Date: 20/09/2023
+      * Purpose: CLASE 11 - EJERCICIO 1 hacer un corto de totales por
+      * fecha. Imprimir los montos de venta en cada fecha y el numero de ventas.
+      * Un registro tiene el formato:
+      *   FECHA   ID      EMPLEADO        CATEGORIA     IMPORTE
+      * 2023-01-0110100MCCARTNEY, BRANDA   ALMACEN     0002179525
+      * La salida debe ser:
+      *
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -13,7 +19,6 @@
        DECIMAL-POINT IS COMMA.
 
        INPUT-OUTPUT SECTION.
-
        FILE-CONTROL.
 
        SELECT ENTRADA
@@ -22,48 +27,51 @@
            FILE STATUS IS FS-ENTRADA.
       *----------------------------------------------------------------*
        DATA DIVISION.
-
        FILE SECTION.
 
        FD ENTRADA.
        01 ENT-ARCHIVO.
-          05 ENT-FECHA                      PIC X(10).
-          05 ENT-ID-EMPLEADO                PIC 9(05).
-          05 ENT-NOMBRE-APELLIDO            PIC X(40).
-          05 ENT-CATEGORIA                  PIC X(20).
-          05 ENT-IMPORTE                    PIC 9(8)V9(2).
+         05 ENT-FECHA                      PIC X(10).
+         05 ENT-ID-EMPLEADO                PIC 9(05).
+         05 ENT-NOMBRE-APELLIDO            PIC X(40).
+         05 ENT-CATEGORIA                  PIC X(20).
+         05 ENT-IMPORTE                    PIC 9(8)V9(2).
 
        WORKING-STORAGE SECTION.
 
        01 FS-STATUS.
-          05 FS-ENTRADA                      PIC X(2).
+         05 FS-ENTRADA                      PIC X(2).
              88 FS-ENTRADA-OK                    VALUE '00'.
              88 FS-ENTRADA-EOF                   VALUE '10'.
              88 FS-ENTRADA-NFD                   VALUE '35'.
 
+      * Numero total de ventas realizadas
        01 WS-CONTADORES.
           05 WS-CONT-REG-ENTRADA             PIC 9(5) VALUE 0.
 
+      * Para saber cuando cambió la fecha
        01 WS-CORTE-CONTROL.
-          05 WS-CC-FECHA-ANT                 PIC X(10).
-          05 WS-CC-CATEGORIA-ANT             PIC X(10).
+         05 WS-CC-FECHA-ANT                 PIC X(10).
 
+      * Variables que guardan el importe vendido y la cantidad de ventas por fecha
        01 WS-ACUMULADORES.
-          05 WS-CC-IMPORTE-ACUM              PIC 9(8)V9(2).
-          05 WS-CC-CANT-VENTAS-ACUM          PIC 9(04).
-          05 WS-CC-CATEGORIA-ACUM            PIC 9(04).
+         05 WS-CC-IMPORTE-ACUM              PIC 9(8)V9(2).
+         05 WS-CC-CANT-VENTAS-ACUM          PIC 9(04).
 
+      * Encabezado
        01 WS-LISTADO.
-          05 WS-LIS-SEPARADOR               PIC X(37) VALUE ALL '-'.
-          05 WS-FECHA-SEPARADOR             PIC X(37) VALUE ALL '#'.
-          05 WS-LIS-HEADER.
-             10 FILLER                      PIC X(10) VALUE 'CATEGORIA'.
+         05 WS-LIS-SEPARADOR               PIC X(37) VALUE ALL '-'.
+         05 WS-FECHA-SEPARADOR             PIC X(37) VALUE ALL '#'.
+         05 WS-LIS-HEADER.
+             10 FILLER                      PIC X(10) VALUE 'FECHA'.
              10 FILLER                      PIC X(03) VALUE ' | '.
              10 FILLER                      PIC X(08) VALUE 'CANTIDAD'.
              10 FILLER                      PIC X(03) VALUE ' | '.
              10 FILLER                      PIC X(13) VALUE 'IMPORTE'.
-          05 WS-LIS-DETALLE.
-             10 WS-LIS-D-CATEGORIA          PIC X(10).
+
+      * Registro por fecha
+         05 WS-LIS-DETALLE.
+             10 WS-LIS-D-FECHA              PIC X(10).
              10 FILLER                      PIC X(07) VALUE ' |     '.
              10 WS-LIS-D-CANTIDAD           PIC ZZZ9.
              10 FILLER                      PIC X(03) VALUE ' | '.
@@ -71,19 +79,17 @@
 
       *----------------------------------------------------------------*
        PROCEDURE DIVISION.
-
            PERFORM 1000-INICIAR-PROGRAMA
               THRU 1000-INICIAR-PROGRAMA-FIN.
 
+      * Si llegue al final del archivo o hay un error de lectura detengo el programa
            IF FS-ENTRADA-OK
-
               DISPLAY WS-LIS-HEADER
               DISPLAY WS-LIS-SEPARADOR
 
               PERFORM 2000-PROCESAR-PROGRAMA
                  THRU 2000-PROCESAR-PROGRAMA-FIN
                 UNTIL FS-ENTRADA-EOF
-
            END-IF.
 
            PERFORM 3000-FINALIZAR-PROGRAMA
@@ -92,7 +98,9 @@
             STOP RUN.
       *----------------------------------------------------------------*
        1000-INICIAR-PROGRAMA.
-
+      *----------------------------------------------------------------*
+      * Inicializo el numero total de ventas realizadas a cero.
+      * Abro el archivo de entrada y si todo esta ok leo el primer registro
            INITIALIZE WS-CONTADORES.
 
            PERFORM 1100-ABRIR-ARCHIVO
@@ -100,9 +108,11 @@
 
        1000-INICIAR-PROGRAMA-FIN.
            EXIT.
+
       *----------------------------------------------------------------*
        1100-ABRIR-ARCHIVO.
-
+      *----------------------------------------------------------------*
+      * Abro el archivo de entrada y verifico condiciones de error de apertura.
            OPEN INPUT ENTRADA.
 
            EVALUATE FS-ENTRADA
@@ -119,14 +129,17 @@
 
        1100-ABRIR-ARCHIVO-FIN.
            EXIT.
+
       *----------------------------------------------------------------*
        1500-LEER-ARCHIVO.
-
+      *----------------------------------------------------------------*
+      * Leo un registro y verifico si hubo un error de elctura.
            READ ENTRADA.
 
            EVALUATE TRUE
                WHEN FS-ENTRADA-OK
-                    ADD 1                   TO WS-CONT-REG-ENTRADA
+      * Si la lectura fue sin error agrego 1 al número de registros leídos
+                    ADD 1 TO WS-CONT-REG-ENTRADA
                WHEN FS-ENTRADA-EOF
                     CONTINUE
                WHEN OTHER
@@ -136,15 +149,20 @@
 
        1500-LEER-ARCHIVO-EXIT.
        EXIT.
+
       *----------------------------------------------------------------*
        2000-PROCESAR-PROGRAMA.
-
+      *----------------------------------------------------------------*
+      * Pongo en cero WS-CC-IMPORTE-ACUM y WS-CC-CANT-VENTAS-ACUM que son los acumuladores
+      * de los totales por fecha y y numero de ventas por fecha.
            INITIALIZE WS-ACUMULADORES.
-
-           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
+      * La primer fecha que leo la guardo en la variable para controlar el cambio de fecha
+           MOVE ENT-FECHA TO WS-CC-FECHA-ANT.
 
            PERFORM 2100-ACUMULAR-DATOS
               THRU 2100-ACUMULAR-DATOS-FIN
+      * Si llegue al final del archivo o cambio la fecha dejo de acumular datos
+      * y muestro los datos para la fecha.  2200-MOSTAR-DATO-PARCIAL
              UNTIL FS-ENTRADA-EOF
                 OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT.
 
@@ -153,18 +171,15 @@
 
        2000-PROCESAR-PROGRAMA-FIN.
            EXIT.
+
       *----------------------------------------------------------------*
        2100-ACUMULAR-DATOS.
-
-           ADD ENT-IMPORTE                  TO WS-CC-IMPORTE-ACUM.
-           ADD 1                            TO WS-CC-CANT-VENTAS-ACUM.
-
-           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
-           PERFORM  2150-ACUMULAR-DATOS-CATEGORIA
-            THRU 2150-ACUMULAR-DATOS-CATEGORIA-FIN
-            UNTIL FS-ENTRADA-EOF
-                OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT
-                OR ENT-CATEGORIA NOT EQUAL WS-CC-CATEGORIA-ANT.
+      *----------------------------------------------------------------*
+      * Le sumo el importe leido al acumulador de importes.
+      *    DISPLAY "ENT-IMPORTE: " ENT-IMPORTE.
+           ADD ENT-IMPORTE  TO WS-CC-IMPORTE-ACUM.
+      * Le sumo 1 a la cantidad de ventas parciales
+           ADD 1 TO WS-CC-CANT-VENTAS-ACUM.
 
            PERFORM 1500-LEER-ARCHIVO
               THRU 1500-LEER-ARCHIVO-EXIT.
@@ -173,37 +188,21 @@
            EXIT.
 
       *----------------------------------------------------------------*
-       2150-ACUMULAR-DATOS-CATEGORIA.
-
-           INITIALIZE WS-ACUMULADORES.
-
-           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
-
-           PERFORM 2100-ACUMULAR-DATOS
-              THRU 2100-ACUMULAR-DATOS-FIN
-             UNTIL FS-ENTRADA-EOF
-                OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT.
-
-           PERFORM 2200-MOSTAR-DATO-PARCIAL
-              THRU 2200-MOSTAR-DATO-PARCIAL-FIN.
-
-       2150-ACUMULAR-DATOS-CATEGORIA-FIN.
-           EXIT.
+           2200-MOSTAR-DATO-PARCIAL.
       *----------------------------------------------------------------*
 
-           2200-MOSTAR-DATO-PARCIAL.
-
-           MOVE WS-CC-CATEGORIA-ACUM        TO WS-LIS-D-CATEGORIA.
            MOVE WS-CC-CANT-VENTAS-ACUM      TO WS-LIS-D-CANTIDAD.
            MOVE WS-CC-IMPORTE-ACUM          TO WS-LIS-D-IMPORTE.
+           MOVE WS-CC-FECHA-ANT             TO WS-LIS-D-FECHA.
 
            DISPLAY WS-LIS-DETALLE.
 
        2200-MOSTAR-DATO-PARCIAL-FIN.
            EXIT.
+
       *----------------------------------------------------------------*
        3000-FINALIZAR-PROGRAMA.
-
+      *----------------------------------------------------------------*
            DISPLAY WS-LIS-SEPARADOR.
 
            DISPLAY 'CANTIDAD DE REGISTROS LEIDOS: ' WS-CONT-REG-ENTRADA.
@@ -213,9 +212,10 @@
 
        3000-FINALIZAR-PROGRAMA-FIN.
            EXIT.
+
       *----------------------------------------------------------------*
        3200-CERRAR-ARCHIVO.
-
+      *----------------------------------------------------------------*
            CLOSE ENTRADA.
 
            IF NOT FS-ENTRADA-OK
