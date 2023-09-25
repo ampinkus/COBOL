@@ -1,20 +1,7 @@
       ******************************************************************
-      * Author: Alfredo Pinkus
-      * Date: 20/09/2023
-      * Purpose: CLASE 11 - EJERCICIO 2 hacer un corto de totales por
-      * fecha categoria. Imprimir los montos de venta en cada fecha y el numero de ventas
-      * separado por categoria.
-      * Un registro tiene el formato:
-      *   FECHA   ID      EMPLEADO        CATEGORIA     IMPORTE
-      * 2023-01-0110100MCCARTNEY, BRANDA   ALMACEN     0002179525
-      * La salida debe ser:
-      * FECHA: 2023-02-01
-      *---------------------------------------
-      *BAZAR        |        5 |          5,00
-      *VERDURA      |        5 |          5,00
-      *#######################################
-      *CANTIDAD DE REGISTROS LEIDOS: 00005
-      *
+      * Author: EMILIANO TOMASI
+      * Date: 07/09/2023
+      * Purpose: CLASE 11 - EJERCICIO 2
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
@@ -30,9 +17,13 @@
        FILE-CONTROL.
 
        SELECT ENTRADA
-           ASSIGN TO 'E:\COBOL\PARCIAL2023.TXT'
+           ASSIGN TO '../PARCIAL2023.TXT'
            ORGANIZATION IS LINE SEQUENTIAL
            FILE STATUS IS FS-ENTRADA.
+        SELECT SALIDA
+           ASSIGN TO '../LISTADO2023.TXT'
+           ORGANIZATION IS LINE SEQUENTIAL
+           FILE STATUS IS FS-SALIDA.
       *----------------------------------------------------------------*
        DATA DIVISION.
 
@@ -46,6 +37,13 @@
           05 ENT-CATEGORIA                  PIC X(20).
           05 ENT-IMPORTE                    PIC 9(8)V9(2).
 
+       FD SALIDA.
+       01 SAL-ARCHIVO.
+          05 LINEA1            PIC X(60).
+
+
+
+
        WORKING-STORAGE SECTION.
 
        01 FS-STATUS.
@@ -54,28 +52,32 @@
              88 FS-ENTRADA-EOF                   VALUE '10'.
              88 FS-ENTRADA-NFD                   VALUE '35'.
 
+          05 FS-SALIDA                      PIC X(2).
+             88 FS-SALIDA-OK                    VALUE '00'.
+             88 FS-SALIDA-EOF                   VALUE '10'.
+             88 FS-SALIDA-NFD                   VALUE '35'.
+
        01 WS-CONTADORES.
-      * Numero total de ventas realizadas
           05 WS-CONT-REG-ENTRADA             PIC 9(5) VALUE 0.
 
-      * Variables que guardan el importe vendido y la cantidad de ventas por categoria
-       01 WS-ACUMULADORES.
-      * Importe vendido por categoria
-         05 WS-CC-IMPORTE-ACUM              PIC 9(8)V9(2).
-      * Cantidad de ventas por categoria
-         05 WS-CC-CANT-VENTAS-ACUM          PIC 9(04).
-
        01 WS-CORTE-CONTROL.
-      * Para saber cuando cambió la fecha
-         05 WS-CC-FECHA-ANT                 PIC X(10).
-      * Para saber cuando cambió la categoria
-         05 WS-CC-CATEGORIA-ANT             PIC X(10).
+          05 WS-CC-FECHA-ANT                PIC X(10).
+          05 WS-CC-CATEGORIA-ANT            PIC X(20).
 
-      * Encabezado
+       01 WS-ACUMULADORES.
+          05 WS-CC-IMPORTE-ACUM             PIC 9(8)V9(2).
+          05 WS-CC-CANT-VENTAS-ACUM         PIC 9(04).
+
        01 WS-LISTADO.
           05 WS-LIS-SEPARADOR-1             PIC X(39) VALUE ALL '-'.
           05 WS-LIS-SEPARADOR-2             PIC X(39) VALUE ALL '#'.
-      * Aera de datos a llenar por el programa
+          05 WS-LIS-COLUMNA.
+             10 WS-TIT-CATEGORIA            PIC X(10) VALUE 'CATEGORIA'.
+             10 FILLER                      PIC X(07) VALUE '      '.
+             10 WS-TIT-CANTIDAD             PIC X(10) VALUE'CANTIDAD'.
+             10 FILLER                      PIC X(03) VALUE '   '.
+             10 WS-TIT-IMPORTE              PIC X(10) VALUE'IMPORTE'.
+
           05 WS-LIS-DETALLE.
              10 WS-LIS-D-CATEGORIA          PIC X(12).
              10 FILLER                      PIC X(07) VALUE ' |     '.
@@ -83,29 +85,48 @@
              10 FILLER                      PIC X(03) VALUE ' | '.
              10 WS-LIS-D-IMPORTE            PIC ZZ.ZZZ.ZZ9,99.
 
+          05 WS-LIST-TOTAL.
+             10 WS-TIT-CANT-TOT             PIC X(12) VALUE 'TOTAL'.
+             10 FILLER                      PIC X(07) VALUE ' |     '.
+             10 WS-CANTIDAD-TOTAL           PIC ZZZ9.
+             10 FILLER                      PIC X(03) VALUE ' | '.
+             10 WS-SUMA-TOTAL               PIC ZZ.ZZZ.ZZ9,99.
+          05 WS-TOTAL.
+             10 WS-TIT-TOTAL                PIC X(12) VALUE 'TOTALGRAL'.
+             10 FILLER                      PIC X(07) VALUE ' |     '.
+             10 WS-CANT-TOT                 PIC ZZZ9.
+             10 FILLER                      PIC X(07) VALUE ' |     '.
+             10 WS-TOTAL-TOTAL              PIC ZZ.ZZZ.ZZ9,99.
+
+
+       77 WS-CANTIDAD-AUX PIC 9(04).
+       77 WS-SUMA-AUX PIC 9(8)V9(2).
+       77 WS-CANT-TOTAL-AUX PIC 9(04).
+       77 WS-SUMA-TOTAL-AUX PIC 9(8)V9(2).
+       77 WS-SALIDA-CANT-REG PIC 9(10).
+
+
       *----------------------------------------------------------------*
        PROCEDURE DIVISION.
+
            PERFORM 1000-INICIAR-PROGRAMA
               THRU 1000-INICIAR-PROGRAMA-FIN.
 
-      * Si el archivo de entrada no tiene registros el PERFORM 1000 va a devolver EOF
-      * Si hay una condicion de error al leer el archivo de entrada finalizo el programa
            IF FS-ENTRADA-OK
+
               PERFORM 2000-PROCESAR-PROGRAMA
                  THRU 2000-PROCESAR-PROGRAMA-FIN
-      * Repito el PERFORM 2000 hasta que llego al final del archivo
                 UNTIL FS-ENTRADA-EOF
+
            END-IF.
 
            PERFORM 3000-FINALIZAR-PROGRAMA
               THRU 3000-FINALIZAR-PROGRAMA-FIN.
 
             STOP RUN.
-
       *----------------------------------------------------------------*
        1000-INICIAR-PROGRAMA.
-      *----------------------------------------------------------------*
-      * Pongo en cero el contador de registros totales leidos
+
            INITIALIZE WS-CONTADORES.
 
            PERFORM 1100-ABRIR-ARCHIVO
@@ -113,12 +134,11 @@
 
        1000-INICIAR-PROGRAMA-FIN.
            EXIT.
-
       *----------------------------------------------------------------*
        1100-ABRIR-ARCHIVO.
-      *----------------------------------------------------------------*
-      * Abro el archivo de entrada y controlo que que no haya errores
+
            OPEN INPUT ENTRADA.
+
            EVALUATE TRUE
                WHEN FS-ENTRADA-OK
                     PERFORM 1500-LEER-ARCHIVO
@@ -131,17 +151,25 @@
                     DISPLAY 'FILE STATUS: ' FS-ENTRADA
            END-EVALUATE.
 
+           OPEN OUTPUT SALIDA.
+
+           EVALUATE TRUE
+               WHEN FS-SALIDA-OK
+                    CONTINUE
+               WHEN OTHER
+                    DISPLAY 'ERROR AL ABRIR EL ARCHIVO DE SALIDA'
+                    DISPLAY 'FILE STATUS: ' FS-SALIDA
+           END-EVALUATE.
+
        1100-ABRIR-ARCHIVO-FIN.
            EXIT.
-
       *----------------------------------------------------------------*
        1500-LEER-ARCHIVO.
-      *----------------------------------------------------------------*
-      * Leo el archivo de entrada y controlo que que no haya errores
+
            READ ENTRADA.
+
             EVALUATE TRUE
                WHEN FS-ENTRADA-OK
-      * Agrego 1 al contador de archivos de entrada leidos
                     ADD 1                   TO WS-CONT-REG-ENTRADA
                WHEN FS-ENTRADA-EOF
                     CONTINUE
@@ -152,95 +180,154 @@
 
        1500-LEER-ARCHIVO-EXIT.
        EXIT.
-
       *----------------------------------------------------------------*
        2000-PROCESAR-PROGRAMA.
-      *----------------------------------------------------------------*
-      * Hago el primer control de cambios que es ver si cambio la fecha.
-      * Hasta que no cambie el día o llegue al EOF
-      *  hago 2100-PROCESAR-CORTE-X-DIA
 
-      * Llevo la fecha del primer registro leido en 1500-LEER-ARCHIVO
-      * a la variable que guarda la fecha para control de cambio
-           MOVE ZEROS TO WS-CC-IMPORTE-ACUM.
-           MOVE ZEROS TO WS-CC-CANT-VENTAS-ACUM.
-           MOVE ENT-FECHA TO WS-CC-FECHA-ANT.
+           MOVE ZEROS                       TO WS-CC-IMPORTE-ACUM.
+           MOVE ZEROS                       TO WS-CC-CANT-VENTAS-ACUM.
+           MOVE ZEROS                       TO WS-CANTIDAD-AUX.
+           MOVE ZEROS                       TO WS-SUMA-AUX.
 
-      * Imprimo el encabezado de la fecha
-      *  #######################################
-      *   FECHA: 2023-01-01
-      *  ---------------------------------------
+           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
+
            DISPLAY WS-LIS-SEPARADOR-2.
+
            DISPLAY 'FECHA: ' WS-CC-FECHA-ANT
+
+           MOVE WS-CC-FECHA-ANT TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+      *--------- TITULOS POR COLUMNA-------------
            DISPLAY WS-LIS-SEPARADOR-1.
 
-      * Proceso el corte x dia.
+           MOVE WS-LIS-SEPARADOR-1 TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+           DISPLAY WS-LIS-COLUMNA.
+
+           MOVE WS-LIS-COLUMNA TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+
+           DISPLAY WS-LIS-SEPARADOR-1.
+
+           MOVE WS-LIS-SEPARADOR-1 TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
            PERFORM 2100-PROCESAR-CORTE-X-DIA
-              THRU 2100-PROCESAR-CORTE-X-DIA-FIN
-      * Si EOF detengo el proceso o si cambio la fecha al leer el registro
+              THRU 2100-PROCESAR-CORTE-X-DIA
              UNTIL FS-ENTRADA-EOF
                 OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT.
 
-         2000-PROCESAR-PROGRAMA-FIN.
-           EXIT.
+      *----------------NUEVOS TOTALES---------
+            DISPLAY  WS-LIS-SEPARADOR-1.
 
+            MOVE WS-LIS-SEPARADOR-1 TO LINEA1
+            PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+            MOVE WS-CANTIDAD-AUX TO WS-CANTIDAD-TOTAL.
+            MOVE WS-SUMA-AUX  TO WS-SUMA-TOTAL.
+            DISPLAY  WS-LIST-TOTAL.
+
+            MOVE WS-LIST-TOTAL TO LINEA1
+            PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+      *------------ TOTAL DE LOS TOTALES
+            ADD  WS-CANTIDAD-AUX TO WS-CANT-TOTAL-AUX.
+            ADD  WS-SUMA-AUX     TO WS-SUMA-TOTAL-AUX.
+       2000-PROCESAR-PROGRAMA-FIN.
+           EXIT.
       *----------------------------------------------------------------*
        2100-PROCESAR-CORTE-X-DIA.
-      *----------------------------------------------------------------*
-      * Hago elsegundo control de cambios que es ver si cambio la
-      * categoria del producto. Hasta que no cambie el producto o llegue
-      *  al EOF hago 2200-PROCESAR-CORTE-X-CATEG
 
-      * Inicializo el contador de importe acumulado y cantidad
-      *  de ventas acumuladas
-           INITIALIZE  WS-CC-CANT-VENTAS-ACUM.
-           INITIALIZE  WS-CC-IMPORTE-ACUM.
+           MOVE ZEROS                       TO WS-CC-IMPORTE-ACUM.
+           MOVE ZEROS                       TO WS-CC-CANT-VENTAS-ACUM.
 
-      * Llevo la categoria del primer registro leido en 1500-LEER-ARCHIVO
-      * a la variable que guarda la categoria para control de cambio
-           MOVE ENT-CATEGORIA  TO WS-CC-CATEGORIA-ANT.
+           MOVE ENT-CATEGORIA               TO WS-CC-CATEGORIA-ANT.
 
-      * Si EOF detengo el proceso. Ademas si cambio la fecha o el
-      * producto al leer el registro
            PERFORM 2200-PROCESAR-CORTE-X-CATEG
               THRU 2200-PROCESAR-CORTE-X-CATEG-FIN
              UNTIL FS-ENTRADA-EOF
                 OR ENT-FECHA NOT EQUAL WS-CC-FECHA-ANT
                 OR ENT-CATEGORIA NOT EQUAL WS-CC-CATEGORIA-ANT.
 
-      * Llevo la categoria, la cantidad de ventas y el importe acumulado
-      * para cada categoria a las variables usadas para mostrar la info
            MOVE WS-CC-CATEGORIA-ANT         TO WS-LIS-D-CATEGORIA.
            MOVE WS-CC-CANT-VENTAS-ACUM      TO WS-LIS-D-CANTIDAD.
            MOVE WS-CC-IMPORTE-ACUM          TO WS-LIS-D-IMPORTE.
-      * Muestro la la información en la pantalla
+
+      *------------------------PARA ACUMULAR CUANDO CORTA----------------------------------
+           ADD WS-CC-CANT-VENTAS-ACUM TO WS-CANTIDAD-AUX.
+           ADD WS-CC-IMPORTE-ACUM TO WS-SUMA-AUX.
+
            DISPLAY WS-LIS-DETALLE.
+
+           MOVE WS-LIS-DETALLE TO LINEA1.
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN.
+
+
 
        2100-PROCESAR-CORTE-X-DIA-FIN.
            EXIT.
-
       *----------------------------------------------------------------*
        2200-PROCESAR-CORTE-X-CATEG.
-      *----------------------------------------------------------------*
-      * Si no cambio la categoría del producto sumo el valor del
-      * producto al acumulador de importe de producto
-      * y agrego 1 a la cantidad de ventas del producto
+
            ADD ENT-IMPORTE                  TO WS-CC-IMPORTE-ACUM.
            ADD 1                            TO WS-CC-CANT-VENTAS-ACUM.
 
-      * Leo el siguiente registro
+
+
+           MOVE ENT-FECHA                   TO WS-CC-FECHA-ANT.
+           MOVE ENT-CATEGORIA               TO WS-CC-CATEGORIA-ANT.
+
+
            PERFORM 1500-LEER-ARCHIVO
               THRU 1500-LEER-ARCHIVO-EXIT.
+
 
        2200-PROCESAR-CORTE-X-CATEG-FIN.
            EXIT.
 
       *----------------------------------------------------------------*
        3000-FINALIZAR-PROGRAMA.
-      *----------------------------------------------------------------*
+
+
+           DISPLAY  WS-LIS-SEPARADOR-1.
+
+           MOVE WS-LIS-SEPARADOR-1 TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+
+           MOVE WS-CANT-TOTAL-AUX TO WS-CANT-TOT.
+           MOVE WS-SUMA-TOTAL-AUX TO WS-TOTAL-TOTAL.
+           DISPLAY WS-TOTAL.
+
+           MOVE WS-TOTAL TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
+
+
            DISPLAY WS-LIS-SEPARADOR-2.
 
+           MOVE WS-LIS-SEPARADOR-2 TO LINEA1
+           PERFORM 3500-GRABAR-ARCHIVO-SALIDA
+           THRU 3500-GRABAR-ARCHIVO-SALIDA-FIN
+
            DISPLAY 'CANTIDAD DE REGISTROS LEIDOS: ' WS-CONT-REG-ENTRADA.
+
+
+
+
+
+
 
            PERFORM 3200-CERRAR-ARCHIVO
               THRU 3200-CERRAR-ARCHIVO-FIN.
@@ -248,17 +335,38 @@
        3000-FINALIZAR-PROGRAMA-FIN.
            EXIT.
 
+       3500-GRABAR-ARCHIVO-SALIDA.
+
+
+       WRITE SAL-ARCHIVO.
+
+           EVALUATE FS-SALIDA
+               WHEN '00'
+                    ADD 1 TO WS-SALIDA-CANT-REG
+               WHEN OTHER
+                    DISPLAY 'ERROR AL GRABAR EL ARCHIVO DE SALIDA'
+                    DISPLAY 'FILE STATUS: ' FS-SALIDA
+           END-EVALUATE.
+
+       3500-GRABAR-ARCHIVO-SALIDA-FIN.
+       EXIT.
       *----------------------------------------------------------------*
        3200-CERRAR-ARCHIVO.
-      *----------------------------------------------------------------*
+
            CLOSE ENTRADA.
 
            IF NOT FS-ENTRADA-OK
               DISPLAY 'ERROR AL CERRAR ARCHUIVO ENTRADA: ' FS-ENTRADA
            END-IF.
 
+            CLOSE SALIDA.
+
+           IF NOT FS-SALIDA-OK
+              DISPLAY 'ERROR AL CERRAR ARCHUIVO ENTRADA: ' FS-SALIDA
+           END-IF.
+
        3200-CERRAR-ARCHIVO-FIN.
            EXIT.
-
       *----------------------------------------------------------------*
+
        END PROGRAM CL11EJ02.

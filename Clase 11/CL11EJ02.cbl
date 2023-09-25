@@ -75,7 +75,7 @@
        01 WS-LISTADO.
           05 WS-LIS-SEPARADOR-1             PIC X(39) VALUE ALL '-'.
           05 WS-LIS-SEPARADOR-2             PIC X(39) VALUE ALL '#'.
-      * Aera de datos a llenar por el programa
+      * Area de datos para presentar el resultado
           05 WS-LIS-DETALLE.
              10 WS-LIS-D-CATEGORIA          PIC X(12).
              10 FILLER                      PIC X(07) VALUE ' |     '.
@@ -105,7 +105,8 @@
       *----------------------------------------------------------------*
        1000-INICIAR-PROGRAMA.
       *----------------------------------------------------------------*
-      * Pongo en cero el contador de registros totales leidos
+      * Pongo en cero el contador de registros totales leidos y los
+      * acumuladores
            INITIALIZE WS-CONTADORES.
            INITIALIZE WS-ACUMULADORES.
 
@@ -142,7 +143,7 @@
            READ ENTRADA.
             EVALUATE TRUE
                WHEN FS-ENTRADA-OK
-      * Agrego 1 al contador de archivos de entrada leidos
+      * Si leo un registro agrego 1 al contador de archivos de entrada leidos
                     ADD 1                   TO WS-CONT-REG-ENTRADA
                WHEN FS-ENTRADA-EOF
                     CONTINUE
@@ -158,12 +159,10 @@
        2000-PROCESAR-CORTE-POR-DIA.
       *----------------------------------------------------------------*
       * Hago el primer control de cambios que es ver si cambio la fecha.
-      * Hasta que no cambie el día o llegue al EOF ejecuto
-      *  2100-PROCESAR-CORTE-POR-CATEGORIA
-      * Cuando cambia la fecha regreso a
-      * PERFORM 2000-PROCESAR-CORTE-POR-DIA y si el archivo no llego
-      * a EOF retorno a 2000-PROCESAR-CORTE-POR-DIA. Imprimo el
-      * encabezado a la fecha y asi sigue el proceso.
+      * Hasta que no cambie la fecha o llegue al EOF ejecuto 2100-PROCESAR-CORTE-POR-CATEGORIA
+      * En 2100-PROCESAR-CORTE-POR-CATEGORIA cuando cambia la categoria regreso a
+      * 2000-PROCESAR-CORTE-POR-DIA.  Si cambio la fecha imprimo el
+      * encabezado de la fecha nueva y regreso a 2100-PROCESAR-CORTE-POR-CATEGORIA
 
       * Llevo la fecha del primer registro leido en 1500-LEER-ARCHIVO
       * a la variable que guarda la fecha para control de cambio
@@ -177,9 +176,8 @@
            DISPLAY 'FECHA: ' WS-CC-FECHA-ANT
            DISPLAY WS-LIS-SEPARADOR-1.
 
-      * Para cada dia tengo que procesar los productos que corresponden
-      * a cada categoría, calculo los totales para cada cateoría dentro
-      * de cada fecha
+      * Para cada dia tengo que procesar los productos de cada categoría,
+      * calculo los totales para cada cateoría dentro de cada fecha
            PERFORM 2100-PROCESAR-CORTE-POR-CATEGORIA
               THRU 2100-PROCESAR-CORTE-POR-CATEGORIA-FIN
       * Si EOF detengo el proceso o si cambio la fecha
@@ -193,8 +191,8 @@
        2100-PROCESAR-CORTE-POR-CATEGORIA.
       *----------------------------------------------------------------*
       * Hago el segundo control de cambios que es ver si cambio la
-      * categoria del producto. Hasta que no cambie el producto o llegue
-      *  al EOF hago 2200-PROCESAR-CAMBIO-CATEGORIA
+      * categoria del producto. Hasta que no cambie la categoria o llegue
+      * al EOF hago 2200-PROCESAR-CAMBIO-CATEGORIA
 
       * Inicializo el contador de importe acumulado y cantidad
       *  de ventas acumuladas
@@ -205,7 +203,7 @@
       * a la variable que guarda la categoria para control de cambio
            MOVE ENT-CATEGORIA  TO WS-CC-CATEGORIA-ANT.
 
-      * Detengo el proceso por EOF o por cambio de producto
+      * Detengo el proceso por EOF o por cambio categoria de producto
            PERFORM 2200-PROCESAR-CAMBIO-CATEGORIA
               THRU 2200-PROCESAR-CAMBIO-CATEGORIA-FIN
              UNTIL FS-ENTRADA-EOF
@@ -228,8 +226,8 @@
       * Si no cambio la categoría del producto sumo el valor del
       * producto al acumulador de importe de producto
       * y agrego 1 a la cantidad de ventas del producto
-           ADD ENT-IMPORTE                  TO WS-CC-IMPORTE-ACUM.
-           ADD 1                            TO WS-CC-CANT-VENTAS-ACUM.
+           ADD ENT-IMPORTE   TO WS-CC-IMPORTE-ACUM.
+           ADD 1             TO WS-CC-CANT-VENTAS-ACUM.
 
       * Leo el siguiente registro
            PERFORM 1500-LEER-ARCHIVO
