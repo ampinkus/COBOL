@@ -1,0 +1,731 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ID-EMPLEADO | NOMBRE                    | APELLIDO                  | DIRECCION                                          | COD-POSTAL | TIP-DOC | NRO-DOC  | TELEFONO
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12566708    | CASTILLON                 | FELICITA VICTORIA         | Diagonal Norte 910                                 |       7908 | DNI     | 30447322 | 8009-9891
+12566709    | SANCHEZ                   | PAOLA DEL ROSARIO         | Av. Corrientes 1236                                |       2267 | CI      | 19497196 | 8424-9234
+12566711    | SANCHEZ                   | ELIZABETH LUZ             | Florida 474                                        |       4342 | LE      | 49953351 | 6500-2735
+12566714    | MENACHO                   | PEDRO ALFONSO             | Av. Cordoba 1467                                   |       2437 | DNI     | 16241899 | 7921-1868
+12566718    | APARICIO                  | KENYI ARIADNA             | Av. de Mayo 602                                    |       5020 | CI      | 29970092 |
+12566719    | FERNANDEZ                 | URSULA MARIA              | Av. Santa Fe 1310                                  |       6175 | LC      | 42941604 |
+12566720    | JARA                      | JUAN                      | Av. Santa Fe 802                                   |       8045 | LE      | 34646361 | 9583-6107
+12566725    | TASAYCO                   | ROSA HELLEN               | Av. Corrientes 1820                                |       1288 | DNI     | 47934471 | 5807-7199
+12566730    | COLOMA                    | JIMMY VICTOR              | Av. Santa Fe 1740                                  |       2866 | DNI     | 14765038 | 7007-1450
+12566731    | REED                      | EDWIN EDDY                | Rodriguez Peña 1572                                |       2719 | DNI     | 25273790 |
+12566732    | FERNANDEZ CONCHA          | MARIA LAURA               | Alicia M. de Justo 350                             |       4011 | DNI     | 19473731 |
+12566733    | NIQUEN                    | MIGUEL                    | Av. Callao 1600                                    |       1813 | DNI     | 27184205 | 9894-2447
+12566734    | JIMENEZ                   | JULISSA LIZETH            | Av. Rivadavia 2215                                 |       7605 | CI      | 21533380 |
+12566735    | SANCHEZ                   | RUTH OLINDA               | Av. Santa Fe 2139                                  |       8144 | DNI     | 45855840 |
+12566737    | VALDEZ                    | ESTHER MARICEL            | Av. Las Heras 2055                                 |       1309 | DNI     | 44236430 | 7527-9693
+12566738    | AVANTO                    | GUIDO                     | Juana Manso 1189                                   |       2500 | DNI     | 43688495 | 5170-1304
+12566739    | PARDO                     | MARIBEL CRISPINA          | Av. San Juan 387                                   |       5285 | DNI     | 46851823 |
+12566740    | PERSIVALE                 | CARLOS                    | Peña 2383                                          |       1377 | DNI     | 16592553 |
+12566743    | MARTINEZ                  | CLAUDIA ROZANA            | Av. Las Heras 2324                                 |       2277 | DNI     | 16729960 | 5765-5372
+12566744    | TORRES                    | SANDRA FRANCESCA          | Av. Pueyrredon 539                                 |       7531 | CI      | 15913803 | 6224-7303
+12566745    | TRUJILLO                  | MARISSEL ALICIA           | Av. Independencia 2676                             |       2017 | LC      | 30640690 | 4336-36
+12566746    | MARCELO                   | MAXIMO GRIGORIY           | Av. Santa Fe 2822                                  |       4554 | LE      | 42646996 | 6634-9900
+12566749    | RIVERA                    | EDDY GUILLERMO            | Av. Corrientes 3202                                |       5595 | DNI     | 24364308 | 7033-916
+12566751    | ORTEGA                    | JOSE MIGUEL GIUSEPPI      | Av. Rivadavia 310                                  |       8810 | DNI     | 45728178 |
+12566753    | VARELA                    | JOSE LUIS                 | Republica Dominicana 3358                          |       5722 | CI      | 29855344 | 9368-6503
+12566754    | HANDAL DE NAVEA           | KARIM ARACELLY            | Av. Santa Fe 3380                                  |       5698 | LC      | 30958999 | 7753-2810
+12566755    | SANCHEZ                   | PATRICK                   | Montes de Oca 894                                  |       2781 | LE      | 29816390 |
+12566756    | RIVERA                    | CARLOS                    | Scalabrini Ortiz 3149                              |       3185 | DNI     | 19375673 | 7070-3837
+12566757    | SILVERA                   | CELIA VICTORIA            | Esteban Adrogué 1052 / 58                          |       7660 | DNI     | 17238907 |
+12566758    | CAPCHA                    | ALDO JOSE                 | Silverio Almiró 21 / 29                            |       6380 | DNI     | 42211979 | 8595-3186
+12566759    | GARCIA                    | ELIZABETH MARIA           | Rivadavia 301                                      |       1776 | DNI     | 42927231 | 4082-1999
+12566762    | PACHAS                    | JUANA BERTHA              | Avda. Independencia 3621                           |       2101 | CI      | 16238677 | 4503-3501
+12566764    | FREITAS                   | LUIS ALEJANDRO            | Calle 138 número 1498                              |       8436 | DNI     | 31283387 |
+12566766    | DONGO                     | JUAN CARLOS               |  Juan Bautista Alberdi 2923                        |       3538 | DNI     | 19896636 | 4038-7769
+12566767    | OVIEDO                    | YOLANDA                   | Roma 3261                                          |       8628 | DNI     | 42143693 |
+12566768    | SUING                     | JODY MERCEDES             | Córdoba 2071                                       |       8950 | DNI     | 20688860 |
+12566773    | SEGOVIA                   | ALFREDO JAIME             | Avda. Coronel Ramón L. Falcón 331                  |       7536 | DNI     | 46527140 |
+12566778    | AYALA                     | ELVIA                     | Avda. 60 nro 352                                   |       7983 | DNI     | 41725307 | 9905-9962
+12566779    | GALVAN                    | ROSA CECILIA              | Av. Pte. Dr. Arturo U. Illia 2570                  |       3865 | CI      | 31343889 | 9664-4155
+12566780    | BERNAOLA                  | ELZA                      | 25 de Mayo 1199                                    |       2721 | LC      | 21495688 | 4021-3400
+12566781    | PINEDA                    | ANTONIETA JANET           | San Martín 455/57                                  |       1787 | LE      | 26967560 | 8886-9780
+12566782    | NORTON                    | BRENDA CAROL              | Coronel Brandsen 36                                |       3523 | DNI     | 14500729 | 5752-7599
+12566783    | SALAS                     | PATRICIA CAROL            | Calle 15 N° 551                                    |       2606 | CI      | 42887335 | 7004-8827
+12566785    | GONZALES                  | MARIA FRANCISCA           | Ldor. Gral. San Martín 1218                        |       1255 | DNI     | 21893448 |
+12566786    | ASCURRA                   | PERCY AGUSTIN             | Calle 4 n° 7                                       |       1866 | DNI     | 47999607 | 8176-5293
+12566787    | RUIZ                      | ALONSO ALEJANDRO          | Sarmiento 675 - Pergamino                          |       6121 | DNI     | 19021448 | 5041-5030
+12566788    | NAVAS                     | ELSA JANET                | Roque Sáenz Peña 938                               |       6975 | CI      | 32815728 |
+12566791    | POLLERI                   | NICOLE ADRIANA            | Luro 5832 - M. del Plata                           |       2208 | DNI     | 41198095 | 8158-1110
+12566792    | POSADAS                   | JUAN JOSE                 | Avda. Edison 302                                   |       6370 | DNI     | 20354247 | 9518-5828
+12566793    | RIVAS                     | ROSANGELA VERONICA        | Emilio Martín Larraya 1100                         |       2258 | DNI     | 44904067 | 5039-4574
+12566794    | CACERES                   | ROLANDO                   | Mitre 638                                          |       4908 | DNI     | 49924466 |
+12566797    | VELA                      | ISABELITA                 | Calle 14 n° 4465                                   |       1335 | CI      | 21413817 |
+12566799    | JACOBE                    | ANDRES ALEJANDRO          | Avda. Gral. San Martín 501                         |       4613 | DNI     | 37841250 | 9903-5429
+12566801    | TASAYCO                   | JOSE LUIS                 | Avda. Pellegrini 1474                              |       6020 | DNI     | 15411304 |
+12566802    | BERROSPI                  | JAVIER FERNANDO           | Avda. Mitre 198                                    |       1066 | DNI     | 46887825 |
+12566803    | MEJORADA                  | MANUEL HERNAN             | Gral. Roca 869                                     |       6156 | DNI     | 45903857 | 7204-640
+12566804    | ABARCA                    | GLHINDA MARLENY           | Calle 57 n° 831 entre 11 y 12                      |       8990 | CI      | 36794204 | 6911-4010
+12566805    | GUERRA                    | EMMA ELINA                | Calle 4 n° 168                                     |       5739 | DNI     | 27068184 |
+12566806    | CASTRO                    | CECILIA YOVANA            | Avda. Ing. A. Roca  152                            |       6512 | DNI     | 16810779 |
+12566807    | ESPINOZA                  | MARIA LOURDES             | Avda. Libertad 698                                 |       1049 | DNI     | 16006623 | 9928-1915
+12566810    | CASTILLON                 | NESTOR ALCIDES            | Avda. Colón 898                                    |       8778 | DNI     | 18438364 | 4445-7292
+12566812    | COA                       | LUCAS                     | Alberto H. Almirón 46                              |       7339 | DNI     | 24788079 | 6714-9596
+12566814    | ASTETE                    | ANDRES FRANCISCO          | H. Yrigoyen 400                                    |       7196 | CI      | 34971443 | 7223-114
+12566815    | SAMANAMUD                 | FABIAN JOHANN             | Juan B. Alberdi 4775                               |       4927 | LC      | 41336093 | 6955-9928
+12566816    | BELLIDO                   | ISELA LILIANA             | 25 de Mayo 325                                     |       7372 | LE      | 40978623 | 7045-1613
+12566821    | LOYOLA                    | JUAN MARTIN               | Avda. de los Trabajadores 2977                     |       7600 | DNI     | 44275633 |
+12566826    | GALVEZ                    | BENITA                    | Belgrano 49                                        |       7245 | DNI     | 26022742 | 6401-8252
+12566827    | LENTA                     | JOSIAH MATTEO             | Avda. Mitre 113                                    |       6644 | DNI     | 39503660 |
+12566828    | MEZARINA                  | LUCA TIMOTHY              | Soarez n° 1                                        |       7316 | DNI     | 47246306 | 7037-3485
+12566829    | ROBANCHO                  | MARIA PIA                 | Padre Elizalde 445                                 |       1313 | DNI     | 39512084 | 6182-6989
+12566830    | ALVAREZ                   | ALEXANDER GEORGE          | Avda. San Martín 194                               |       7363 | DNI     | 40979694 |
+12566831    | VIDAL                     | EDGARD GUSTAVO            | Calle 47 n° 901                                    |       1729 | DNI     | 18237757 |
+12566833    | SOSA                      | MARIA DE JESUS            | Mitre esq. Guemes                                  |       1467 | DNI     | 49678930 |
+12566834    | ALFARO                    | MARIA ROCIO               | San Martín 602/26/34                               |       5457 | DNI     | 44860656 |
+12566835    | ANTEZANA                  | ALEXA RAE                 | Sarmiento 101                                      |       2122 | DNI     | 17533982 |
+12566836    | CORTEZ                    | SEVASTIAN ISAIAH          | Avda. Julio A. Roca 199                            |       3944 | DNI     | 32275983 | 7138-3792
+12566839    | VASQUEZ                   | ALESSANDRO                | Belgrano 199, esquina Gral. Rico                   |       3575 | CI      | 28468343 |
+12566840    | ACHA                      | SANDRO PABLO              | Don Bosco 1285 - Bahia Blanca                      |       5333 | DNI     | 22456113 | 9108-9994
+12566841    | BARRENECHEA               | FERNANDO                  | Itacumbú 634                                       |       3177 | DNI     | 48349599 | 5400-261
+12566842    | DAVILA                    | ANA CECILIA               | La Merced 266                                      |       1133 | DNI     | 16275114 | 9856-6590
+12566845    | TORRES                    | MILLIE JANELLE            | Avellaneda 281                                     |       2352 | DNI     | 29006592 | 4656-9034
+12566847    | CARRILLO                  | JOSE HUMBERTO             | San Martín 390                                     |       2403 | DNI     | 33504505 | 5977-3211
+12566849    | SANTOLALLA                | GABRIELA DENISSE          | Doctor Equiza 4482                                 |       7654 | CI      | 16141544 | 9227-9443
+12566850    | CACERES                   | JESSICA ANDREA            | Avda. Mitre 102                                    |       8946 | LC      | 17671159 |
+12566851    | VARGAS                    | OLGA VICTORIA             | Sarmiento 386                                      |       6900 | LE      | 17584199 |
+12566852    | LUQUE                     | JULIA                     | Carlos Pellegrini 942                              |       5577 | DNI     | 44878384 | 4485-9383
+12566853    | MILLA                     | ROSSANA ELIZABETH         | El Callao 1330                                     |       4636 | CI      | 32107318 | 7273-5839
+12566854    | ALVAREZ                   | JULIO CESAR               | Ruta Provincial n° 21                              |       6933 | DNI     | 21805487 |
+12566855    | VARGAS                    | CARLOS ALEJANDRO          | Rivadavia esq. Almafuerte                          |       5553 | DNI     | 40076500 | 9499-1492
+12566858    | MOSCOSO                   | IAN MATHIS                | Bartolomé Mitre 201                                |       7208 | CI      | 33793621 | 8479-9224
+12566860    | PACUSSICH                 | ASCENCION                 | Avda. José Altube 1761                             |       4322 | LE      | 26896231 |
+12566862    | PECHO                     | FERNANDO                  | San Martín 499                                     |       5635 | DNI     | 26823827 | 4902-1129
+12566863    | RIVASPLATA                | SUT LAN                   | Calle 35 n° 1202                                   |       5573 | DNI     | 33442400 |
+12566864    | ALARCON                   | CARMEN PATRICIA           | Mayor López 26                                     |       2483 | DNI     | 17406570 |
+12566869    | VARGAS                    | DELIA LUCIA               | Avda. Gral. Paz 374                                |       6093 | DNI     | 48589484 | 7580-4802
+12566874    | CAJAS                     | DENISE BELINDA            | Salgado y Pte. J. D. Perón                         |       4456 | CI      | 27434613 | 8595-410
+12566875    | CARDENAS                  | HUGO ALBERTO              | Luciano Fortabat 1587                              |       4002 | DNI     | 23699691 | 6216-2611
+12566876    | TONG                      | RUTH TANIA                | Leandro N. Alem 15                                 |       8743 | DNI     | 21833109 | 7926-7475
+12566877    | YUI                       | LEONOR DORIS              | Bmé. Mitre 696                                     |       7823 | DNI     | 49823416 | 5971-6224
+12566878    | ECHEVARRIA                | OMAR                      | San Martín 298                                     |       7957 | DNI     | 44960594 | 4390-187
+12566879    | FERNANDEZ                 | THIAGO                    | Belgrano 798                                       |       7782 | DNI     | 27053083 | 6549-4182
+12566881    | YU                        | VANESSA SAMANTA           | Sarmiento 2068 esq. 25 de Mayo                     |       2231 | DNI     | 16986670 | 7999-9524
+12566882    | MOLINA                    | BRENDA YOLIZA             | Avda. Tandil 401                                   |       3022 | DNI     | 14898087 | 6433-4784
+12566883    | SIFUENTES                 | ELISA INES                | Roma 3271                                          |       7123 | DNI     | 33845386 |
+12566884    | FARJE                     | JORGE EDUARDO             | Avda. Santa Fe 2122                                |       4282 | CI      | 35359613 |
+12566887    | SALAS                     | KAREN ANGELICA            | Avda. 26 522                                       |       2325 | DNI     | 29479200 |
+12566888    | APARCANA                  | GINO PAOLO                | Dardo Rocha 315                                    |       4636 | CI      | 42668932 | 5961-1574
+12566889    | MORON                     | JOSIAH MATTEO             | Petracchi 501                                      |       3326 | DNI     | 29842297 |
+12566890    | NUVE                      | LUCA TIMOTHY              | L.N.Alem 158                                       |       2753 | DNI     | 17523291 | 7574-2746
+12566893    | FONSECA                   | MARIA DE LOS ANGELES      | Avda. Velez Sarsfield 4571/77                      |       2405 | CI      | 24496283 |
+12566895    | ROSALES                   | SAMY ADAM                 | Calle 60 Nº 3002                                   |       7209 | LE      | 27730949 | 7198-4523
+12566897    | JAVIER                    | HAYRO GABRIEL             | Avda. Sgto. Cabral 527                             |       6787 | DNI     | 27381206 |
+12566898    | RAMIREZ                   | MANUEL ANTONIO            | Avda. La Rioja 1199                                |       3295 | DNI     | 33347338 | 6597-4837
+12566899    | VEXLER                    | MARIA CECILIA             | Las Heras 398. Pisos 1° al 4°                      |       5673 | DNI     | 35773501 |
+12566900    | DOMINGUEZ                 | PAMELA LESLIE             | V. López 2900                                      |       1800 | DNI     | 30963981 |
+12566901    | MIANI                     | DARLING SOFIA             | Avda. Maipu 2499                                   |       2177 | DNI     | 41521580 |
+12566902    | HOLGUIN                   | TERESA                    | Josefina Pacheco de Riglos 41                      |       6361 | CI      | 44223130 | 4862-6659
+12566903    | LA PORTILLA               | JUAN CARLOS               | Avda. Santamarina 402                              |       7997 | DNI     | 26441612 | 9194-8221
+12566906    | GARCIA                    | ANNY IDA                  | Calle 5 Nº 1299                                    |       5294 | DNI     | 29493950 | 5626-9419
+12566908    | MONTENEGRO                | ZARA JULIETA              | Avda. Dr. Raúl Manfredi 570                        |       4692 | DNI     | 35305989 | 7470-6895
+12566910    | PAICO                     | JORGE                     | Ciudad de Rodez 102                                |       6377 | DNI     | 20889934 | 4110-2546
+12566911    | VILCHEZ                   | MANUEL LEONARDO           | Rivadavia 403                                      |       7339 | DNI     | 31937618 | 4996-6210
+12566912    | GALARRETA                 | DAVID ANGELO              | Avda. Shaw 156                                     |       1191 | DNI     | 45061738 | 6383-2784
+12566917    | SALINAS                   | GENESIS DEZARIE           | Humberto Primo 481                                 |       7989 | DNI     | 28372083 |
+12566922    | BARRIENTOS                | YAN PIERRE                | Cnel. Beltrán 133                                  |       3209 | DNI     | 43750300 |
+12566923    | ZAVALETA                  | AARON                     | Baron Hirsch 2                                     |       5298 | CI      | 24960260 | 7880-1232
+12566924    | LOPEZ                     | BRANDON                   | Avda. S. Martín 301 esq. A.L.Duggan                |       1196 | DNI     | 26443211 | 9922-5549
+12566925    | SANCHEZ                   | INGRID                    | Avda. 25 de Mayo 400                               |       4053 | DNI     | 46817542 | 8562-90
+12566926    | CALDERON                  | BIANCA CECILIA            | Hipólito Yrigoyen 501                              |       4309 | DNI     | 22343808 |
+12566927    | IZQUIERDO                 | DANIEL ALBERTO            | Avda. San Martín 3099                              |       8778 | DNI     | 17405437 | 4506-191
+12566929    | MORENO                    | ISABELITA                 | San Pablo 401                                      |       7143 | LC      | 48502597 |
+12566930    | DE CAVERO                 | DENISE BELINDA            | Moreno 298                                         |       4111 | LE      | 39113633 |
+12566931    | GARCIA                    | HILDA MILAGRITOS          | Alsina 250                                         |       3719 | DNI     | 48715622 | 5284-6415
+12566932    | BAZAN                     | RAUL ANGEL JOSE           | Avda. San Martín 398                               |       7847 | DNI     | 23487136 |
+12566935    | VILLALOBOS                | LUIS ALEJANDRO            | Arieta 3015                                        |       3940 | DNI     | 41726120 | 9669-3003
+12566936    | ARIAS                     | GLORIA MARGARITA          | Mitre 3920 (Calle 54)                              |       1715 | DNI     | 31032083 | 7501-9669
+12566937    | CASTRO                    | ROSA ELVIRA               | Avda Pte. Tte. Gral. Perón 1402                    |       3038 | CI      | 38647346 |
+12566938    | COLLAZOS                  | RAFAEL                    | Belgrano 101 esq.Sarmiento                         |       4850 | DNI     | 41551535 |
+12566941    | ZAMALLOA                  | LEONEL SAUL               | Los Angeles 197                                    |       6685 | DNI     | 20902604 | 6244-3962
+12566943    | SORIANO                   | CARMEN ROSA               | Avda. Mitre 2727                                   |       4146 | DNI     | 20099024 | 5100-6086
+12566945    | RODRIGUEZ                 | JESSE ALEXANDER           | Santa Fe 450                                       |       4570 | DNI     | 33123254 | 6210-4581
+12566946    | CARRANZA                  | JESSICA ANDREA            | Av. Pte. J. D. Perón 1026                          |       5969 | DNI     | 17848942 | 7112-6404
+12566947    | PARI                      | LILA CHARLIZE             | Calle 47 Nro. 734                                  |       7993 | DNI     | 49824218 | 4809-6640
+12566948    | CASO                      | LUISA ESPERANZA           | Avda. Juan B. Justo 1620                           |       7673 | DNI     | 16189679 | 6604-9859
+12566949    | MUÑOZ                     | MILTON ANGELO             | Almirante Brown 612                                |       4038 | DNI     | 21482275 |
+12566950    | FOSTER                    | VIVIANA VANESSA           | Acassuso 253                                       |       1889 | DNI     | 21639651 |
+12566951    | HIDALGO                   | LILIANA CATALINA          | Gral. Pinto 600                                    |       4081 | DNI     | 46775255 | 8091-101
+12566954    | CALDERON                  | SHIRLEY                   | Avenida 7 Nº 900 esq. 523                          |       7855 | CI      | 43611678 | 6564-659
+12566956    | CALIZAYA                  | TIMOTEO                   | Bvd. Villegas 501                                  |       6109 | LE      | 44479735 | 6022-2303
+12566958    | LEO                       | JENNY ISABEL              | 9 de Julio 502                                     |       1384 | CI      | 14588411 | 7303-9647
+12566959    | MORILLA                   | ROXANA MIRTHA             | 25 de Mayo 54                                      |       8531 | DNI     | 34268259 |
+12566960    | HERNANDEZ                 | EDUARDO ANGEL             | Rivadavia 204                                      |       7334 | DNI     | 40403695 | 9285-3031
+12566965    | RAMIREZ                   | DANIEL FRANCISCO          | Avda. Maipú 742                                    |       6714 | LE      | 16443813 |
+12566970    | MILJANOVICH               | ENRIQUE ARTURO            | M. Belgrano 198                                    |       1861 | DNI     | 30571769 |
+12566971    | RAGOSTA                   | MYRKA VALERY              | Avda. Crovara 954                                  |       1021 | DNI     | 34029409 |
+12566972    | DE LA CRUZ                | NICOLE ADRIANA            | Avda. San Martín 101                               |       7048 | CI      | 35024671 | 7182-7275
+12566973    | ZANABRIA                  | LUCY                      | Falucho 185                                        |       4998 | DNI     | 42105925 | 8183-7561
+12566974    | ALVAREZ                   | CARMEN PILAR              | Avda. del Libertador Gral.S.Martín 199             |       7049 | DNI     | 34163537 | 5395-4496
+12566975    | CASTILLO                  | JORGE JACKSON             | Avellaneda 3315                                    |       6451 | DNI     | 27942611 | 5063-3076
+12566977    | OCHARAN                   | ANABEL ALEXANDRA          | Avda. Rivadavia 699                                |       6955 | DNI     | 49548818 | 8939-6921
+12566978    | ORTIZ                     | MARY GLADYS               | Diagonal Norte 910                                 |       5943 | DNI     | 42777377 | 8426-5771
+12566979    | TEVES                     | MARIA DIONELLA            | Av. Corrientes 1236                                |       8972 | CI      | 22892093 | 5021-1858
+12566980    | LORENA                    | MILAGROS GISELLE          | Sarmiento 1490                                     |       3190 | DNI     | 35079418 | 6730-3428
+12566983    | VEGA                      | ROSENDO PABLO             | Florida 118                                        |       6254 | DNI     | 39669070 |
+12566984    | CIUDAD                    | HIPOLITO ABRIL            | Av. Cordoba 1467                                   |       2765 | DNI     | 17520466 | 6200-3816
+12566985    | MATTOS                    | ESTEFANI                  | Florida 52                                         |       5421 | DNI     | 38363207 | 6637-6885
+12566986    | HONOR                     | GEANELLA CAROLINE         | Av. Corrientes 484                                 |       1557 | DNI     | 20429715 |
+12566989    | HOYOS                     | LISSETTE                  | Av. Santa Fe 1310                                  |       8770 | CI      | 34439767 | 5339-5394
+12566991    | SEGURA                    | PATRICE ANNE              | Av. Santa Fe 824                                   |       6687 | LE      | 18279843 | 9026-5494
+12566993    | RETAMOZO                  | JULISSA LIZETH            | Libertad 1279                                      |       3158 | CI      | 17443638 | 4215-8268
+12566994    | RUIZ                      | GLADYS HORTENCIA          | Av. Rivadavia 364                                  |       8529 | DNI     | 48727267 | 8753-2784
+12566995    | SOUQUON                   | JOSE                      | Av. Corrientes 1820                                |       1562 | DNI     | 31127553 |
+12566996    | BARCENA                   | MARTHA ANGELICA           | Av, Leandro N. Alem 702                            |       1175 | DNI     | 37315920 |
+12566997    | ROJAS                     | YESHICA ROMINA            | Av. Callao 23                                      |       1808 | DNI     | 35377124 | 7315-1645
+12566998    | CAMPOS                    | CARLOS ALBERTO            | Av. Cordoba 1861                                   |       2282 | CI      | 28489781 |
+12566999    | RONCO                     | ERICK SEBASTIAN           | Av. Entre Rios 196                                 |       1784 | LC      | 35452683 |
+12567002    | APARICIO                  | MARIA ELENA               | Alicia M. de Justo 350                             |       7111 | DNI     | 37273581 | 8736-6251
+12567004    | PAREDES                   | MARTHA ANGELICA           | Av. Rivadavia 2215                                 |       3542 | DNI     | 22892383 |
+12567006    | MOLERO                    | EVARISTA PAULA            | Roberto M. Ortiz 1861                              |       7732 | DNI     | 14904659 | 8051-5735
+12567007    | PAREDES                   | ESPERANZA                 | Av. Las Heras 2055                                 |       3483 | CI      | 31916650 | 7637-2406
+12567008    | AVENDAÑO                  | IVONNE ELIZABETH          | Juana Manso 1189                                   |       1394 | DNI     | 25148063 | 7713-8314
+12567013    | SANDOVAL DE MEZA          | HUGO ANDRES               | Av. Las Heras 2324                                 |       6374 | DNI     | 41875068 | 5365-4451
+12567018    | TORRES                    | HECTOR LUIS               | Av. Las Heras 2845                                 |       4593 | DNI     | 30016401 | 8613-7337
+12567019    | VASQUEZ                   | JULIO GUILLERMO           | Av. Corrientes 3202                                |       6418 | DNI     | 15946469 |
+12567020    | MENDOZA                   | MARIA DEL CARMEN          | Av. San Juan 2701                                  |       6388 | DNI     | 34149521 | 5225-7629
+12567021    | RENGIFO                   | HILDA MILAGRITOS          | Av. Rivadavia 310                                  |       6994 | DNI     | 19636088 |
+12567022    | LEON VDA DE ZARZOSA       | GABRIELA DENISSE          | Av. Cordoba 3381                                   |       4680 | DNI     | 14037091 | 5132-1304
+12567023    | SALCEDO                   | MARIA ESTHER              | Republica Dominicana 3358                          |       2427 | DNI     | 30647521 | 7363-8764
+12567025    | SIMMONS                   | LUCINDA MARGOT            | Montes de Oca 894                                  |       8320 | LC      | 48570315 |
+12567026    | BARTUREN                  | MARIA ELENA               | Scalabrini Ortiz 3149                              |       6040 | LE      | 48162225 | 6445-5276
+12567027    | SILVA                     | OBDULIA                   | Esteban Adrogué 1052 / 58                          |       4954 | DNI     | 20183791 | 8650-1747
+12567028    | ECHEVARRIA                | RICHARD ENRIQUE           | Silverio Almiró 21 / 29                            |       7680 | CI      | 29792360 |
+12567031    | UNTIVEROS                 | GUILLERMO ANTONIO         | Au. Tte. Gral. Pablo Riccheri Km 33,5              |       4470 | DNI     | 28967438 |
+12567032    | CONDORI                   | CESAR FERNANDO            | Avda. Independencia 3621                           |       5659 | DNI     | 41503928 |
+12567033    | GONZALES                  | ANDRES                    | Avda. Eugenia Tapia de Cruz 28                     |       1643 | CI      | 28477347 |
+12567034    | DAVILA                    | SUSANA MAGDALENA          | Calle 138 número 1498                              |       8402 | LC      | 33136646 | 7642-5289
+12567037    | ZUTA                      | CAROLA KARINA             | Roma 3261                                          |       1701 | DNI     | 42199040 |
+12567039    | PLACENCIA                 | JUSTINIANO NICANOR        | Avda.Victorica 875                                 |       2507 | DNI     | 37633341 | 7492-6393
+12567041    | SADOWSKY                  | MICHELLE CHRISTINE        | Intendente Campos 1626/34                          |       6892 | DNI     | 17692077 | 6053-8144
+12567042    | CORONEL                   | YASMINE ALEXIS            | Muñoz 1576                                         |       7653 | CI      | 38130433 | 9062-6666
+12567043    | PINEDA                    | AURELIO SEGUNDINO         | Avda. Coronel Ramón L. Falcón 331                  |       4808 | DNI     | 38655819 | 9062-6235
+12567044    | PACCHIONI                 | ROXANA CONSUELO           | Avda. Daniel M. Cazón 185                          |       6596 | DNI     | 35817350 | 6833-2454
+12567045    | ROMERO DE RIOS            | CARLOS ALBERTO            | Ricardo Gutiérrez 498                              |       1730 | DNI     | 29030272 | 9010-499
+12567046    | ALEGRE                    | LUCY ELENA                | Avda. Mitre 399                                    |       7777 | DNI     | 41827335 | 5599-2508
+12567047    | LOARTE                    | LUCINDA MARGOT            | Avda. 13 n° 115                                    |       7499 | DNI     | 46504570 | 8179-3571
+12567050    | BENAVENTE                 | BLANCA IRIS               | 25 de Mayo 1199                                    |       4816 | DNI     | 30259194 | 6742-307
+12567052    | DAVILA                    | FIORELLA SUZANNE          | Coronel Brandsen 36                                |       7805 | DNI     | 40170287 |
+12567054    | NEIRA                     | JOSE FREDDY               | Alsina 638                                         |       5887 | DNI     | 31857898 |
+12567055    | SALAS                     | MANUEL HERNAN             | Ldor. Gral. San Martín 1218                        |       2405 | DNI     | 31587716 | 9672-5680
+12567056    | CAPUCHO                   | YESSICA                   | Calle 4 n° 7                                       |       5171 | DNI     | 42032126 | 8421-8028
+12567061    | CAHUA                     | JHONNY BEJER              | Luro 5832 - M. del Plata                           |       2695 | LE      | 41615146 |
+12567066    | VARGAS                    | CAROLINE                  | Avda. Santana E. Zabalza 1                         |       8675 | DNI     | 36435369 |
+12567067    | ZARATE                    | PERCY ESTUARDO            | Calle 14 n° 4465                                   |       1999 | DNI     | 24615738 | 8408-2914
+12567068    | CASTRO                    | ISELA LILIANA             | Avda. San Martín 464                               |       1243 | CI      | 44272928 | 5931-2776
+12567069    | ESPINOZA                  | CIRILO ALFONSO            | Avda. Gral. San Martín 501                         |       5133 | LC      | 33492782 |
+12567070    | GIRON                     | NORMAN BRUCE              | Avda. A.Sáenz 2099                                 |       2372 | LE      | 19193974 |
+12567071    | VARA                      | ALDO JOSE                 | Avda. Pellegrini 1474                              |       5548 | DNI     | 30757120 | 7882-9468
+12567073    | VARGAS                    | MARIA LAURA               | Gral. Roca 869                                     |       3926 | DNI     | 49014021 | 6991-5807
+12567074    | CASTAÑEDA                 | RAUL ABSALON              | Calle 57 n° 831 entre 11 y 12                      |       3238 | DNI     | 25952546 | 4821-9401
+12567075    | TRAGODARA                 | ALEXIA                    | Calle 4 n° 168                                     |       4780 | DNI     | 25314839 | 8077-7297
+12567076    | LEYVA                     | NICOLAS MARIANO           | Avda. Ing. A. Roca  152                            |       7536 | DNI     | 16062126 | 9399-6563
+12567079    | NUÑEZ                     | KAREN ROSSE               | Avda. Pte. J. D. Perón 402                         |       2500 | DNI     | 36504690 | 7605-610
+12567080    | BURNEO                    | RICARDO ALEX              | Avda. Colón 898                                    |       3066 | DNI     | 25465365 | 7211-56
+12567081    | DELLY                     | VICTOR                    | Avda. San Martín 150                               |       5285 | DNI     | 20780958 |
+12567082    | NUÑEZ                     | JOHANA LUCILA             | Alberto H. Almirón 46                              |       4884 | DNI     | 18139525 |
+12567085    | MONTALVO                  | DAVID GABRIEL             | Juan B. Alberdi 4775                               |       7292 | DNI     | 42675801 |
+12567087    | SALAS                     | JUAN CARLOS               | Las Heras 398, Planta Baja                         |       7623 | DNI     | 17701913 |
+12567089    | SOTO                      | GISSET MARGARITA          | General M. de Güemes 2551                          |       1782 | DNI     | 41740007 | 9325-7073
+12567090    | CASTILLO                  | DIEGO REYNALDO            | Avda. del Libertador 13988                         |       1321 | DNI     | 30438325 | 7199-3915
+12567091    | RUIZ                      | RICARDO ALFONZO           | Avda. de los Trabajadores 2977                     |       2893 | DNI     | 29253855 |
+12567092    | ARCE                      | ANILU IRMA                | Alvear 625                                         |       5471 | DNI     | 17260944 | 6681-2473
+12567093    | TRILLO                    | BRUNO RENATO              | Avda. Dr. Ricardo Balbin 879                       |       2246 | DNI     | 42723923 | 7966-472
+12567094    | GARDELLA                  | JHONNATHAN GIOVANNI       | Sarmiento 944                                      |       2016 | CI      | 39411650 |
+12567095    | SALAZAR                   | AMAIA                     | Colón 619                                          |       8542 | LC      | 25739781 |
+12567098    | LOSTAUNAU                 | ALEJANDRA GUADALUPE       | Soarez n° 1                                        |       3632 | CI      | 16588209 |
+12567100    | CHAVEZ                    | CARLOS ALBERTO            | Avda. San Martín 194                               |       3783 | DNI     | 39624038 | 5904-8820
+12567102    | ALARCON                   | CRISTINA GLADYS           | Avda. Julio A.Roca 622                             |       7569 | DNI     | 40987519 |
+12567103    | SOTELO                    | JOSE ANTONIO              | Mitre esq. Guemes                                  |       1522 | CI      | 49974709 |
+12567104    | NAPURI                    | JOSHUA LEONARDO           | San Martín 602/26/34                               |       3216 | LC      | 35615237 | 7571-8216
+12567109    | ONSIHUAY                  | MEDALIT REBECA            | Belgrano 199, esquina Gral. Rico                   |       7551 | DNI     | 20462369 | 6910-3487
+12567114    | LEON                      | MARIA RITA                | Avda San Martín (15) n° 805                        |       1185 | DNI     | 42510503 |
+12567115    | PENAGOS                   | GESELLE                   | Avellaneda 281                                     |       5432 | DNI     | 25706655 |
+12567116    | FARFAN                    | VIVIANA VANESSA           | Avda. de los Constituyentes 553                    |       1685 | DNI     | 36988637 | 8794-1705
+12567117    | VIDALON                   | GIANCARLOS ARTURO         | San Martín 390                                     |       1536 | DNI     | 21820760 | 7293-5964
+12567118    | LA SERNA                  | MARISCELA ISABEL          | Rivadavia 698                                      |       4987 | DNI     | 36217537 |
+12567119    | SOTOMAYOR                 | RAUL FELIPE               | Doctor Equiza 4482                                 |       4938 | CI      | 47179478 | 5933-380
+12567121    | TORRES                    | VICTOR MANUEL             | Sarmiento 386                                      |       6927 | DNI     | 45452685 | 6638-717
+12567122    | GALINDO                   | MICHELLE CHRISTINE        | Carlos Pellegrini 942                              |       8294 | DNI     | 15779120 | 5334-7226
+12567123    | VARGAS                    | FLOR DE MARIA             | El Callao 1330                                     |       4594 | DNI     | 41952971 | 5139-9041
+12567124    | RODRIGUEZ                 | IVONNE MADELEINE          | Ruta Provincial n° 21                              |       6427 | DNI     | 30933985 |
+12567127    | TOMATIS                   | LUCIA                     | Avda. Julio A. Roca 1302                           |       5828 | DNI     | 21915774 |
+12567128    | PERROTTA                  | ENA                       | Bartolomé Mitre 201                                |       8844 | DNI     | 48478692 |
+12567129    | VILLA GARCIA              | FIORELLA DEL PILAR        | Libertad 3697                                      |       7923 | CI      | 17912841 | 7570-2119
+12567130    | MATEO                     | JIMMY ALEXANDER           | Avda. José Altube 1761                             |       5043 | LC      | 46925486 |
+12567133    | MALPARTIDA DE CAÑOTE      | RICHARD TITO              | Calle 35 n° 1202                                   |       3810 | CI      | 21506199 | 8044-9592
+12567135    | OLIVRY                    | CLARA                     | Calle 7 n° 826                                     |       8011 | DNI     | 25318641 |
+12567137    | MARINA                    | JUAN CARLOS               | Avda. H. Yrigoyen 4150                             |       3940 | DNI     | 37337072 | 7715-8815
+12567138    | JALLO DE AYALA            | RAMON ALBANO              | Avda. San Martín 1100                              |       4524 | CI      | 27559907 | 6261-3413
+12567139    | SALAS                     | THOMAS JOSE               | Avda. Gral. Paz 374                                |       8643 | LC      | 15998674 | 7431-9935
+12567140    | CERVANTES                 | JORGE LUIS                | Calle 11 N° 245                                    |       3600 | LE      | 15579290 | 8485-4590
+12567141    | SEMINARIO                 | LUIS ENRIQUE              | Avda. L.N.Alem 1200                                |       6598 | DNI     | 34920027 | 4397-4074
+12567142    | FERNANDEZ DE GARRATT      | LEONOR DORIS              | Avda. Antártida Argentina 1712                     |       4173 | DNI     | 35844064 | 5488-866
+12567143    | NICHO                     | LUIGI ANTONINO            | Avda. San Martín 202                               |       4928 | DNI     | 36236027 | 5216-7146
+12567146    | CASTILLO                  | MACARENA                  | Leandro N. Alem 15                                 |       3388 | DNI     | 24202758 | 6888-4481
+12567148    | ALARCON                   | MILUSKA STEPHANY          | San Martín 298                                     |       7697 | DNI     | 27606156 |
+12567150    | DIEZ                      | LIZ                       | San Martín 2594                                    |       6012 | DNI     | 38583152 | 5950-1610
+12567151    | ESPINOZA                  | BETTY GENARA              | Sarmiento 2068 esq. 25 de Mayo                     |       3219 | DNI     | 27126324 |
+12567152    | SALAS                     | GLADYS BERNARDA           | Avda. Tandil 401                                   |       4425 | DNI     | 17885815 | 5440-9293
+12567157    | RAZZETO                   | SAMY ADAM                 | Avda. 26 522                                       |       6346 | DNI     | 33797771 |
+12567162    | CONCHA                    | RICARDO ALEX              | Rivadavia 18100                                    |       8664 | DNI     | 22720063 | 7330-9224
+12567163    | DELGADO                   | RICHARD TITO              | Avda. Velez Sarsfield 4571/77                      |       8563 | DNI     | 42345552 |
+12567164    | GUEVARA                   | ANDRES DAVID              | H. Yrigoyen 300                                    |       3792 | CI      | 48856132 |
+12567165    | PEREZ                     | MARIA LUISA               | Calle 60 Nº 3002                                   |       2999 | LC      | 46834743 |
+12567166    | PACHAS                    | VERONICA ELIZABETH        | Calle 22 n° 1001                                   |       3812 | LE      | 28107513 | 9557-1927
+12567167    | VILELA                    | YAN PIERRE                | Avda. Sgto. Cabral 527                             |       3916 | DNI     | 28512847 | 9779-7220
+12567169    | PEREA                     | ANA MARIA DEL ROSARIO     | Las Heras 398. Pisos 1° al 4°                      |       2626 | DNI     | 15565426 |
+12567170    | CAVALLINI                 | MARY-ANN                  | V. López 2900                                      |       3049 | DNI     | 28248392 | 7690-3761
+12567171    | DELGADO DE SANCHEZ        | DESIREE F                 | Avda. Maipu 2499                                   |       3330 | DNI     | 38797821 | 9674-729
+12567172    | PLASENCIA                 | JOSE LUIS                 | Josefina Pacheco de Riglos 41                      |       3587 | DNI     | 19050456 | 5510-2949
+12567175    | SIVINCHA                  | LILIAN SUSANA             | Paraguay 2                                         |       3909 | LE      | 20234050 | 6549-1659
+12567176    | CALLE                     | MARIA DEL CARMEN          | Calle 5 Nº 1299                                    |       3164 | DNI     | 27414302 | 7807-8519
+12567177    | SANCHEZ                   | DAVID GABRIEL             | Artigas 589                                        |       3247 | DNI     | 29289471 | 6471-8663
+12567178    | DECENA                    | FLOR VERONICA             | Avda. Dr. Raúl Manfredi 570                        |       8265 | DNI     | 42137032 | 6098-5649
+12567181    | IZQUIERDO                 | JOSE MANUEL               | Rivadavia 403                                      |       4238 | DNI     | 19397020 |
+12567183    | REICHARDT                 | CESAR MANUEL              | Estomba 52                                         |       5094 | DNI     | 39700958 | 4249-4258
+12567185    | QUEZADA                   | JULIO GIANCARLO           | Avda. General Paz 5445                             |       4094 | DNI     | 14696101 | 5531-5392
+12567186    | CASTILLON                 | CINTHYA GRISELL           | Uruguay 143                                        |       5032 | DNI     | 41952275 |
+12567187    | SANCHEZ                   | ERIKA                     | Humberto Primo 481                                 |       4206 | DNI     | 36435096 | 6899-8345
+12567188    | JARA                      | EDUARDO XAVIER            | Rivadavia 299                                      |       4129 | DNI     | 43149386 | 5121-6437
+12567189    | MORON                     | JESUS FELIPE              | Avda. Chacón 497                                   |       8913 | CI      | 34760578 | 8459-9968
+12567190    | BARREDA                   | JOSE ORLANDO              | Rivadavia 13748                                    |       4122 | DNI     | 25473832 |
+12567191    | CASTRO                    | PABLO                     | Avda. San Martín 501                               |       3361 | DNI     | 38480885 | 7981-9483
+12567194    | CHICCHON                  | ZENON                     | Avda. S. Martín 301 esq. A.L.Duggan                |       1556 | DNI     | 43772884 |
+12567196    | DE ROJAS                  | KARLA ANGELA              | Hipólito Yrigoyen 501                              |       4254 | DNI     | 15492177 |
+12567198    | BORJAS                    | JULIO MAXIMO              | Pueyrredón 101                                     |       5527 | DNI     | 18414633 |
+12567199    | VARGAS                    | LUIS HERNAN               | San Pablo 401                                      |       6270 | CI      | 28321449 | 8381-2177
+12567200    | GIRON                     | VANESSA SAMANTA           | Moreno 298                                         |       6004 | LC      | 48351473 | 6648-857
+12567205    | TALAVERA                  | HUMBERTO GIANCARLO        | Arieta 3015                                        |       6352 | DNI     | 28824826 | 5914-233
+12567210    | GUTARRA                   | MELISSA                   | Avda. Bolívar 104                                  |       4471 | LE      | 48246157 | 7894-5269
+12567211    | PORRAS                    | CESAR EDWIND              | Los Angeles 197                                    |       2539 | DNI     | 35301788 | 8337-4060
+12567212    | BARRIGA                   | ALFREDO EMILIO            | Avda. 37 n° 319                                    |       5802 | DNI     | 24965712 | 6289-9602
+12567213    | URQUIETA                  | JOSET JESUS               | Avda. Mitre 2727                                   |       5092 | DNI     | 40816854 |
+12567214    | LEN                       | MARIA LOURDES             | Calle 48 N° 575, 1° Subsuelo                       |       2310 | DNI     | 14863370 |
+12567215    | NUÑEZ                     | JOHN VIRGILIO             | Santa Fe 450                                       |       2534 | DNI     | 27412140 | 7206-1687
+12567217    | RAYGADA                   | MATTHIAS IGNACIO          | Calle 47 Nro. 734                                  |       7944 | CI      | 43307891 |
+12567218    | OTOYA                     | MARIA PIA                 | Avda. Juan B. Justo 1620                           |       2235 | DNI     | 16580796 | 5128-1996
+12567219    | SEQUEIROS                 | MARIA ELIZABETH           | Almirante Brown 612                                |       5101 | DNI     | 46465269 |
+12567220    | BENDEZU                   | DANIEL ROBERTO            | Acassuso 253                                       |       7382 | DNI     | 26623148 | 7377-9892
+12567223    | CAMONES                   | KATTY SUSANA              | Avda. Cazón 1600                                   |       2975 | DNI     | 44140862 |
+12567224    | CHUNG                     | ROSANGELA VERONICA        | Avenida 7 Nº 900 esq. 523                          |       8977 | CI      | 23826858 | 7385-2023
+12567225    | PAJUELO                   | MARIA ELENA               | Avda. 9 de Julio 402                               |       6723 | DNI     | 18599389 | 6822-4287
+12567226    | CHAVEZ                    | SONIA                     | Bvd. Villegas 501                                  |       1524 | DNI     | 40554249 |
+12567229    | CHAVEZ                    | JAVIER FRANCISCO          | 25 de Mayo 54                                      |       8716 | DNI     | 42344107 |
+12567231    | SOTELO                    | DENISE HAYDEE             | Pte. Tte. Gral. Juan D. Perón 2757                 |       2138 | DNI     | 40837924 |
+12567233    | SANCHEZ                   | HAYDEE ROSARIO            | Calle 9 n° 900                                     |       3024 | DNI     | 41584337 | 4251-1298
+12567234    | HUAMAN                    | HUGO ANDRES               | Calle 30 n° 1400                                   |       2294 | CI      | 30046076 |
+12567235    | ORE                       | KARINA ELIZABETH          | Avda. Maipú 742                                    |       1016 | LC      | 37307113 |
+12567236    | MONTEZA                   | MARIA FRANCISCA           | Calle Alvear 2615 (ex 278)                         |       2486 | LE      | 24309847 | 9801-2498
+12567237    | RODRIGUEZ                 | PEDRO MIGUEL GUSTAVO      | Martín Fierro 6550                                 |       3299 | DNI     | 29960895 | 4648-7037
+12567238    | GAMARRA                   | YONNY SANTIAGO            | Calle 83 n° 302 (Necochea)                         |       6756 | CI      | 47876930 | 6153-5870
+12567239    | TORRES                    | MIRIAM MARUXA             | Avda. 3 esq. Paseo 109                             |       8234 | DNI     | 40530049 | 4959-4947
+12567242    | OSCANOA                   | OLIVER FRITZ              | Avda. San Martín 101                               |       1893 | DNI     | 39474064 | 5942-3122
+12567244    | GOMEZ                     | FRANK IRVING              | Avda. del Libertador Gral.S.Martín 199             |       6966 | LC      | 22251995 | 6216-4342
+12567246    | LLANOS                    | JOSET JESUS               | Avda. Pte. Bmé. Mitre 6440                         |       2851 | DNI     | 36211978 |
+12567247    | LLANOS                    | RICARDO ARTURO            | Avda. Rivadavia 699                                |       1180 | DNI     | 15137650 |
+12567248    | ALARCON                   | THIAGO                    | Diagonal Norte 910                                 |       3718 | DNI     | 17713718 | 8885-5894
+12567253    | SEGURA                    | JOSE ANTONIO              | Florida 118                                        |       5346 | DNI     | 44037166 | 9380-8088
+12567258    | CLEMENTE                  | TERESA                    | Av. de Mayo 602                                    |       3211 | DNI     | 37372993 | 5464-5034
+12567259    | LIMA                      | ESTHER MARICEL            | Av. Santa Fe 1310                                  |       2826 | CI      | 15897388 |
+12567260    | MOSLEY                    | JULIO MAXIMO              | Av. Santa Fe 802                                   |       7650 | DNI     | 22641297 |
+12567261    | ZEVALLOS                  | LILIANA CATALINA          | Av. Santa Fe 824                                   |       4422 | DNI     | 34988242 | 5221-5007
+12567262    | GODINEZ                   | CRISTHIAN                 | Av. Belgrano 1194                                  |       3550 | DNI     | 49907409 |
+12567263    | SAM-VARGAS                | JULIA                     | Libertad 1279                                      |       1607 | DNI     | 37353645 |
+12567265    | RAFAEL                    | GIANELLA                  | Av. Corrientes 1820                                |       5326 | DNI     | 14623450 | 9117-7068
+12567266    | ANGELES                   | BRIEL KAELA               | Av, Leandro N. Alem 702                            |       4025 | DNI     | 41118472 | 9377-854
+12567267    | REYES                     | KATHERINE LYNN            | Av. Callao 23                                      |       2750 | DNI     | 43591354 |
+12567268    | QUISPE                    | MARGORIE DEL CARMEN       | Av. Cordoba 1861                                   |       3703 | DNI     | 37602331 |
+12567271    | REYES                     | LEONOR AURORA             | Rodriguez Peña 1572                                |       4568 | LE      | 38038047 | 9511-3107
+12567272    | CAMPOS                    | MARIA DE JESUS            | Alicia M. de Justo 350                             |       2255 | DNI     | 36363598 | 5680-1989
+12567273    | VALLE                     | CARLOS ANDRES             | Av. Callao 1600                                    |       4868 | CI      | 36257172 | 9599-4795
+12567274    | PIÑA                      | RICARDO                   | Av. Rivadavia 2215                                 |       5851 | DNI     | 46484713 | 7190-1230
+12567277    | VARGAS                    | KAREN ANGELICA            | Av. Las Heras 2055                                 |       2222 | DNI     | 41015260 | 8681-2880
+12567279    | GONZALEZ                  | TIMOTEO                   | Av. San Juan 387                                   |       7403 | LC      | 38629658 |
+12567281    | SAUSA                     | SUSAN CATHERINE           | Av. Santa Fe 2453                                  |       5479 | DNI     | 35620414 | 5485-8133
+12567282    | ROJAS                     | LUCAS                     | Av. Pueyrredon 991                                 |       1531 | DNI     | 27820592 | 7230-2409
+12567283    | RUIDIAZ                   | LIZET                     | Av. Las Heras 2324                                 |       5226 | DNI     | 44469918 |
+12567284    | CRUZADO                   | LIBIA HIDEKO              | Av. Pueyrredon 539                                 |       8862 | DNI     | 36571170 | 5944-232
+12567285    | RIVERO                    | ANA                       | Av. Independencia 2676                             |       7303 | DNI     | 42783577 |
+12567286    | SOTO                      | GINA PAOLA                | Av. Santa Fe 2822                                  |       1968 | DNI     | 46698410 | 5299-2429
+12567287    | TAFUR                     | YOLANDA                   | Juncal 2781                                        |       1768 | CI      | 19383001 | 9429-1397
+12567290    | LISE                      | ARMANDO ALFREDO           | Av. San Juan 2701                                  |       6485 | DNI     | 42792774 | 4893-5175
+12567292    | VELASQUEZ                 | MARY-ANN                  | Av. Cordoba 3381                                   |       1668 | DNI     | 37892693 |
+12567294    | LESCANO                   | ROSA CLOTILDE             | Av. Santa Fe 3380                                  |       2944 | CI      | 16741243 | 8663-9240
+12567295    | RAMIREZ                   | VICKY DESSIRRE            | Montes de Oca 894                                  |       1875 | DNI     | 48808264 |
+12567296    | PEÑA                      | GLADYS                    | Scalabrini Ortiz 3149                              |       1559 | DNI     | 17014234 |
+12567301    | LUCANA                    | PIERO THOMAS              | Au. Tte. Gral. Pablo Riccheri Km 33,5              |       3040 | DNI     | 20705818 |
+12567306    | BARRIENTOS                | BENITA                    |  Juan Bautista Alberdi 2923                        |       3873 | LE      | 35363924 | 4844-8819
+12567307    | HERNANDEZ                 | JOSE ORLANDO              | Roma 3261                                          |       2440 | DNI     | 14082902 | 8194-2389
+12567308    | HINOJOSA                  | MARIANA                   | Córdoba 2071                                       |       4690 | CI      | 41333147 | 4715-5399
+12567309    | MANRIQUE                  | AIDEE ESPERANZA           | Avda.Victorica 875                                 |       4080 | DNI     | 45778701 | 6656-6770
+12567310    | MONTIEL                   | EMERITA                   | Mendoza 385/389                                    |       6001 | DNI     | 46661220 | 8624-5373
+12567311    | OSORIO                    | JAVIER MIGUEL             | Intendente Campos 1626/34                          |       1537 | DNI     | 43563994 | 4763-2066
+12567313    | VELASQUEZ                 | PIERRE ANDRE              | Avda. Coronel Ramón L. Falcón 331                  |       1971 | CI      | 28280480 |
+12567314    | AMPUERO                   | VICKY DESSIRRE            | Avda. Daniel M. Cazón 185                          |       6558 | LC      | 17475589 | 9950-7782
+12567315    | PORTUGAL                  | JANNY EVELYN              | Ricardo Gutiérrez 498                              |       1498 | LE      | 41349105 | 7378-8938
+12567316    | HUAMAN                    | LELIA                     | Avda. Mitre 399                                    |       5951 | DNI     | 26311005 |
+12567319    | LEZCANO                   | DOMINIK ALEJANDRO         | Av. Pte. Dr. Arturo U. Illia 2570                  |       5993 | DNI     | 19557647 | 4575-4985
+12567320    | GARCIA                    | CARLOS ANDRES             | 25 de Mayo 1199                                    |       7445 | DNI     | 16692244 | 9834-7419
+12567321    | SIPION                    | YVONNE VIVIENNE           | San Martín 455/57                                  |       4272 | DNI     | 21148554 | 4121-4274
+12567322    | BERRY                     | ALDA LUISA                | Coronel Brandsen 36                                |       8776 | CI      | 35247797 |
+12567325    | ORE                       | ELSA CARMELA              | Ldor. Gral. San Martín 1218                        |       5861 | DNI     | 39209656 |
+12567327    | RODRIGUEZ                 | CAROLINA ROSA             | Sarmiento 675 - Pergamino                          |       8912 | DNI     | 22034775 | 8931-2816
+12567329    | RIOS                      | JESSICA PAOLA             | Avda. Independencia 3617-M.del Plata               |       3340 | CI      | 30578461 |
+12567330    | AGUEDA                    | CHRISTINA DIANA           | Avda. Libertad 3802 - M.del Plata                  |       3548 | DNI     | 46331934 |
+12567331    | ARAUJO                    | JOSE MIGUEL               | Luro 5832 - M. del Plata                           |       8557 | DNI     | 17288711 | 9838-1739
+12567332    | CARRASCO                  | MARILIA                   | Avda. Edison 302                                   |       7066 | DNI     | 28373929 | 8221-2390
+12567333    | GABE                      | MANUEL JESUS              | Emilio Martín Larraya 1100                         |       7752 | DNI     | 48462784 |
+12567334    | GONZALES                  | VICTORIA                  | Mitre 638                                          |       2604 | DNI     | 45331518 |
+12567335    | OCAÑA                     | JHON POOL                 | Senador Morón 1390                                 |       5787 | DNI     | 49113915 | 5188-5961
+12567338    | VILA                      | JORGE AUGUSTO             | Avda. San Martín 464                               |       6385 | DNI     | 46637256 | 8226-3915
+12567340    | REYES                     | FRANK IRVING              | Avda. A.Sáenz 2099                                 |       6347 | LC      | 47176181 | 8983-1560
+12567342    | AQUINO                    | CRISTIAN                  | Avda. Mitre 198                                    |       7419 | DNI     | 39443667 | 9233-2923
+12567343    | RAMOS                     | LUIS HUMBERTO             | Gral. Roca 869                                     |       1701 | CI      | 26117932 | 6296-8066
+12567344    | ARBIZA                    | DENISE HAYDEE             | Calle 57 n° 831 entre 11 y 12                      |       7528 | DNI     | 32496026 | 5715-4060
+12567349    | RUIZ                      | DEISI KARINA              | Avda. Pte. J. D. Perón 402                         |       3758 | LC      | 45998178 |
+12567354    | MUNIVE                    | JUAN ROBERTO              | H. Yrigoyen 400                                    |       1342 | DNI     | 22279593 | 5269-4241
+12567355    | UBIDIA                    | ALDA LUISA                | Juan B. Alberdi 4775                               |       1296 | DNI     | 27204687 |
+12567356    | ARANGO                    | DAVID ANGELO              | 25 de Mayo 325                                     |       5899 | DNI     | 46373914 | 9700-8461
+12567357    | GRILL                     | LUISA EULALIA             | Las Heras 398, Planta Baja                         |       4528 | CI      | 46892739 | 8943-6684
+12567358    | OLIVERA                   | HERMANN EDUARDO           | Lavalle 698                                        |       7060 | DNI     | 30641662 |
+12567359    | RAMIREZ                   | JULIO GIANCARLO           | General M. de Güemes 2551                          |       2465 | DNI     | 17554399 |
+12567361    | ROMERO                    | MERCEDES CAROL            | Avda. de los Trabajadores 2977                     |       5430 | DNI     | 32754005 |
+12567362    | BUSTINZA                  | ZANDALE PRISCILA          | Alvear 625                                         |       3946 | DNI     | 42592251 |
+12567363    | LOPEZ                     | CARMEN PATRICIA           | Avda. Dr. Ricardo Balbin 879                       |       4446 | DNI     | 15015234 |
+12567364    | ARIAS                     | CAROLINE                  | Sarmiento 944                                      |       1668 | CI      | 35221472 | 5459-9476
+12567367    | ASTUDILLO                 | PEDRO ALFONSO             | Avda. Mitre 113                                    |       8413 | DNI     | 39915646 |
+12567368    | CABALLERO                 | YESSICA                   | Soarez n° 1                                        |       4849 | DNI     | 25977207 | 8680-8078
+12567369    | REYMUNDO                  | ULADISLAO                 | Padre Elizalde 445                                 |       8375 | DNI     | 34429955 | 8856-2594
+12567370    | HORNA                     | FABRIZIO ALEJANDRO        | Avda. San Martín 194                               |       7486 | DNI     | 47194688 | 6718-9486
+12567373    | PAREDES                   | JUAN ANTONIO JEFFERS      | Mitre esq. Guemes                                  |       4068 | DNI     | 39518985 | 8094-1986
+12567375    | LOAYZA                    | RAUL ABSALON              | Sarmiento 101                                      |       1861 | LC      | 30821582 | 6660-609
+12567377    | CRUZ                      | CARLOS                    | Calle 42 esq. 21 - La Plata                        |       7581 | DNI     | 40134470 | 4264-7274
+12567378    | LEAMAN                    | ALEXIA                    | Boulevard H. Yrigoyen 99                           |       3097 | CI      | 15507592 |
+12567379    | STOPP                     | NICOLAS MARIANO           | Belgrano 199, esquina Gral. Rico                   |       2885 | DNI     | 17537572 |
+12567380    | ECHEVARRIA                | WILFREDO SEBASTIAN        | Don Bosco 1285 - Bahia Blanca                      |       7447 | DNI     | 28856921 | 9765-7679
+12567381    | GRANZA                    | ANN CATHERINE             | Itacumbú 634                                       |       4087 | DNI     | 25123136 | 8820-3248
+12567382    | CANDELA DE GUZMAN         | AGATHA LIZ                | La Merced 266                                      |       4982 | DNI     | 20051079 |
+12567383    | MALPARTIDA                | LUIS ENRIQUE              | Monteagudo 3237                                    |       7455 | CI      | 49440838 | 6003-7740
+12567386    | ANGELES                   | GABRIELA LEONOR           | Avda. de los Constituyentes 553                    |       7916 | DNI     | 43219564 | 4911-8345
+12567388    | LEON                      | MARIA LUZ                 | Rivadavia 698                                      |       2665 | DNI     | 37404300 |
+12567390    | BENAVIDES                 | MIGUEL ANGEL              | Avda. Mitre 102                                    |       6086 | DNI     | 20426143 | 7745-6114
+12567391    | HUAMANI                   | ROMULO JORGE              | Sarmiento 386                                      |       7271 | DNI     | 49055114 |
+12567392    | LOYOLA                    | CELICA TRINIDAD           | Carlos Pellegrini 942                              |       8288 | CI      | 37037206 |
+12567397    | LANAZCA                   | DIEGO REYNALDO            | Avda. Julio A. Roca 1302                           |       1159 | DNI     | 27655061 | 7866-8663
+12567402    | AGUERO                    | GLADYS HORTENCIA          | San Martín 499                                     |       6117 | DNI     | 34665959 | 8770-126
+12567403    | MEJIA DE JIMENEZ          | RICARDO ALFONZO           | Calle 35 n° 1202                                   |       3246 | DNI     | 21002907 | 5381-6318
+12567404    | KILCOYNE                  | GINA PAOLA                | Mayor López 26                                     |       6997 | DNI     | 15236443 | 6144-268
+12567405    | PRADO                     | LUIS HUMBERTO             | Calle 7 n° 826                                     |       5483 | DNI     | 20407472 | 4472-280
+12567406    | PANAQUE                   | EDWARD JHONATTAN          | Anatole France 1961                                |       1088 | DNI     | 22757950 | 4097-3665
+12567407    | SAHOO                     | JESUS FELIPE              | Avda. H. Yrigoyen 4150                             |       5015 | DNI     | 26547441 | 5869-1417
+12567409    | RIVERA                    | MILUSKA STEPHANY          | Avda. Gral. Paz 374                                |       2958 | CI      | 16829516 | 8603-4712
+12567410    | PAREDES                   | MILAGROS GISELLE          | Calle 11 N° 245                                    |       8707 | LC      | 31039226 | 8781-538
+12567411    | RODRIGUEZ                 | BRITNEY                   | Avda. L.N.Alem 1200                                |       1774 | LE      | 33980339 |
+12567412    | CHAPILLIQUEN              | JUAN CARLOS               | Avda. Antártida Argentina 1712                     |       5131 | DNI     | 48961814 |
+12567415    | LUNA                      | EDILBERTO                 | Luciano Fortabat 1587                              |       1903 | DNI     | 42716364 |
+12567416    | CAMARENA                  | STEFANO                   | Leandro N. Alem 15                                 |       6474 | DNI     | 25550249 | 9813-1019
+12567417    | GORDILLO                  | JHONY WILLIAM             | Bmé. Mitre 696                                     |       5457 | DNI     | 47232580 |
+12567418    | LEONARDO                  | JOSE MANUEL               | San Martín 298                                     |       2471 | CI      | 22549271 | 9723-5047
+12567421    | TOLEDO                    | JEAN PIERRE               | Sarmiento 2068 esq. 25 de Mayo                     |       1678 | DNI     | 38235384 |
+12567423    | MAOKI                     | ANDRES                    | Roma 3271                                          |       4050 | DNI     | 15826216 | 6324-6392
+12567425    | POTTER                    | ANDDY JORDAN              | Calle 29 n° 448                                    |       4358 | DNI     | 33177281 |
+12567426    | HERRERA                   | HENRY IVAN STEWARD        | Avda. Libertador 427                               |       5180 | DNI     | 27205190 | 8947-9384
+12567427    | RAMOS                     | MILAGROS VANESSA          | Avda. 26 522                                       |       6447 | CI      | 35483910 |
+12567428    | CHIA                      | VICTOR                    | Dardo Rocha 315                                    |       8570 | DNI     | 42921191 |
+12567429    | LOAYZA                    | YORYI VILMA               | Petracchi 501                                      |       7325 | DNI     | 27554280 |
+12567430    | BENAVIDES                 | JUAN ARCADIO              | L.N.Alem 158                                       |       6521 | DNI     | 21741018 | 4741-7561
+12567431    | SOSA                      | CARLOS MANUEL             | Avda. Libertador 203                               |       7144 | DNI     | 15028070 | 6891-9929
+12567434    | GARCIA                    | PERCY AGUSTIN             | H. Yrigoyen 300                                    |       4373 | CI      | 24013339 | 7086-6988
+12567436    | CORTES                    | ROXANA ARACELI            | Calle 22 n° 1001                                   |       1035 | DNI     | 16368625 | 8596-4290
+12567438    | GARCIA                    | MARJORIE LAURA            | Avda. La Rioja 1199                                |       5836 | DNI     | 46819658 | 7112-6628
+12567439    | GUADIAMOS                 | MARTIN ENRIQUE            | Las Heras 398. Pisos 1° al 4°                      |       2044 | DNI     | 20398216 | 7272-1719
+12567440    | GUTIERREZ                 | SHIRLEY                   | V. López 2900                                      |       5580 | DNI     | 32905099 | 9946-1437
+12567445    | VASQUEZ                   | ELIZABETH TEOFILA         | Paraguay 2                                         |       2449 | LC      | 18353183 |
+12567450    | NEIRA                     | LOGAN PAREDES             | Ciudad de Rodez 102                                |       5977 | DNI     | 41596569 |
+12567451    | SALAS                     | MILTON ANGELO             | Rivadavia 403                                      |       3872 | DNI     | 36808557 | 9250-5679
+12567452    | DIAZ DE CARCAMO           | ZOILA SOLEDAD             | Avda. Shaw 156                                     |       8141 | DNI     | 45788474 | 8846-8362
+12567453    | GODOY                     | DARLING SOFIA             | Estomba 52                                         |       1371 | CI      | 23817300 | 4328-955
+12567454    | PEREZ                     | RAUL ANGEL JOSE           | Avda. San Martín 499                               |       2208 | LC      | 43682035 |
+12567455    | WINDER                    | LOGAN PAREDES             | Avda. General Paz 5445                             |       3638 | LE      | 49935715 | 4548-1956
+12567457    | ESPINO                    | SANDRA FRANCESCA          | Humberto Primo 481                                 |       6361 | DNI     | 23093845 |
+12567458    | ACEVEDO                   | SADIALY PAOLA             | Rivadavia 299                                      |       3489 | DNI     | 32770008 |
+12567459    | CONGORA                   | ANA                       | Avda. Chacón 497                                   |       8802 | DNI     | 14500832 | 5108-5640
+12567460    | ESPEJO                    | MARIO                     | Rivadavia 13748                                    |       2751 | DNI     | 39943957 |
+12567463    | PULIDO                    | MARISSEL ALICIA           | Baron Hirsch 2                                     |       6259 | DNI     | 14574914 | 6702-5816
+12567464    | ROSAS                     | ANDRES EDUARDO            | Avda. S. Martín 301 esq. A.L.Duggan                |       3709 | DNI     | 17479312 | 6965-6212
+12567465    | VELAOCHAGA                | CARLOS RAUL               | Avda. 25 de Mayo 400                               |       7079 | DNI     | 33745353 |
+12567466    | VERGARA                   | GIOVANNI ORLANDO          | Hipólito Yrigoyen 501                              |       4190 | DNI     | 45145139 |
+12567469    | CENTENO                   | HERMANN EDUARDO           | San Pablo 401                                      |       4193 | CI      | 48549669 | 7573-7601
+12567471    | VALDEZ                    | KATITZA ROSANA            | Alsina 250                                         |       7677 | DNI     | 26178390 | 5438-2032
+12567473    | NOVOA                     | BRITTANY ISABEL           | 3 de Febrero 999                                   |       8832 | DNI     | 49694552 | 8181-858
+12567474    | HUERTAS                   | HENRY                     | Belgrano 385                                       |       3863 | DNI     | 14546940 | 8191-6090
+12567475    | TANTARUNA                 | KARINA ELIZABETH          | Arieta 3015                                        |       1927 | DNI     | 46324007 | 8960-8569
+12567476    | CASTILLO                  | LUCIA GABRIELA            | Mitre 3920 (Calle 54)                              |       7495 | DNI     | 37808572 | 5019-3869
+12567477    | MORI                      | GIUSEPPINA INMACULADA     | Avda Pte. Tte. Gral. Perón 1402                    |       2379 | DNI     | 38521810 |
+12567478    | ONTANEDA                  | ALVARO JUAN               | Belgrano 101 esq.Sarmiento                         |       7088 | DNI     | 39375474 |
+12567479    | VILLAREYES                | SUSANA MARIA              | Carlos Pellegrini 402                              |       1797 | CI      | 44548939 | 5065-3770
+12567482    | SILVA SANTISTEVAN         | OLGA VICTORIA             | Avda. 37 n° 319                                    |       8606 | DNI     | 25008719 | 7100-6427
+12567484    | ECHEVARRIA                | ESTEFANI                  | Calle 48 N° 575, 1° Subsuelo                       |       1130 | DNI     | 38393009 | 8883-5724
+12567486    | CHAVEZ                    | MELISSA                   | Av. Pte. J. D. Perón 1026                          |       2113 | DNI     | 31494749 | 5408-2406
+12567487    | ZARZOSA                   | JORGE ENRIQUE             | Calle 47 Nro. 734                                  |       7335 | DNI     | 41645620 |
+12567488    | MUÑOZ                     | JORGE LUIS                | Avda. Juan B. Justo 1620                           |       1324 | CI      | 25097034 | 8064-479
+12567493    | RODRIGUEZ                 | RAUL FELIPE               | Avda. Cazón 1600                                   |       5073 | DNI     | 15718361 |
+12567498    | CASTILLO                  | JUAN MARTIN               | 9 de Julio 502                                     |       3571 | DNI     | 30542416 |
+12567499    | MENDOZA                   | OBDULIA                   | 25 de Mayo 54                                      |       5133 | DNI     | 47119468 |
+12567500    | BORJA                     | EDITH                     | Rivadavia 204                                      |       4672 | DNI     | 27678984 | 9677-6294
+12567501    | CARDENAS                  | JOSE MIGUEL GIUSEPPI      | Pte. Tte. Gral. Juan D. Perón 2757                 |       4852 | DNI     | 23488047 | 5297-8109
+12567502    | CARRASCO                  | ARTURO ANDRE              | Avda. L.N.Alem 1                                   |       1881 | DNI     | 28926111 | 7920-2397
+12567503    | TOVAR                     | MAXIMO GRIGORIY           | Calle 9 n° 900                                     |       6067 | DNI     | 45486451 | 9262-8513
+12567505    | ESPINOZA                  | LANA ROSE                 | Avda. Maipú 742                                    |       4910 | DNI     | 15522355 | 7538-6293
+12567506    | MONTES                    | MATTHIAS IGNACIO          | Calle Alvear 2615 (ex 278)                         |       2564 | DNI     | 49556202 | 9951-4122
+12567507    | SILVA SANTISTEBAN         | MIGUEL ANGEL              | Martín Fierro 6550                                 |       3304 | DNI     | 48923170 | 8445-5637
+12567508    | CASABONA                  | LUIGI ANTONINO            | Calle 83 n° 302 (Necochea)                         |       3354 | DNI     | 23501734 | 9396-4490
+12567511    | BAZAN                     | IGNACIO EDUARDO           | Avda. Crovara 954                                  |       2091 | DNI     | 21133183 |
+12567512    | LOYOLA                    | GIANELLA                  | Avda. San Martín 101                               |       6997 | DNI     | 29761856 | 4389-7143
+12567513    | VALVERDE                  | JORGE ANTONIO             | Falucho 185                                        |       2612 | DNI     | 43850987 | 7829-9383
+12567514    | CARDICH                   | LUIS ALEJANDRO            | Avda. del Libertador Gral.S.Martín 199             |       1267 | CI      | 33490804 |
+12567517    | LUNA                      | JORGE                     | Avda. Rivadavia 699                                |       8969 | DNI     | 24008670 | 5711-1540
+12567519    | SALINAS                   | BRIANNA                   | Av. Corrientes 1236                                |       2831 | DNI     | 32624114 | 7717-3526
+12567521    | HERRERA                   | DIANA BRIGITTE            | Florida 474                                        |       8619 | DNI     | 32597665 | 7648-7009
+12567522    | CORDOVA                   | JOSE ELIAS                | Av. Cordoba 685                                    |       6822 | DNI     | 18455365 | 6401-2560
+12567523    | VILLA                     | JUANA ROSA                | Florida 118                                        |       6909 | CI      | 46997567 |
+12567524    | DE DAVILA                 | LEONEL SAUL               | Av. Cordoba 1467                                   |       2677 | LC      | 19068447 |
+12567525    | DIAZ                      | CARLOS MANUEL             | Florida 52                                         |       3075 | LE      | 38490986 | 6614-2901
+12567526    | LARRIEGA                  | JUAN DE LA CRUZ           | Av. Corrientes 484                                 |       4377 | DNI     | 36228526 |
+12567527    | ROMAN                     | LILIAN SUSANA             | Sarmiento 481                                      |       7530 | DNI     | 34437057 |
+12567530    | DEXTRE                    | STEPHANIE                 | Av. Santa Fe 802                                   |       1479 | DNI     | 44736051 | 7011-7499
+12567532    | TORRES                    | JAVIER MIGUEL             | Av. Belgrano 1194                                  |       6032 | CI      | 49480835 |
+12567534    | VASQUEZ                   | HAYDEE ROSARIO            | Av. Rivadavia 364                                  |       4324 | DNI     | 24256415 | 7681-3987
+12567535    | ZAMUDIO                   | HECTOR                    | Av. Corrientes 1820                                |       1494 | DNI     | 44472701 | 9543-8236
+12567536    | ATOCHE                    | JANNY EVELYN              | Av, Leandro N. Alem 702                            |       6873 | DNI     | 40514014 | 7222-2531
+12567546    | DE VALDIVIA               | MIRIAM NELVA              | Roberto M. Ortiz 1861                              |       8432 | DNI     | 45117459 | 8786-6842
+12567547    | ECHEANDIA                 | JORGE ALBERTO             | Av. Las Heras 2055                                 |       2250 | DNI     | 30645483 |
+12567548    | NUÑEZ                     | JORGE AUGUSTO             | Juana Manso 1189                                   |       7344 | DNI     | 16629802 | 5742-5583
+12567549    | POMA                      | JUAN CARLOS RODRIGO       | Av. San Juan 387                                   |       4084 | CI      | 48519130 |
+12567550    | ALFARO                    | JUAN JOSE                 | Peña 2383                                          |       6818 | LC      | 44571059 | 8235-5322
+12567551    | MAURTUA                   | MARIO ANTONY              | Av. Santa Fe 2453                                  |       6948 | LE      | 40623036 | 4813-8930
+12567553    | BEYTIA                    | JULIO CESAR               | Av. Las Heras 2324                                 |       5173 | CI      | 29313163 |
+12567554    | KIRK                      | JHONY WILLIAM             | Av. Pueyrredon 539                                 |       8719 | DNI     | 45216939 | 8278-7763
+12567555    | NUÑEZ                     | CELICA TRINIDAD           | Av. Independencia 2676                             |       3381 | DNI     | 28468064 | 8613-5683
+12567556    | GARCIA DE KIMBERLING      | JUAN ARCADIO              | Av. Santa Fe 2822                                  |       3123 | DNI     | 17072037 |
+12567559    | URCIA                     | AIDEE ESPERANZA           | Av. Corrientes 3202                                |       2834 | LC      | 42608094 |
+12567560    | MENA                      | CARLOS RAUL               | Av. San Juan 2701                                  |       1835 | LE      | 38585663 |
+12567561    | SALDAÑA                   | ANA CATHERINE             | Av. Rivadavia 310                                  |       4079 | DNI     | 27219540 |
+12567562    | TIEMROTH                  | ANA MARIBEL               | Av. Cordoba 3381                                   |       1874 | DNI     | 21583753 | 9321-7500
+12567565    | SILVA                     | LELIA                     | Montes de Oca 894                                  |       6629 | DNI     | 26148420 |
+12567567    | SANTIAGO                  | RICARDO CESAR             | Esteban Adrogué 1052 / 58                          |       8311 | CI      | 46223880 | 8882-7814
+12567569    | PAULI                     | JOSE                      | Rivadavia 301                                      |       3574 | DNI     | 19594221 | 4395-9097
+12567570    | FAJARDO                   | CAMILLE MEZARINA          | Au. Tte. Gral. Pablo Riccheri Km 33,5              |       8809 | DNI     | 29956516 | 4985-7422
+12567571    | PESARESSI                 | PATRICE ANNE              | Au. Tte. Gral. Pablo Riccheri Km 33,5              |       4915 | DNI     | 30014000 | 4774-8214
+12567572    | DEL AGUILA                | PAMELA LESLIE             | Avda. Independencia 3621                           |       5675 | DNI     | 15809042 | 7813-4968
+12567573    | MONTERO                   | ZENON                     | Avda. Eugenia Tapia de Cruz 28                     |       2066 | DNI     | 34102457 | 7975-7008
+12567574    | GARCIA                    | ARMANDO                   | Calle 138 número 1498                              |       5226 | CI      | 36718438 | 5571-1831
+12567575    | PAUCAR                    | DANIEL ROBERTO            | Hipólito Irigoyen 14820                            |       2317 | DNI     | 31778603 | 9267-3613
+12567578    | GARZON                    | GIULIAN ALEXANDER         | Córdoba 2071                                       |       8355 | DNI     | 22327406 | 9212-7831
+12567580    | ALMONTE                   | IVAN RAMON                | Mendoza 385/389                                    |       5154 | DNI     | 45435969 |
+12567582    | VARAS                     | JOSE HUMBERTO             | Muñoz 1576                                         |       1850 | DNI     | 40827656 |
+12567589    | DE FRANKLIN               | LUISA EULALIA             | Av. Pte. Dr. Arturo U. Illia 2570                  |       1773 | DNI     | 33190461 |
+12567594    | CARBAJAL                  | SEVASTIAN ISAIAH          | Alsina 638                                         |       4650 | LC      | 19183491 |
+12567595    | PALOMINO                  | VALERIA ALEJANDRA         | Ldor. Gral. San Martín 1218                        |       2602 | LE      | 17189153 | 7460-5067
+12567596    | MAGUIÑA                   | ZOILA SOLEDAD             | Calle 4 n° 7                                       |       1914 | DNI     | 46880360 | 8832-3408
+12567597    | SANCHEZ                   | ALVARO JUAN               | Sarmiento 675 - Pergamino                          |       7868 | DNI     | 36732847 |
+12567598    | CORAHUA                   | SUSANA MARIA              | Roque Sáenz Peña 938                               |       6635 | DNI     | 39175968 |
+12567599    | VASQUEZ                   | BRITNEY                   | Avda. Independencia 3617-M.del Plata               |       5065 | DNI     | 33549152 | 4114-1942
+12567601    | MARTINEZ                  | ELEODORO RICHARD          | Luro 5832 - M. del Plata                           |       3471 | DNI     | 33574015 | 4482-4395
+12567602    | KILCOYNE                  | JORGE RAUL                | Avda. Edison 302                                   |       4402 | CI      | 47635578 | 7945-2432
+12567603    | PRADO                     | PIERRE ANDRE              | Emilio Martín Larraya 1100                         |       8168 | DNI     | 29967988 | 8773-2844
+12567604    | ALTAMIRANO                | RICHARD WINSTON           | Mitre 638                                          |       7056 | DNI     | 31571334 | 8369-2837
+12567607    | VELASQUEZ                 | MARIA ELENA               | Calle 14 n° 4465                                   |       1478 | DNI     | 18327530 | 4133-9962
+12567608    | JATAVE                    | DEISI KARINA              | Avda. San Martín 464                               |       3310 | DNI     | 40688487 | 6391-2081
+12567609    | PINTO                     | GIANCARLOS ARTURO         | Avda. Gral. San Martín 501                         |       6126 | CI      | 48684539 |
+12567610    | NAPURI                    | JUANITA GISELLA           | Avda. A.Sáenz 2099                                 |       7807 | DNI     | 44617106 |
+12567613    | GIORFFINO                 | RENEE                     | Gral. Roca 869                                     |       4003 | DNI     | 43899058 |
+12567615    | SAAVEDRA                  | ELISA INES                | Calle 4 n° 168                                     |       6981 | DNI     | 32446771 |
+12567617    | NUÑEZ                     | CESAR AUGUSTO             | Avda. Libertad 698                                 |       8405 | DNI     | 23032792 | 5467-250
+12567618    | PUICON                    | LUIS ALBERTO              | Urcelay 529                                        |       2711 | DNI     | 38177263 | 4261-4408
+12567619    | RIVERA                    | TANIA CAROLINA            | Avda. Pte. J. D. Perón 402                         |       7641 | CI      | 45463117 |
+12567620    | URIZAR                    | PAOLA JANET               | Avda. Colón 898                                    |       4491 | LC      | 34722931 | 9999-6750
+12567621    | VELAZCO                   | JORGE RAUL                | Avda. San Martín 150                               |       5401 | LE      | 14175834 | 7830-6565
+12567622    | CORDOVA                   | ANTONIETA JANET           | Alberto H. Almirón 46                              |       3118 | DNI     | 41736466 |
+12567623    | ORELLANA                  | ELENA REGINA              | Avda. Mitre y Azcuénaga                            |       6688 | CI      | 21712398 |
+12567626    | BRIONES                   | GLADYS                    | 25 de Mayo 325                                     |       4861 | DNI     | 30809809 |
+12567628    | CHAVEZ                    | LISSETTE                  | Lavalle 698                                        |       4635 | CI      | 23519923 | 7441-3775
+12567630    | GRILLO                    | CARLOS ALEJANDRO          | Avda. del Libertador 13988                         |       1277 | LE      | 15256761 |
+12567631    | ORE                       | MIGUEL                    | Avda. de los Trabajadores 2977                     |       6803 | DNI     | 49470301 |
+12567632    | LEON DE AYQUIPA           | ESPERANZA                 | Alvear 625                                         |       7095 | DNI     | 26399811 | 5870-5627
+12567637    | TUYA                      | CECILIA YOVANA            | Avda. Mitre 113                                    |       6087 | CI      | 28798337 | 9473-2862
+12567642    | REYES                     | LUCCAS ANGELO             | Avda. Julio A.Roca 622                             |       6151 | DNI     | 35627603 |
+12567643    | VALERIA                   | ANDDY JORDAN              | Mitre esq. Guemes                                  |       6134 | DNI     | 23201235 |
+12567644    | CAMPOS                    | GESELLE                   | San Martín 602/26/34                               |       2178 | CI      | 17778729 | 8755-2031
+12567645    | VALLE                     | MOISES FLORENCIO          | Sarmiento 101                                      |       2779 | DNI     | 49439055 | 5653-313
+12567646    | GARAY                     | RAUL OSCAR                | Avda. Julio A. Roca 199                            |       1385 | DNI     | 33687095 |
+12567647    | MARTINEZ                  | ROXANA DEL CARMEN         | Calle 42 esq. 21 - La Plata                        |       2741 | DNI     | 41225723 | 8165-975
+12567649    | SOTELO                    | JUAN CARLOS               | Belgrano 199, esquina Gral. Rico                   |       3909 | DNI     | 42989599 | 6838-2396
+12567650    | FERNANDEZ CONCHA          | MARIANA                   | Don Bosco 1285 - Bahia Blanca                      |       7275 | DNI     | 40727529 | 5100-489
+12567651    | NIQUEN                    | CLARA                     | Itacumbú 634                                       |       5020 | DNI     | 23444630 | 4995-8021
+12567652    | AYALA                     | MARIA DE LOS ANGELES      | La Merced 266                                      |       5069 | DNI     | 38481599 |
+12567655    | TAIÑA                     | JOSE ANTONIO              | Avellaneda 281                                     |       2495 | LC      | 45052317 |
+12567656    | LLAMOJA                   | ROBERT                    | Avda. de los Constituyentes 553                    |       4157 | LE      | 37586698 |
+12567657    | VILLON DE DONAYRE         | JONATHAN MICHAEL          | San Martín 390                                     |       2578 | DNI     | 39564794 | 4126-8961
+12567658    | FERIA                     | BRENDA CAROL              | Rivadavia 698                                      |       1023 | CI      | 15897260 |
+12567661    | PORTILLA                  | AARON                     | Sarmiento 386                                      |       8229 | DNI     | 31778952 | 7024-5230
+12567663    | PIEDRA                    | ALFREDO EMILIO            | El Callao 1330                                     |       7377 | CI      | 35976929 |
+12567667    | ESTRADA                   | CARLOS GABRIEL            | Avda. Julio A. Roca 1302                           |       6108 | DNI     | 37578196 | 6829-4239
+12567668    | SHIMOSE                   | CARMEN IRENE              | Bartolomé Mitre 201                                |       7985 | DNI     | 14328466 | 6313-9394
+12567669    | SUAREZ                    | CRISTHIAN                 | Libertad 3697                                      |       4688 | DNI     | 21246573 | 8544-8498
+12567670    | HUAMAN                    | ENA BEATRIZ               | Avda. José Altube 1761                             |       4507 | DNI     | 40295445 | 5895-9012
+12567671    | TRISTAN                   | GWENDOLYN GIANELLA        | Sarmiento 359                                      |       7031 | DNI     | 15114060 | 9751-6648
+12567674    | ARIAS                     | JESUS                     | Mayor López 26                                     |       8264 | DNI     | 20097835 | 7996-8563
+12567676    | ABANTO                    | PAOLA DEL ROSARIO         | Anatole France 1961                                |       8110 | DNI     | 23051814 |
+12567678    | MÜLLER                    | RODOLFO DAVID ANTONIO     | Avda. San Martín 1100                              |       3313 | DNI     | 41241652 | 7121-1759
+12567679    | RUBIO                     | ROSARIO MECEDES           | Avda. Gral. Paz 374                                |       8876 | CI      | 25938973 |
+12567680    | CORTEZ                    | VICTOR LUIS               | Calle 11 N° 245                                    |       5304 | DNI     | 19108489 | 8927-2265
+12567685    | SISNIEGAS DE HOLCOMB      | PEDRO ISIDRO              | Luciano Fortabat 1587                              |       6579 | DNI     | 38188999 |
+12567690    | GARAY                     | MARLIES KAREM             | San Martín 2594                                    |       4818 | LC      | 28396007 | 9949-6845
+12567691    | SARMIENTO                 | ANDRES DAVID              | Sarmiento 2068 esq. 25 de Mayo                     |       8410 | LE      | 44989273 |
+12567692    | LEON                      | GIOVANNA ALEJANDRA        | Avda. Tandil 401                                   |       8958 | DNI     | 14504505 |
+12567693    | RAYGADA                   | EDWARD JHONATTAN          | Roma 3271                                          |       8259 | CI      | 34320099 |
+12567694    | AVALOS                    | JOHANA LUCILA             | Avda. Santa Fe 2122                                |       6133 | DNI     | 21015263 | 4728-9901
+12567695    | PALMA                     | GLORIA MARGARITA          | Calle 29 n° 448                                    |       4029 | DNI     | 30937660 | 6251-3260
+12567697    | RODRIGUEZ                 | YASMINE ALEXIS            | Avda. 26 522                                       |       3437 | DNI     | 31466385 |
+12567698    | CORDOVA                   | OSCAR EDUARDO             | Dardo Rocha 315                                    |       4535 | CI      | 45330387 | 7758-4257
+12567699    | CORDOVA                   | FELICIA                   | Petracchi 501                                      |       3619 | LC      | 20050901 | 4531-8611
+12567700    | CALENZANI                 | CAROLINA ROSA             | L.N.Alem 158                                       |       1570 | LE      | 18506140 | 6147-7613
+12567703    | ROJAS                     | RICARDO ARTURO            | Avda. Velez Sarsfield 4571/77                      |       5083 | DNI     | 19009791 | 8202-5336
+12567704    | CHAHUAYO                  | RUTH OLINDA               | H. Yrigoyen 300                                    |       1451 | DNI     | 16169739 | 8335-5341
+12567705    | ZEVALLOS                  | TANIA CAROLINA            | Calle 60 Nº 3002                                   |       5635 | DNI     | 33290839 | 8574-3599
+12567706    | SALINAS                   | MANUEL JESUS              | Calle 22 n° 1001                                   |       6546 | DNI     | 27178103 | 6985-3721
+12567709    | GONZALES                  | DAMIAN JULIO              | Las Heras 398. Pisos 1° al 4°                      |       2063 | DNI     | 30230865 |
+12567711    | TAPARA                    | ALEJANDRA GUADALUPE       | Avda. Maipu 2499                                   |       3843 | DNI     | 41182081 | 9756-7352
+12567713    | NICHO                     | CHRISTINA DIANA           | Avda. Santamarina 402                              |       4732 | DNI     | 38903681 | 6421-2651
+12567714    | CAYLLAHUA                 | PATRICIA ELIZABETH        | Calle 9 N° 1761 (Parque Industrial Pilar)          |       8349 | CI      | 46864875 |
+12567715    | PARIONA                   | HIPOLITO ABRIL            | Paraguay 2                                         |       6071 | DNI     | 22671823 | 6664-5112
+12567716    | GAYTAN                    | LESLY ANGELICA HANNY      | Calle 5 Nº 1299                                    |       5900 | DNI     | 22917116 | 5504-1744
+12567717    | POLETTI                   | ROXANA                    | Artigas 589                                        |       1810 | DNI     | 30924699 | 9363-8128
+12567718    | ACUÑA                     | VERONICA MARIBEL          | Avda. Dr. Raúl Manfredi 570                        |       4065 | DNI     | 24023842 |
+12567719    | VASQUEZ                   | DANIEL JESUS              | San Nicolás 720                                    |       2864 | DNI     | 20922551 | 9397-5453
+12567722    | HUAMANZANA                | GIANKARLO MATTHEW         | Avda. Shaw 156                                     |       4944 | DNI     | 22085923 |
+12567724    | ARANGO                    | NESTOR ALCIDES            | Avda. San Martín 499                               |       6414 | CI      | 17759587 |
+12567726    | LUQUE                     | GENARO RICARDO            | Uruguay 143                                        |       2246 | LE      | 17001496 |
+12567727    | VELA                      | JORGE ENRIQUE             | Humberto Primo 481                                 |       2578 | DNI     | 42566192 | 5063-4806
+12567728    | FLORES                    | JOSE ANDRES               | Rivadavia 299                                      |       8477 | CI      | 21925076 | 8667-3207
+12567733    | SILVA                     | ELENA                     | Baron Hirsch 2                                     |       5592 | CI      | 48197966 | 7083-4534
+12567738    | RAMOS                     | IVONNE MADELEINE          | Pueyrredón 101                                     |       3724 | DNI     | 39934068 | 8993-2375
+12567739    | TORRES                    | DIEGO                     | San Pablo 401                                      |       7991 | DNI     | 48521011 | 8789-2595
+12567740    | DIAZ                      | ROBERT                    | Moreno 298                                         |       8383 | DNI     | 20902956 | 7920-7879
+12567741    | VILLANUEVA                | ANA DENISE                | Alsina 250                                         |       8775 | DNI     | 21434147 |
+12567742    | GOMEZ                     | JOSE ANDRES               | Avda. San Martín 398                               |       6745 | CI      | 23793416 |
+12567743    | GUTIERREZ                 | NOHEMI LASTENIA           | 3 de Febrero 999                                   |       2058 | DNI     | 30731695 | 5749-1080
+12567745    | ROJAS                     | JAIME IVAN MARTIN         | Arieta 3015                                        |       6955 | DNI     | 47927823 |
+12567746    | SANCHEZ                   | LUIS HERNAN               | Mitre 3920 (Calle 54)                              |       1350 | DNI     | 28895797 | 7356-2375
+12567747    | VERGARA                   | RANDY LUZ                 | Avda Pte. Tte. Gral. Perón 1402                    |       2020 | DNI     | 18956550 |
+12567748    | SALVATIERRA               | CARMEN ROSA               | Belgrano 101 esq.Sarmiento                         |       6260 | DNI     | 46825615 | 4080-4943
+12567751    | UBILLUS                   | ALESSANDRO                | Los Angeles 197                                    |       8771 | DNI     | 45810961 |
+12567752    | SANCHEZ                   | AZUCENA LUCCIANA          | Avda. 37 n° 319                                    |       7913 | DNI     | 26441566 | 5793-9957
+12567753    | VALENCIA                  | DESIREE F                 | Avda. Mitre 2727                                   |       2984 | DNI     | 35320110 | 7230-2748
+12567754    | GEREDA                    | ANDRES                    | Calle 48 N° 575, 1° Subsuelo                       |       2607 | DNI     | 34702390 |
+12567757    | YARO                      | RUTH TANIA                | Calle 47 Nro. 734                                  |       2764 | DNI     | 46919378 |
+12567759    | TRISTAN                   | EDILBERTO                 | Almirante Brown 612                                |       3112 | CI      | 34767760 |
+12567761    | NUÑEZ                     | LETTY CONCEPCION          | Gral. Pinto 600                                    |       4785 | LE      | 38760611 | 5659-7610
+12567762    | ARTEAGA                   | GIULIANA PALOMA           | Avda. 9 de Julio 545                               |       1475 | DNI     | 48278943 |
+12567763    | VASQUEZ                   | CARMEN SUSANA             | Avda. Cazón 1600                                   |       4406 | CI      | 46746695 |
+12567764    | MARTINEZ                  | THOMAS JOSE               | Avenida 7 Nº 900 esq. 523                          |       4688 | DNI     | 14813847 | 7106-1883
+12567765    | TORRICO                   | SACRAMENTO                | Avda. 9 de Julio 402                               |       8175 | DNI     | 48388061 | 7616-9626
+12567766    | CHACON DE LOYOLA          | AMIL TAF                  | Bvd. Villegas 501                                  |       3717 | DNI     | 30037495 | 9383-4366
+12567767    | VALVERDE                  | CARLOS ALBERTO            | Avda. Moreno 299                                   |       7351 | DNI     | 38090947 | 9768-2106
+12567770    | GRIMALDI                  | GISSELLA ANTUANET         | Rivadavia 204                                      |       8250 | LE      | 17219085 | 4823-3399
+12567772    | CHUMPEN                   | KARIM ARACELLY            | Avda. L.N.Alem 1                                   |       7309 | DNI     | 29542978 | 4691-5700
+12567774    | BAJONERO                  | RICARDO GERMAN            | Calle 30 n° 1400                                   |       2527 | DNI     | 22112455 |
+12567775    | LAOS                      | ZARELLE GUISELLE          | Avda. Maipú 742                                    |       7327 | DNI     | 29692097 |
+12567776    | ESTRADA                   | FELICITA VICTORIA         | Calle Alvear 2615 (ex 278)                         |       3255 | DNI     | 40734908 | 8401-1525
+12567781    | GUEVARA                   | RODOLFO OMAR              | Avda. Crovara 954                                  |       5230 | DNI     | 14217762 | 8337-5016
+12567786    | ESCOBAR                   | AMIL TAF                  | Avda. Pte. Bmé. Mitre 6440                         |       4823 | DNI     | 40749101 | 8133-2526
+12567787    | PIÑAS DE CARO             | SERGIO DAVID              | Avda. Rivadavia 699                                |       4831 | DNI     | 16117730 |
+12567788    | SALAZAR                   | SONIA                     | Diagonal Norte 910                                 |       2702 | DNI     | 48504638 |
+12567789    | VELASQUEZ                 | ROSALIA                   | Av. Corrientes 1236                                |       5737 | DNI     | 19385209 | 7737-8969
+12567790    | DEL CARPIO                | MOISES DAVID              | Sarmiento 1490                                     |       6988 | DNI     | 28498919 |
+12567791    | HAAS                      | JUAN ROBERTO              | Florida 474                                        |       6737 | DNI     | 43575107 |
+12567793    | MATTA                     | ROBERTO AUGUSTO           | Florida 118                                        |       2299 | DNI     | 41665222 | 4619-6048
+12567794    | GARCIA                    | SUT LAN                   | Av. Cordoba 1467                                   |       7781 | CI      | 37277214 | 4986-3214
+12567795    | VENTOCILLA                | ENA BEATRIZ               | Florida 52                                         |       5756 | LC      | 36713056 |
+12567796    | RODRIGUEZ                 | MARIA ROCIO               | Av. Corrientes 484                                 |       8666 | LE      | 40703526 |
+12567799    | SILVA                     | MIGUEL ANGEL              | Av. Santa Fe 1310                                  |       6947 | DNI     | 17732061 | 9115-208
+12567800    | CALLE DE DODGE            | JAVIER FERNANDO           | Av. Santa Fe 802                                   |       5931 | DNI     | 21243494 | 6423-3203
+12567801    | TENORIO                   | LUIS MIGUEL               | Av. Santa Fe 824                                   |       5437 | DNI     | 45043252 | 5180-4263
+12567802    | BOCANEGRA                 | VICTORIA CELESTINA        | Av. Belgrano 1194                                  |       7635 | DNI     | 24616572 | 9619-9521
+12567805    | SULCA                     | CYNTHIA EUFEMIA MICHELLE  | Av. Corrientes 1820                                |       6219 | LE      | 16611209 | 5179-5175
+12567807    | GUIZADO                   | LUIS ALEJANDRO            | Av. Callao 23                                      |       1721 | DNI     | 15159292 |
+12567809    | PATIÑO PATRONI            | GRICELDA CLORINDA         | Av. Entre Rios 196                                 |       2826 | DNI     | 42116205 | 9732-2683
+12567810    | BRACHO                    | RODOLFO DAVID ANTONIO     | Av. Santa Fe 1740                                  |       2483 | DNI     | 27695819 | 9426-3666
+12567811    | URIA                      | VICTORIA NORMA            | Rodriguez Peña 1572                                |       2106 | DNI     | 23509934 |
+12567812    | VAGNER                    | VICTORIA NORMA            | Alicia M. de Justo 350                             |       7169 | CI      | 40464250 | 6360-8774
+12567813    | VIVANCO                   | CARMEN SHERLEY            | Av. Callao 1600                                    |       1564 | DNI     | 39470235 |
+12567814    | NUNURA                    | MILAGROS VANESSA          | Av. Rivadavia 2215                                 |       8987 | DNI     | 36938693 | 6241-469
+12567815    | OJEDA                     | NANCY ELIZABETH           | Av. Santa Fe 2139                                  |       7465 | DNI     | 43581329 | 4913-7904
+12567818    | BORDER                    | JORGE EDUARDO             | Juana Manso 1189                                   |       2251 | DNI     | 39983455 | 4098-9221
+12567820    | CHIRINOS                  | RAUL OSCAR                | Peña 2383                                          |       8843 | DNI     | 16297875 |
+12567822    | TAKEUTI                   | MARGORIE DEL CARMEN       | Av. Pueyrredon 991                                 |       1344 | DNI     | 47436491 | 9309-6376
+12567823    | YAGUI                     | RAFAEL ARTURO             | Av. Las Heras 2324                                 |       2999 | DNI     | 34434196 |
+12567824    | ACUÑA                     | ROSA ELVIRA               | Av. Pueyrredon 539                                 |       1044 | DNI     | 29217932 |
+12567829    | VARESE                    | CARLOS ALFONSO            | Av. Corrientes 3202                                |       5241 | CI      | 30036759 |
+12567834    | MANRIQUE                  | GISSET MARGARITA          | Av. Santa Fe 3380                                  |       2385 | DNI     | 34234258 | 6589-1551
+12567835    | VELASQUEZ                 | HILDA VIOLETA             | Montes de Oca 894                                  |       2693 | DNI     | 15794893 | 9726-7146
+12567836    | BURGA                     | IVONNE LIZETH             | Scalabrini Ortiz 3149                              |       2116 | DNI     | 37793385 | 5324-7599
+12567837    | ZELAYA                    | JORGE JACKSON             | Esteban Adrogué 1052 / 58                          |       3584 | DNI     | 23556937 | 7657-6176
+12567838    | DRAGAÑAC                  | LINA LUZ                  | Silverio Almiró 21 / 29                            |       2624 | CI      | 37575307 | 7270-2003
+12567839    | MACCHIAVELLO              | MARIA ESTHER              | Rivadavia 301                                      |       6357 | LC      | 48540486 | 7168-8814
+12567841    | RODRIGUEZ-PASTOR          | CARLOS                    | Au. Tte. Gral. Pablo Riccheri Km 33,5              |       3082 | DNI     | 25523590 |
+12567842    | CAI DE KON                | EDUARDO ULISES            | Avda. Independencia 3621                           |       7826 | DNI     | 38979632 | 8332-6495
+12567843    | UN                        | EMBERY JESUS              | Avda. Eugenia Tapia de Cruz 28                     |       3837 | DNI     | 19898087 | 4976-447
+12567844    | ROSAS                     | LOIDA JUANA               | Calle 138 número 1498                              |       2579 | DNI     | 37228977 |
+12567847    | DE SOUZA                  | MARITZA BLANCA            | Roma 3261                                          |       8244 | CI      | 33258661 | 5758-6978
+12567848    | LLANOS                    | MARY GLADYS               | Córdoba 2071                                       |       7652 | DNI     | 17973717 | 9014-1718
+12567849    | OLIVER                    | MIRIAM MARUXA             | Avda.Victorica 875                                 |       5937 | DNI     | 20302985 | 8064-6289
+12567850    | CAMINO                    | RAUL GREGORIO             | Mendoza 385/389                                    |       7225 | DNI     | 30812650 |
+12567853    | TORANZO                   | EDSON JHONATAN            | Avda. Coronel Ramón L. Falcón 331                  |       3271 | DNI     | 32818210 |
+12567855    | MALQUI                    | ASHLEY IRENE              | Ricardo Gutiérrez 498                              |       2371 | DNI     | 48755682 | 4440-8858
+12567857    | NEGRETE                   | RICARDO                   | Avda. 13 n° 115                                    |       3334 | DNI     | 30760365 |
+12567858    | AGUILA                    | LUIS ALBERTO              | Avda. 60 nro 352                                   |       1700 | DNI     | 24142866 |
+12567859    | GARCIA                    | JOHANNA                   | Av. Pte. Dr. Arturo U. Illia 2570                  |       7005 | DNI     | 31320423 | 5735-6270
+12567860    | MEDINA                    | VICTOR LEONIDAS           | 25 de Mayo 1199                                    |       1869 | DNI     | 19078311 | 8456-7743
+12567861    | RODRIGUEZ                 | JORGE ANTONIO             | San Martín 455/57                                  |       6304 | DNI     | 49365661 |
+12567862    | CAMONES                   | JOSE ANTONIO              | Coronel Brandsen 36                                |       1444 | DNI     | 32230967 |
+12567863    | IBAÑEZ                    | JOSE MIGUEL               | Calle 15 N° 551                                    |       1449 | DNI     | 39665198 | 6380-8586
+12567866    | HIDALGO                   | SUSAN CATHERINE           | Calle 4 n° 7                                       |       6970 | LE      | 14959833 | 4354-8410
+12567868    | MARTINEZ                  | RUBEN FILIBERTO           | Roque Sáenz Peña 938                               |       5495 | CI      | 43121730 | 5783-9273
+12567870    | FLORES                    | CARLOS GUSTAVO            | Avda. Libertad 3802 - M.del Plata                  |       5138 | DNI     | 31181124 | 9738-664
+12567871    | PACHECO                   | LUIS ALBERTO              | Luro 5832 - M. del Plata                           |       1997 | DNI     | 24142416 | 8706-2437
+12567872    | OROSCO                    | RITA                      | Avda. Edison 302                                   |       1917 | DNI     | 37344252 | 4070-2233
+12567877    | SANCHEZ                   | KELLY                     | Calle 14 n° 4465                                   |       3621 | DNI     | 37134872 |
+12567882    | MONTES                    | JHONNY BEJER              | Avda. Mitre 198                                    |       7483 | CI      | 44920880 | 6263-66
+12567883    | VDA DE ZEGARRA            | KATHERINE LYNN            | Gral. Roca 869                                     |       8948 | DNI     | 47158644 |
+12567884    | OTAROLA                   | HENRY IVAN STEWARD        | Calle 57 n° 831 entre 11 y 12                      |       1787 | DNI     | 42711087 | 5701-1242
+12567885    | URTEAGA                   | MARIA DIONELLA            | Calle 4 n° 168                                     |       4103 | DNI     | 27669393 | 4654-6587
+12567886    | VALENTINO                 | GIUSEPPINA INMACULADA     | Avda. Ing. A. Roca  152                            |       3597 | DNI     | 14151167 |
+12567887    | VALENTINO                 | CLAUDIA ISABEL            | Avda. Libertad 698                                 |       4476 | DNI     | 49206638 |
+12567889    | GARDELLA                  | DAMIAN JULIO              | Avda. Pte. J. D. Perón 402                         |       7818 | CI      | 24017603 |
+12567890    | DIAZ                      | GIANMARCO GUSTAVO         | Avda. Colón 898                                    |       6662 | DNI     | 45637840 |
+12567891    | PONCE DE LEON             | RICHARD ENRIQUE           | Avda. San Martín 150                               |       8868 | DNI     | 27014613 |
+12567892    | AGUILAR                   | ELVA MARIA                | Alberto H. Almirón 46                              |       6521 | DNI     | 29034807 | 7796-5322
+12567895    | RETIS                     | STEPHANO D' ALESSANDRO    | Juan B. Alberdi 4775                               |       1643 | DNI     | 15154885 |
+12567896    | MONTOYA                   | ELVIRA                    | 25 de Mayo 325                                     |       8818 | DNI     | 24447255 | 5662-6631
+12567897    | ROSA PEREZ                | HAYRO GABRIEL             | Las Heras 398, Planta Baja                         |       4275 | DNI     | 25914001 | 8837-1949
+12567898    | CASTILLO                  | JOSE FERNANDO             | Lavalle 698                                        |       8229 | DNI     | 45677254 | 7437-1111
+12567901    | SHAREI                    | FABIAN JOHANN             | Avda. de los Trabajadores 2977                     |       3569 | LE      | 40081284 | 8308-5747
+12567903    | LEZAMA                    | HAROLD WOODROW            | Avda. Dr. Ricardo Balbin 879                       |       1354 | CI      | 31576257 | 5403-3649
+12567905    | NECOCHEA                  | SHIZUE                    | Colón 619                                          |       8473 | DNI     | 37421844 | 5270-8488
+12567906    | LEDESMA                   | ANABEL ALEXANDRA          | Belgrano 49                                        |       4300 | DNI     | 15884386 |
+12567907    | TAPIA                     | ROLANDO                   | Avda. Mitre 113                                    |       3745 | DNI     | 19173487 |
+12567908    | ARAUJO                    | LUIS ALBERTO              | Soarez n° 1                                        |       2744 | CI      | 24361227 | 9319-7607
+12567909    | MARCOS                    | JOSE ANTONIO              | Padre Elizalde 445                                 |       2023 | LC      | 36565453 | 7462-8152
+12567910    | LEON                      | CAROLINA                  | Avda. San Martín 194                               |       5430 | LE      | 30873014 |
+12567911    | VARGAS                    | CAROLINA                  | Calle 47 n° 901                                    |       4594 | DNI     | 32915310 | 6802-2138
+12567914    | LOZA                      | MARIA FERNANDA            | San Martín 602/26/34                               |       8400 | DNI     | 38595079 | 8970-3840
+12567916    | MINERVA                   | ELIZABETH MARIA           | Avda. Julio A. Roca 199                            |       5743 | DNI     | 36221975 |
+12567918    | NASSI                     | FIORELLA LISSETTE         | Boulevard H. Yrigoyen 99                           |       8686 | DNI     | 30144177 | 5621-8701
+12567919    | PULIDO                    | LUISA ESPERANZA           | Belgrano 199, esquina Gral. Rico                   |       8711 | DNI     | 40699324 |
+12567920    | CAMPOS                    | MARIANA                   | Don Bosco 1285 - Bahia Blanca                      |       2182 | DNI     | 25179349 |
+12567925    | ROBLES                    | RAFAEL                    | Avellaneda 281                                     |       4539 | DNI     | 24339951 | 6757-8415

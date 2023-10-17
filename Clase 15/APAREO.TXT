@@ -1,0 +1,707 @@
+--------------------------------------------------------------------------------------
+ID-EMPLEADO | NOMBRE                    | APELLIDO                  | IMPORTE
+--------------------------------------------------------------------------------------
+12566708    | CASTILLON                 | FELICITA VICTORIA         |             0,00
+12566709    | SANCHEZ                   | PAOLA DEL ROSARIO         |             0,00
+12566710    | CAJAS                     | BETTY GENARA              |             0,00
+12566711    | SANCHEZ                   | ELIZABETH LUZ             |             0,00
+12566712    | NOVOA                     | LUCY                      |             0,00
+12566714    | MENACHO                   | PEDRO ALFONSO             |             0,00
+12566718    | APARICIO                  | KENYI ARIADNA             |             0,00
+12566719    | FERNANDEZ                 | URSULA MARIA              |             0,00
+12566720    | JARA                      | JUAN                      |             0,00
+12566725    | TASAYCO                   | ROSA HELLEN               |             0,00
+12566730    | COLOMA                    | JIMMY VICTOR              |             0,00
+12566731    | REED                      | EDWIN EDDY                |             0,00
+12566732    | FERNANDEZ CONCHA          | MARIA LAURA               |             0,00
+12566733    | NIQUEN                    | MIGUEL                    |             0,00
+12566734    | JIMENEZ                   | JULISSA LIZETH            |             0,00
+12566735    | SANCHEZ                   | RUTH OLINDA               |             0,00
+12566737    | VALDEZ                    | ESTHER MARICEL            |             0,00
+12566738    | AVANTO                    | GUIDO                     |             0,00
+12566739    | PARDO                     | MARIBEL CRISPINA          |             0,00
+12566740    | PERSIVALE                 | CARLOS                    |             0,00
+12566743    | MARTINEZ                  | CLAUDIA ROZANA            |             0,00
+12566744    | TORRES                    | SANDRA FRANCESCA          |             0,00
+12566745    | TRUJILLO                  | MARISSEL ALICIA           |             0,00
+12566746    | MARCELO                   | MAXIMO GRIGORIY           |             0,00
+12566749    | RIVERA                    | EDDY GUILLERMO            |             0,00
+12566751    | ORTEGA                    | JOSE MIGUEL GIUSEPPI      |             0,00
+12566753    | VARELA                    | JOSE LUIS                 |             0,00
+12566754    | HANDAL DE NAVEA           | KARIM ARACELLY            |             0,00
+12566755    | SANCHEZ                   | PATRICK                   |             0,00
+12566756    | RIVERA                    | CARLOS                    |             0,00
+12566757    | SILVERA                   | CELIA VICTORIA            |             0,00
+12566758    | CAPCHA                    | ALDO JOSE                 |             0,00
+12566759    | GARCIA                    | ELIZABETH MARIA           |             0,00
+12566762    | PACHAS                    | JUANA BERTHA              |             0,00
+12566764    | FREITAS                   | LUIS ALEJANDRO            |             0,00
+12566766    | DONGO                     | JUAN CARLOS               |             0,00
+12566767    | OVIEDO                    | YOLANDA                   |             0,00
+12566768    | SUING                     | JODY MERCEDES             |             0,00
+12566773    | SEGOVIA                   | ALFREDO JAIME             |             0,00
+12566778    | AYALA                     | ELVIA                     |             0,00
+12566779    | GALVAN                    | ROSA CECILIA              |             0,00
+12566780    | BERNAOLA                  | ELZA                      |             0,00
+12566781    | PINEDA                    | ANTONIETA JANET           |             0,00
+12566782    | NORTON                    | BRENDA CAROL              |             0,00
+12566783    | SALAS                     | PATRICIA CAROL            |             0,00
+12566785    | GONZALES                  | MARIA FRANCISCA           |             0,00
+12566786    | ASCURRA                   | PERCY AGUSTIN             |             0,00
+12566787    | RUIZ                      | ALONSO ALEJANDRO          |             0,00
+12566788    | NAVAS                     | ELSA JANET                |             0,00
+12566791    | POLLERI                   | NICOLE ADRIANA            |             0,00
+12566792    | POSADAS                   | JUAN JOSE                 |             0,00
+12566793    | RIVAS                     | ROSANGELA VERONICA        |             0,00
+12566794    | CACERES                   | ROLANDO                   |             0,00
+12566797    | VELA                      | ISABELITA                 |             0,00
+12566799    | JACOBE                    | ANDRES ALEJANDRO          |             0,00
+12566801    | TASAYCO                   | JOSE LUIS                 |             0,00
+12566802    | BERROSPI                  | JAVIER FERNANDO           |             0,00
+12566803    | MEJORADA                  | MANUEL HERNAN             |             0,00
+12566804    | ABARCA                    | GLHINDA MARLENY           |             0,00
+12566805    | GUERRA                    | EMMA ELINA                |             0,00
+12566806    | CASTRO                    | CECILIA YOVANA            |             0,00
+12566807    | ESPINOZA                  | MARIA LOURDES             |             0,00
+12566810    | CASTILLON                 | NESTOR ALCIDES            |             0,00
+12566812    | COA                       | LUCAS                     |             0,00
+12566814    | ASTETE                    | ANDRES FRANCISCO          |             0,00
+12566815    | SAMANAMUD                 | FABIAN JOHANN             |             0,00
+12566816    | BELLIDO                   | ISELA LILIANA             |             0,00
+12566821    | LOYOLA                    | JUAN MARTIN               |             0,00
+12566826    | GALVEZ                    | BENITA                    |             0,00
+12566827    | LENTA                     | JOSIAH MATTEO             |             0,00
+12566828    | MEZARINA                  | LUCA TIMOTHY              |             0,00
+12566829    | ROBANCHO                  | MARIA PIA                 |             0,00
+12566830    | ALVAREZ                   | ALEXANDER GEORGE          |             0,00
+12566831    | VIDAL                     | EDGARD GUSTAVO            |             0,00
+12566833    | SOSA                      | MARIA DE JESUS            |             0,00
+12566834    | ALFARO                    | MARIA ROCIO               |             0,00
+12566835    | ANTEZANA                  | ALEXA RAE                 |             0,00
+12566836    | CORTEZ                    | SEVASTIAN ISAIAH          |             0,00
+12566839    | VASQUEZ                   | ALESSANDRO                |             0,00
+12566840    | ACHA                      | SANDRO PABLO              |             0,00
+12566841    | BARRENECHEA               | FERNANDO                  |             0,00
+12566842    | DAVILA                    | ANA CECILIA               |             0,00
+12566845    | TORRES                    | MILLIE JANELLE            |             0,00
+12566847    | CARRILLO                  | JOSE HUMBERTO             |             0,00
+12566849    | SANTOLALLA                | GABRIELA DENISSE          |             0,00
+12566850    | CACERES                   | JESSICA ANDREA            |             0,00
+12566851    | VARGAS                    | OLGA VICTORIA             |             0,00
+12566852    | LUQUE                     | JULIA                     |             0,00
+12566853    | MILLA                     | ROSSANA ELIZABETH         |             0,00
+12566854    | ALVAREZ                   | JULIO CESAR               |             0,00
+12566855    | VARGAS                    | CARLOS ALEJANDRO          |             0,00
+12566858    | MOSCOSO                   | IAN MATHIS                |             0,00
+12566860    | PACUSSICH                 | ASCENCION                 |             0,00
+12566862    | PECHO                     | FERNANDO                  |             0,00
+12566863    | RIVASPLATA                | SUT LAN                   |             0,00
+12566864    | ALARCON                   | CARMEN PATRICIA           |             0,00
+12566869    | VARGAS                    | DELIA LUCIA               |             0,00
+12566874    | CAJAS                     | DENISE BELINDA            |             0,00
+12566875    | CARDENAS                  | HUGO ALBERTO              |             0,00
+12566876    | TONG                      | RUTH TANIA                |             0,00
+12566877    | YUI                       | LEONOR DORIS              |             0,00
+12566878    | ECHEVARRIA                | OMAR                      |             0,00
+12566879    | FERNANDEZ                 | THIAGO                    |             0,00
+12566881    | YU                        | VANESSA SAMANTA           |             0,00
+12566882    | MOLINA                    | BRENDA YOLIZA             |             0,00
+12566883    | SIFUENTES                 | ELISA INES                |             0,00
+12566884    | FARJE                     | JORGE EDUARDO             |             0,00
+12566887    | SALAS                     | KAREN ANGELICA            |             0,00
+12566888    | APARCANA                  | GINO PAOLO                |             0,00
+12566889    | MORON                     | JOSIAH MATTEO             |             0,00
+12566890    | NUVE                      | LUCA TIMOTHY              |             0,00
+12566893    | FONSECA                   | MARIA DE LOS ANGELES      |             0,00
+12566895    | ROSALES                   | SAMY ADAM                 |             0,00
+12566897    | JAVIER                    | HAYRO GABRIEL             |             0,00
+12566898    | RAMIREZ                   | MANUEL ANTONIO            |             0,00
+12566899    | VEXLER                    | MARIA CECILIA             |             0,00
+12566900    | DOMINGUEZ                 | PAMELA LESLIE             |             0,00
+12566901    | MIANI                     | DARLING SOFIA             |             0,00
+12566902    | HOLGUIN                   | TERESA                    |             0,00
+12566903    | LA PORTILLA               | JUAN CARLOS               |             0,00
+12566906    | GARCIA                    | ANNY IDA                  |             0,00
+12566908    | MONTENEGRO                | ZARA JULIETA              |             0,00
+12566910    | PAICO                     | JORGE                     |             0,00
+12566911    | VILCHEZ                   | MANUEL LEONARDO           |             0,00
+12566912    | GALARRETA                 | DAVID ANGELO              |             0,00
+12566917    | SALINAS                   | GENESIS DEZARIE           |             0,00
+12566922    | BARRIENTOS                | YAN PIERRE                |             0,00
+12566923    | ZAVALETA                  | AARON                     |             0,00
+12566924    | LOPEZ                     | BRANDON                   |             0,00
+12566925    | SANCHEZ                   | INGRID                    |             0,00
+12566926    | CALDERON                  | BIANCA CECILIA            |             0,00
+12566927    | IZQUIERDO                 | DANIEL ALBERTO            |             0,00
+12566929    | MORENO                    | ISABELITA                 |             0,00
+12566930    | DE CAVERO                 | DENISE BELINDA            |             0,00
+12566931    | GARCIA                    | HILDA MILAGRITOS          |             0,00
+12566932    | BAZAN                     | RAUL ANGEL JOSE           |             0,00
+12566935    | VILLALOBOS                | LUIS ALEJANDRO            |             0,00
+12566936    | ARIAS                     | GLORIA MARGARITA          |             0,00
+12566937    | CASTRO                    | ROSA ELVIRA               |             0,00
+12566938    | COLLAZOS                  | RAFAEL                    |             0,00
+12566941    | ZAMALLOA                  | LEONEL SAUL               |             0,00
+12566943    | SORIANO                   | CARMEN ROSA               |             0,00
+12566945    | RODRIGUEZ                 | JESSE ALEXANDER           |             0,00
+12566946    | CARRANZA                  | JESSICA ANDREA            |             0,00
+12566947    | PARI                      | LILA CHARLIZE             |             0,00
+12566948    | CASO                      | LUISA ESPERANZA           |             0,00
+12566949    | MUÑOZ                     | MILTON ANGELO             |             0,00
+12566950    | FOSTER                    | VIVIANA VANESSA           |             0,00
+12566951    | HIDALGO                   | LILIANA CATALINA          |             0,00
+12566954    | CALDERON                  | SHIRLEY                   |             0,00
+12566956    | CALIZAYA                  | TIMOTEO                   |             0,00
+12566958    | LEO                       | JENNY ISABEL              |             0,00
+12566959    | MORILLA                   | ROXANA MIRTHA             |             0,00
+12566960    | HERNANDEZ                 | EDUARDO ANGEL             |             0,00
+12566965    | RAMIREZ                   | DANIEL FRANCISCO          |             0,00
+12566970    | MILJANOVICH               | ENRIQUE ARTURO            |             0,00
+12566971    | RAGOSTA                   | MYRKA VALERY              |             0,00
+12566972    | DE LA CRUZ                | NICOLE ADRIANA            |             0,00
+12566973    | ZANABRIA                  | LUCY                      |             0,00
+12566974    | ALVAREZ                   | CARMEN PILAR              |             0,00
+12566975    | CASTILLO                  | JORGE JACKSON             |             0,00
+12566977    | OCHARAN                   | ANABEL ALEXANDRA          |             0,00
+12566978    | ORTIZ                     | MARY GLADYS               |             0,00
+12566979    | TEVES                     | MARIA DIONELLA            |             0,00
+12566980    | LORENA                    | MILAGROS GISELLE          |             0,00
+12566983    | VEGA                      | ROSENDO PABLO             |             0,00
+12566984    | CIUDAD                    | HIPOLITO ABRIL            |             0,00
+12566985    | MATTOS                    | ESTEFANI                  |             0,00
+12566986    | HONOR                     | GEANELLA CAROLINE         |             0,00
+12566989    | HOYOS                     | LISSETTE                  |             0,00
+12566991    | SEGURA                    | PATRICE ANNE              |             0,00
+12566993    | RETAMOZO                  | JULISSA LIZETH            |             0,00
+12566994    | RUIZ                      | GLADYS HORTENCIA          |             0,00
+12566995    | SOUQUON                   | JOSE                      |             0,00
+12566996    | BARCENA                   | MARTHA ANGELICA           |             0,00
+12566997    | ROJAS                     | YESHICA ROMINA            |             0,00
+12566998    | CAMPOS                    | CARLOS ALBERTO            |             0,00
+12566999    | RONCO                     | ERICK SEBASTIAN           |             0,00
+12567002    | APARICIO                  | MARIA ELENA               |             0,00
+12567004    | PAREDES                   | MARTHA ANGELICA           |             0,00
+12567006    | MOLERO                    | EVARISTA PAULA            |             0,00
+12567007    | PAREDES                   | ESPERANZA                 |             0,00
+12567008    | AVENDAÑO                  | IVONNE ELIZABETH          |             0,00
+12567013    | SANDOVAL DE MEZA          | HUGO ANDRES               |             0,00
+12567018    | TORRES                    | HECTOR LUIS               |             0,00
+12567019    | VASQUEZ                   | JULIO GUILLERMO           |             0,00
+12567020    | MENDOZA                   | MARIA DEL CARMEN          |             0,00
+12567021    | RENGIFO                   | HILDA MILAGRITOS          |             0,00
+12567022    | LEON VDA DE ZARZOSA       | GABRIELA DENISSE          |             0,00
+12567023    | SALCEDO                   | MARIA ESTHER              |             0,00
+12567025    | SIMMONS                   | LUCINDA MARGOT            |             0,00
+12567026    | BARTUREN                  | MARIA ELENA               |             0,00
+12567027    | SILVA                     | OBDULIA                   |             0,00
+12567028    | ECHEVARRIA                | RICHARD ENRIQUE           |             0,00
+12567031    | UNTIVEROS                 | GUILLERMO ANTONIO         |             0,00
+12567032    | CONDORI                   | CESAR FERNANDO            |             0,00
+12567033    | GONZALES                  | ANDRES                    |             0,00
+12567034    | DAVILA                    | SUSANA MAGDALENA          |             0,00
+12567037    | ZUTA                      | CAROLA KARINA             |             0,00
+12567039    | PLACENCIA                 | JUSTINIANO NICANOR        |             0,00
+12567041    | SADOWSKY                  | MICHELLE CHRISTINE        |             0,00
+12567042    | CORONEL                   | YASMINE ALEXIS            |             0,00
+12567043    | PINEDA                    | AURELIO SEGUNDINO         |             0,00
+12567044    | PACCHIONI                 | ROXANA CONSUELO           |             0,00
+12567045    | ROMERO DE RIOS            | CARLOS ALBERTO            |             0,00
+12567046    | ALEGRE                    | LUCY ELENA                |             0,00
+12567047    | LOARTE                    | LUCINDA MARGOT            |             0,00
+12567050    | BENAVENTE                 | BLANCA IRIS               |             0,00
+12567052    | DAVILA                    | FIORELLA SUZANNE          |             0,00
+12567054    | NEIRA                     | JOSE FREDDY               |             0,00
+12567055    | SALAS                     | MANUEL HERNAN             |             0,00
+12567056    | CAPUCHO                   | YESSICA                   |             0,00
+12567061    | CAHUA                     | JHONNY BEJER              |             0,00
+12567066    | VARGAS                    | CAROLINE                  |             0,00
+12567067    | ZARATE                    | PERCY ESTUARDO            |             0,00
+12567068    | CASTRO                    | ISELA LILIANA             |             0,00
+12567069    | ESPINOZA                  | CIRILO ALFONSO            |             0,00
+12567070    | GIRON                     | NORMAN BRUCE              |             0,00
+12567071    | VARA                      | ALDO JOSE                 |             0,00
+12567073    | VARGAS                    | MARIA LAURA               |             0,00
+12567074    | CASTAÑEDA                 | RAUL ABSALON              |             0,00
+12567075    | TRAGODARA                 | ALEXIA                    |             0,00
+12567076    | LEYVA                     | NICOLAS MARIANO           |             0,00
+12567079    | NUÑEZ                     | KAREN ROSSE               |             0,00
+12567080    | BURNEO                    | RICARDO ALEX              |             0,00
+12567081    | DELLY                     | VICTOR                    |             0,00
+12567082    | NUÑEZ                     | JOHANA LUCILA             |             0,00
+12567085    | MONTALVO                  | DAVID GABRIEL             |             0,00
+12567087    | SALAS                     | JUAN CARLOS               |             0,00
+12567089    | SOTO                      | GISSET MARGARITA          |             0,00
+12567090    | CASTILLO                  | DIEGO REYNALDO            |             0,00
+12567091    | RUIZ                      | RICARDO ALFONZO           |             0,00
+12567092    | ARCE                      | ANILU IRMA                |             0,00
+12567093    | TRILLO                    | BRUNO RENATO              |             0,00
+12567094    | GARDELLA                  | JHONNATHAN GIOVANNI       |             0,00
+12567095    | SALAZAR                   | AMAIA                     |             0,00
+12567098    | LOSTAUNAU                 | ALEJANDRA GUADALUPE       |             0,00
+12567100    | CHAVEZ                    | CARLOS ALBERTO            |             0,00
+12567102    | ALARCON                   | CRISTINA GLADYS           |             0,00
+12567103    | SOTELO                    | JOSE ANTONIO              |             0,00
+12567104    | NAPURI                    | JOSHUA LEONARDO           |             0,00
+12567109    | ONSIHUAY                  | MEDALIT REBECA            |             0,00
+12567114    | LEON                      | MARIA RITA                |             0,00
+12567115    | PENAGOS                   | GESELLE                   |             0,00
+12567116    | FARFAN                    | VIVIANA VANESSA           |             0,00
+12567117    | VIDALON                   | GIANCARLOS ARTURO         |             0,00
+12567118    | LA SERNA                  | MARISCELA ISABEL          |             0,00
+12567119    | SOTOMAYOR                 | RAUL FELIPE               |             0,00
+12567121    | TORRES                    | VICTOR MANUEL             |             0,00
+12567122    | GALINDO                   | MICHELLE CHRISTINE        |             0,00
+12567123    | VARGAS                    | FLOR DE MARIA             |             0,00
+12567124    | RODRIGUEZ                 | IVONNE MADELEINE          |             0,00
+12567127    | TOMATIS                   | LUCIA                     |             0,00
+12567128    | PERROTTA                  | ENA                       |             0,00
+12567129    | VILLA GARCIA              | FIORELLA DEL PILAR        |             0,00
+12567130    | MATEO                     | JIMMY ALEXANDER           |             0,00
+12567133    | MALPARTIDA DE CAÑOTE      | RICHARD TITO              |             0,00
+12567135    | OLIVRY                    | CLARA                     |             0,00
+12567137    | MARINA                    | JUAN CARLOS               |             0,00
+12567138    | JALLO DE AYALA            | RAMON ALBANO              |             0,00
+12567139    | SALAS                     | THOMAS JOSE               |             0,00
+12567140    | CERVANTES                 | JORGE LUIS                |             0,00
+12567141    | SEMINARIO                 | LUIS ENRIQUE              |             0,00
+12567142    | FERNANDEZ DE GARRATT      | LEONOR DORIS              |             0,00
+12567143    | NICHO                     | LUIGI ANTONINO            |             0,00
+12567146    | CASTILLO                  | MACARENA                  |             0,00
+12567148    | ALARCON                   | MILUSKA STEPHANY          |             0,00
+12567150    | DIEZ                      | LIZ                       |             0,00
+12567151    | ESPINOZA                  | BETTY GENARA              |             0,00
+12567152    | SALAS                     | GLADYS BERNARDA           |             0,00
+12567157    | RAZZETO                   | SAMY ADAM                 |             0,00
+12567162    | CONCHA                    | RICARDO ALEX              |             0,00
+12567163    | DELGADO                   | RICHARD TITO              |             0,00
+12567164    | GUEVARA                   | ANDRES DAVID              |             0,00
+12567165    | PEREZ                     | MARIA LUISA               |             0,00
+12567166    | PACHAS                    | VERONICA ELIZABETH        |             0,00
+12567167    | VILELA                    | YAN PIERRE                |             0,00
+12567169    | PEREA                     | ANA MARIA DEL ROSARIO     |             0,00
+12567170    | CAVALLINI                 | MARY-ANN                  |             0,00
+12567171    | DELGADO DE SANCHEZ        | DESIREE F                 |             0,00
+12567172    | PLASENCIA                 | JOSE LUIS                 |             0,00
+12567175    | SIVINCHA                  | LILIAN SUSANA             |             0,00
+12567176    | CALLE                     | MARIA DEL CARMEN          |             0,00
+12567177    | SANCHEZ                   | DAVID GABRIEL             |             0,00
+12567178    | DECENA                    | FLOR VERONICA             |             0,00
+12567181    | IZQUIERDO                 | JOSE MANUEL               |             0,00
+12567183    | REICHARDT                 | CESAR MANUEL              |             0,00
+12567185    | QUEZADA                   | JULIO GIANCARLO           |             0,00
+12567186    | CASTILLON                 | CINTHYA GRISELL           |             0,00
+12567187    | SANCHEZ                   | ERIKA                     |             0,00
+12567188    | JARA                      | EDUARDO XAVIER            |             0,00
+12567189    | MORON                     | JESUS FELIPE              |             0,00
+12567190    | BARREDA                   | JOSE ORLANDO              |             0,00
+12567191    | CASTRO                    | PABLO                     |             0,00
+12567194    | CHICCHON                  | ZENON                     |             0,00
+12567196    | DE ROJAS                  | KARLA ANGELA              |             0,00
+12567198    | BORJAS                    | JULIO MAXIMO              |             0,00
+12567199    | VARGAS                    | LUIS HERNAN               |             0,00
+12567200    | GIRON                     | VANESSA SAMANTA           |             0,00
+12567205    | TALAVERA                  | HUMBERTO GIANCARLO        |             0,00
+12567210    | GUTARRA                   | MELISSA                   |             0,00
+12567211    | PORRAS                    | CESAR EDWIND              |             0,00
+12567212    | BARRIGA                   | ALFREDO EMILIO            |             0,00
+12567213    | URQUIETA                  | JOSET JESUS               |             0,00
+12567214    | LEN                       | MARIA LOURDES             |             0,00
+12567215    | NUÑEZ                     | JOHN VIRGILIO             |             0,00
+12567217    | RAYGADA                   | MATTHIAS IGNACIO          |             0,00
+12567218    | OTOYA                     | MARIA PIA                 |             0,00
+12567219    | SEQUEIROS                 | MARIA ELIZABETH           |             0,00
+12567220    | BENDEZU                   | DANIEL ROBERTO            |             0,00
+12567223    | CAMONES                   | KATTY SUSANA              |             0,00
+12567224    | CHUNG                     | ROSANGELA VERONICA        |             0,00
+12567225    | PAJUELO                   | MARIA ELENA               |             0,00
+12567226    | CHAVEZ                    | SONIA                     |             0,00
+12567229    | CHAVEZ                    | JAVIER FRANCISCO          |             0,00
+12567231    | SOTELO                    | DENISE HAYDEE             |             0,00
+12567233    | SANCHEZ                   | HAYDEE ROSARIO            |             0,00
+12567234    | HUAMAN                    | HUGO ANDRES               |             0,00
+12567235    | ORE                       | KARINA ELIZABETH          |             0,00
+12567236    | MONTEZA                   | MARIA FRANCISCA           |             0,00
+12567237    | RODRIGUEZ                 | PEDRO MIGUEL GUSTAVO      |             0,00
+12567238    | GAMARRA                   | YONNY SANTIAGO            |             0,00
+12567239    | TORRES                    | MIRIAM MARUXA             |             0,00
+12567242    | OSCANOA                   | OLIVER FRITZ              |             0,00
+12567244    | GOMEZ                     | FRANK IRVING              |             0,00
+12567246    | LLANOS                    | JOSET JESUS               |             0,00
+12567247    | LLANOS                    | RICARDO ARTURO            |             0,00
+12567248    | ALARCON                   | THIAGO                    |             0,00
+12567253    | SEGURA                    | JOSE ANTONIO              |             0,00
+12567258    | CLEMENTE                  | TERESA                    |             0,00
+12567259    | LIMA                      | ESTHER MARICEL            |             0,00
+12567260    | MOSLEY                    | JULIO MAXIMO              |             0,00
+12567261    | ZEVALLOS                  | LILIANA CATALINA          |             0,00
+12567262    | GODINEZ                   | CRISTHIAN                 |             0,00
+12567263    | SAM-VARGAS                | JULIA                     |             0,00
+12567265    | RAFAEL                    | GIANELLA                  |             0,00
+12567266    | ANGELES                   | BRIEL KAELA               |             0,00
+12567267    | REYES                     | KATHERINE LYNN            |             0,00
+12567268    | QUISPE                    | MARGORIE DEL CARMEN       |             0,00
+12567271    | REYES                     | LEONOR AURORA             |             0,00
+12567272    | CAMPOS                    | MARIA DE JESUS            |             0,00
+12567273    | VALLE                     | CARLOS ANDRES             |             0,00
+12567274    | PIÑA                      | RICARDO                   |             0,00
+12567277    | VARGAS                    | KAREN ANGELICA            |             0,00
+12567279    | GONZALEZ                  | TIMOTEO                   |             0,00
+12567281    | SAUSA                     | SUSAN CATHERINE           |             0,00
+12567282    | ROJAS                     | LUCAS                     |             0,00
+12567283    | RUIDIAZ                   | LIZET                     |             0,00
+12567284    | CRUZADO                   | LIBIA HIDEKO              |             0,00
+12567285    | RIVERO                    | ANA                       |             0,00
+12567286    | SOTO                      | GINA PAOLA                |             0,00
+12567287    | TAFUR                     | YOLANDA                   |             0,00
+12567290    | LISE                      | ARMANDO ALFREDO           |             0,00
+12567292    | VELASQUEZ                 | MARY-ANN                  |             0,00
+12567294    | LESCANO                   | ROSA CLOTILDE             |             0,00
+12567295    | RAMIREZ                   | VICKY DESSIRRE            |             0,00
+12567296    | PEÑA                      | GLADYS                    |             0,00
+12567301    | LUCANA                    | PIERO THOMAS              |             0,00
+12567306    | BARRIENTOS                | BENITA                    |             0,00
+12567307    | HERNANDEZ                 | JOSE ORLANDO              |             0,00
+12567308    | HINOJOSA                  | MARIANA                   |             0,00
+12567309    | MANRIQUE                  | AIDEE ESPERANZA           |             0,00
+12567310    | MONTIEL                   | EMERITA                   |             0,00
+12567311    | OSORIO                    | JAVIER MIGUEL             |             0,00
+12567313    | VELASQUEZ                 | PIERRE ANDRE              |             0,00
+12567314    | AMPUERO                   | VICKY DESSIRRE            |             0,00
+12567315    | PORTUGAL                  | JANNY EVELYN              |             0,00
+12567316    | HUAMAN                    | LELIA                     |             0,00
+12567319    | LEZCANO                   | DOMINIK ALEJANDRO         |             0,00
+12567320    | GARCIA                    | CARLOS ANDRES             |             0,00
+12567321    | SIPION                    | YVONNE VIVIENNE           |             0,00
+12567322    | BERRY                     | ALDA LUISA                |             0,00
+12567325    | ORE                       | ELSA CARMELA              |             0,00
+12567327    | RODRIGUEZ                 | CAROLINA ROSA             |             0,00
+12567329    | RIOS                      | JESSICA PAOLA             |             0,00
+12567330    | AGUEDA                    | CHRISTINA DIANA           |             0,00
+12567331    | ARAUJO                    | JOSE MIGUEL               |             0,00
+12567332    | CARRASCO                  | MARILIA                   |             0,00
+12567333    | GABE                      | MANUEL JESUS              |             0,00
+12567334    | GONZALES                  | VICTORIA                  |             0,00
+12567335    | OCAÑA                     | JHON POOL                 |             0,00
+12567338    | VILA                      | JORGE AUGUSTO             |             0,00
+12567340    | REYES                     | FRANK IRVING              |             0,00
+12567342    | AQUINO                    | CRISTIAN                  |             0,00
+12567343    | RAMOS                     | LUIS HUMBERTO             |             0,00
+12567344    | ARBIZA                    | DENISE HAYDEE             |             0,00
+12567349    | RUIZ                      | DEISI KARINA              |             0,00
+12567354    | MUNIVE                    | JUAN ROBERTO              |             0,00
+12567355    | UBIDIA                    | ALDA LUISA                |             0,00
+12567356    | ARANGO                    | DAVID ANGELO              |             0,00
+12567357    | GRILL                     | LUISA EULALIA             |             0,00
+12567358    | OLIVERA                   | HERMANN EDUARDO           |             0,00
+12567359    | RAMIREZ                   | JULIO GIANCARLO           |             0,00
+12567361    | ROMERO                    | MERCEDES CAROL            |             0,00
+12567362    | BUSTINZA                  | ZANDALE PRISCILA          |             0,00
+12567363    | LOPEZ                     | CARMEN PATRICIA           |             0,00
+12567364    | ARIAS                     | CAROLINE                  |             0,00
+12567367    | ASTUDILLO                 | PEDRO ALFONSO             |             0,00
+12567368    | CABALLERO                 | YESSICA                   |             0,00
+12567369    | REYMUNDO                  | ULADISLAO                 |             0,00
+12567370    | HORNA                     | FABRIZIO ALEJANDRO        |             0,00
+12567373    | PAREDES                   | JUAN ANTONIO JEFFERS      |             0,00
+12567375    | LOAYZA                    | RAUL ABSALON              |             0,00
+12567377    | CRUZ                      | CARLOS                    |             0,00
+12567378    | LEAMAN                    | ALEXIA                    |             0,00
+12567379    | STOPP                     | NICOLAS MARIANO           |             0,00
+12567380    | ECHEVARRIA                | WILFREDO SEBASTIAN        |             0,00
+12567381    | GRANZA                    | ANN CATHERINE             |             0,00
+12567382    | CANDELA DE GUZMAN         | AGATHA LIZ                |             0,00
+12567383    | MALPARTIDA                | LUIS ENRIQUE              |             0,00
+12567386    | ANGELES                   | GABRIELA LEONOR           |             0,00
+12567388    | LEON                      | MARIA LUZ                 |             0,00
+12567390    | BENAVIDES                 | MIGUEL ANGEL              |             0,00
+12567391    | HUAMANI                   | ROMULO JORGE              |             0,00
+12567392    | LOYOLA                    | CELICA TRINIDAD           |             0,00
+12567397    | LANAZCA                   | DIEGO REYNALDO            |             0,00
+12567402    | AGUERO                    | GLADYS HORTENCIA          |             0,00
+12567403    | MEJIA DE JIMENEZ          | RICARDO ALFONZO           |             0,00
+12567404    | KILCOYNE                  | GINA PAOLA                |             0,00
+12567405    | PRADO                     | LUIS HUMBERTO             |             0,00
+12567406    | PANAQUE                   | EDWARD JHONATTAN          |             0,00
+12567407    | SAHOO                     | JESUS FELIPE              |             0,00
+12567409    | RIVERA                    | MILUSKA STEPHANY          |             0,00
+12567410    | PAREDES                   | MILAGROS GISELLE          |             0,00
+12567411    | RODRIGUEZ                 | BRITNEY                   |             0,00
+12567412    | CHAPILLIQUEN              | JUAN CARLOS               |             0,00
+12567415    | LUNA                      | EDILBERTO                 |             0,00
+12567416    | CAMARENA                  | STEFANO                   |             0,00
+12567417    | GORDILLO                  | JHONY WILLIAM             |             0,00
+12567418    | LEONARDO                  | JOSE MANUEL               |             0,00
+12567421    | TOLEDO                    | JEAN PIERRE               |             0,00
+12567423    | MAOKI                     | ANDRES                    |             0,00
+12567425    | POTTER                    | ANDDY JORDAN              |             0,00
+12567426    | HERRERA                   | HENRY IVAN STEWARD        |             0,00
+12567427    | RAMOS                     | MILAGROS VANESSA          |             0,00
+12567428    | CHIA                      | VICTOR                    |             0,00
+12567429    | LOAYZA                    | YORYI VILMA               |             0,00
+12567430    | BENAVIDES                 | JUAN ARCADIO              |             0,00
+12567431    | SOSA                      | CARLOS MANUEL             |             0,00
+12567434    | GARCIA                    | PERCY AGUSTIN             |             0,00
+12567436    | CORTES                    | ROXANA ARACELI            |             0,00
+12567438    | GARCIA                    | MARJORIE LAURA            |             0,00
+12567439    | GUADIAMOS                 | MARTIN ENRIQUE            |             0,00
+12567440    | GUTIERREZ                 | SHIRLEY                   |             0,00
+12567445    | VASQUEZ                   | ELIZABETH TEOFILA         |             0,00
+12567450    | NEIRA                     | LOGAN PAREDES             |             0,00
+12567451    | SALAS                     | MILTON ANGELO             |             0,00
+12567452    | DIAZ DE CARCAMO           | ZOILA SOLEDAD             |             0,00
+12567453    | GODOY                     | DARLING SOFIA             |             0,00
+12567454    | PEREZ                     | RAUL ANGEL JOSE           |             0,00
+12567455    | WINDER                    | LOGAN PAREDES             |             0,00
+12567457    | ESPINO                    | SANDRA FRANCESCA          |             0,00
+12567458    | ACEVEDO                   | SADIALY PAOLA             |             0,00
+12567459    | CONGORA                   | ANA                       |             0,00
+12567460    | ESPEJO                    | MARIO                     |             0,00
+12567463    | PULIDO                    | MARISSEL ALICIA           |             0,00
+12567464    | ROSAS                     | ANDRES EDUARDO            |             0,00
+12567465    | VELAOCHAGA                | CARLOS RAUL               |             0,00
+12567466    | VERGARA                   | GIOVANNI ORLANDO          |             0,00
+12567469    | CENTENO                   | HERMANN EDUARDO           |             0,00
+12567471    | VALDEZ                    | KATITZA ROSANA            |             0,00
+12567473    | NOVOA                     | BRITTANY ISABEL           |             0,00
+12567474    | HUERTAS                   | HENRY                     |             0,00
+12567475    | TANTARUNA                 | KARINA ELIZABETH          |             0,00
+12567476    | CASTILLO                  | LUCIA GABRIELA            |             0,00
+12567477    | MORI                      | GIUSEPPINA INMACULADA     |             0,00
+12567478    | ONTANEDA                  | ALVARO JUAN               |             0,00
+12567479    | VILLAREYES                | SUSANA MARIA              |             0,00
+12567482    | SILVA SANTISTEVAN         | OLGA VICTORIA             |             0,00
+12567484    | ECHEVARRIA                | ESTEFANI                  |             0,00
+12567486    | CHAVEZ                    | MELISSA                   |             0,00
+12567487    | ZARZOSA                   | JORGE ENRIQUE             |             0,00
+12567488    | MUÑOZ                     | JORGE LUIS                |             0,00
+12567493    | RODRIGUEZ                 | RAUL FELIPE               |             0,00
+12567498    | CASTILLO                  | JUAN MARTIN               |             0,00
+12567499    | MENDOZA                   | OBDULIA                   |             0,00
+12567500    | BORJA                     | EDITH                     |             0,00
+12567501    | CARDENAS                  | JOSE MIGUEL GIUSEPPI      |             0,00
+12567502    | CARRASCO                  | ARTURO ANDRE              |             0,00
+12567503    | TOVAR                     | MAXIMO GRIGORIY           |             0,00
+12567505    | ESPINOZA                  | LANA ROSE                 |             0,00
+12567506    | MONTES                    | MATTHIAS IGNACIO          |             0,00
+12567507    | SILVA SANTISTEBAN         | MIGUEL ANGEL              |             0,00
+12567508    | CASABONA                  | LUIGI ANTONINO            |             0,00
+12567511    | BAZAN                     | IGNACIO EDUARDO           |             0,00
+12567512    | LOYOLA                    | GIANELLA                  |             0,00
+12567513    | VALVERDE                  | JORGE ANTONIO             |             0,00
+12567514    | CARDICH                   | LUIS ALEJANDRO            |             0,00
+12567517    | LUNA                      | JORGE                     |             0,00
+12567519    | SALINAS                   | BRIANNA                   |             0,00
+12567521    | HERRERA                   | DIANA BRIGITTE            |             0,00
+12567522    | CORDOVA                   | JOSE ELIAS                |             0,00
+12567523    | VILLA                     | JUANA ROSA                |             0,00
+12567524    | DE DAVILA                 | LEONEL SAUL               |             0,00
+12567525    | DIAZ                      | CARLOS MANUEL             |             0,00
+12567526    | LARRIEGA                  | JUAN DE LA CRUZ           |             0,00
+12567527    | ROMAN                     | LILIAN SUSANA             |             0,00
+12567530    | DEXTRE                    | STEPHANIE                 |             0,00
+12567532    | TORRES                    | JAVIER MIGUEL             |             0,00
+12567534    | VASQUEZ                   | HAYDEE ROSARIO            |             0,00
+12567535    | ZAMUDIO                   | HECTOR                    |             0,00
+12567536    | ATOCHE                    | JANNY EVELYN              |             0,00
+12567541    | FERNANDEZ                 | VICTOR RAUL               |             0,00
+12567546    | DE VALDIVIA               | MIRIAM NELVA              |             0,00
+12567547    | ECHEANDIA                 | JORGE ALBERTO             |             0,00
+12567548    | NUÑEZ                     | JORGE AUGUSTO             |             0,00
+12567549    | POMA                      | JUAN CARLOS RODRIGO       |             0,00
+12567550    | ALFARO                    | JUAN JOSE                 |             0,00
+12567551    | MAURTUA                   | MARIO ANTONY              |             0,00
+12567553    | BEYTIA                    | JULIO CESAR               |             0,00
+12567554    | KIRK                      | JHONY WILLIAM             |             0,00
+12567555    | NUÑEZ                     | CELICA TRINIDAD           |             0,00
+12567556    | GARCIA DE KIMBERLING      | JUAN ARCADIO              |             0,00
+12567559    | URCIA                     | AIDEE ESPERANZA           |             0,00
+12567560    | MENA                      | CARLOS RAUL               |             0,00
+12567561    | SALDAÑA                   | ANA CATHERINE             |             0,00
+12567562    | TIEMROTH                  | ANA MARIBEL               |             0,00
+12567565    | SILVA                     | LELIA                     |             0,00
+12567567    | SANTIAGO                  | RICARDO CESAR             |             0,00
+12567569    | PAULI                     | JOSE                      |             0,00
+12567570    | FAJARDO                   | CAMILLE MEZARINA          |             0,00
+12567571    | PESARESSI                 | PATRICE ANNE              |             0,00
+12567572    | DEL AGUILA                | PAMELA LESLIE             |             0,00
+12567573    | MONTERO                   | ZENON                     |             0,00
+12567574    | GARCIA                    | ARMANDO                   |             0,00
+12567575    | PAUCAR                    | DANIEL ROBERTO            |             0,00
+12567578    | GARZON                    | GIULIAN ALEXANDER         |             0,00
+12567580    | ALMONTE                   | IVAN RAMON                |             0,00
+12567582    | VARAS                     | JOSE HUMBERTO             |             0,00
+12567589    | DE FRANKLIN               | LUISA EULALIA             |             0,00
+12567594    | CARBAJAL                  | SEVASTIAN ISAIAH          |             0,00
+12567595    | PALOMINO                  | VALERIA ALEJANDRA         |             0,00
+12567596    | MAGUIÑA                   | ZOILA SOLEDAD             |             0,00
+12567597    | SANCHEZ                   | ALVARO JUAN               |             0,00
+12567598    | CORAHUA                   | SUSANA MARIA              |             0,00
+12567599    | VASQUEZ                   | BRITNEY                   |             0,00
+12567601    | MARTINEZ                  | ELEODORO RICHARD          |             0,00
+12567602    | KILCOYNE                  | JORGE RAUL                |             0,00
+12567603    | PRADO                     | PIERRE ANDRE              |             0,00
+12567604    | ALTAMIRANO                | RICHARD WINSTON           |             0,00
+12567607    | VELASQUEZ                 | MARIA ELENA               |             0,00
+12567608    | JATAVE                    | DEISI KARINA              |             0,00
+12567609    | PINTO                     | GIANCARLOS ARTURO         |             0,00
+12567610    | NAPURI                    | JUANITA GISELLA           |             0,00
+12567613    | GIORFFINO                 | RENEE                     |             0,00
+12567615    | SAAVEDRA                  | ELISA INES                |             0,00
+12567617    | NUÑEZ                     | CESAR AUGUSTO             |             0,00
+12567618    | PUICON                    | LUIS ALBERTO              |             0,00
+12567619    | RIVERA                    | TANIA CAROLINA            |             0,00
+12567620    | URIZAR                    | PAOLA JANET               |             0,00
+12567621    | VELAZCO                   | JORGE RAUL                |             0,00
+12567622    | CORDOVA                   | ANTONIETA JANET           |             0,00
+12567623    | ORELLANA                  | ELENA REGINA              |             0,00
+12567626    | BRIONES                   | GLADYS                    |             0,00
+12567628    | CHAVEZ                    | LISSETTE                  |             0,00
+12567630    | GRILLO                    | CARLOS ALEJANDRO          |             0,00
+12567631    | ORE                       | MIGUEL                    |             0,00
+12567632    | LEON DE AYQUIPA           | ESPERANZA                 |             0,00
+12567637    | TUYA                      | CECILIA YOVANA            |             0,00
+12567642    | REYES                     | LUCCAS ANGELO             |             0,00
+12567643    | VALERIA                   | ANDDY JORDAN              |             0,00
+12567644    | CAMPOS                    | GESELLE                   |             0,00
+12567645    | VALLE                     | MOISES FLORENCIO          |             0,00
+12567646    | GARAY                     | RAUL OSCAR                |             0,00
+12567647    | MARTINEZ                  | ROXANA DEL CARMEN         |             0,00
+12567649    | SOTELO                    | JUAN CARLOS               |             0,00
+12567650    | FERNANDEZ CONCHA          | MARIANA                   |             0,00
+12567651    | NIQUEN                    | CLARA                     |             0,00
+12567652    | AYALA                     | MARIA DE LOS ANGELES      |             0,00
+12567655    | TAIÑA                     | JOSE ANTONIO              |             0,00
+12567656    | LLAMOJA                   | ROBERT                    |             0,00
+12567657    | VILLON DE DONAYRE         | JONATHAN MICHAEL          |             0,00
+12567658    | FERIA                     | BRENDA CAROL              |             0,00
+12567661    | PORTILLA                  | AARON                     |             0,00
+12567663    | PIEDRA                    | ALFREDO EMILIO            |             0,00
+12567665    | LINDO                     | AZUCENA LUCCIANA          |             0,00
+12567666    | CAMINO                    | BRANDON                   |             0,00
+12567667    | ESTRADA                   | CARLOS GABRIEL            |             0,00
+12567668    | SHIMOSE                   | CARMEN IRENE              |             0,00
+12567669    | SUAREZ                    | CRISTHIAN                 |             0,00
+12567670    | HUAMAN                    | ENA BEATRIZ               |             0,00
+12567671    | TRISTAN                   | GWENDOLYN GIANELLA        |             0,00
+12567674    | ARIAS                     | JESUS                     |             0,00
+12567676    | ABANTO                    | PAOLA DEL ROSARIO         |             0,00
+12567679    | RUBIO                     | ROSARIO MECEDES           |             0,00
+12567680    | CORTEZ                    | VICTOR LUIS               |             0,00
+12567685    | SISNIEGAS DE HOLCOMB      | PEDRO ISIDRO              |             0,00
+12567690    | GARAY                     | MARLIES KAREM             |             0,00
+12567691    | SARMIENTO                 | ANDRES DAVID              |             0,00
+12567692    | LEON                      | GIOVANNA ALEJANDRA        |             0,00
+12567693    | RAYGADA                   | EDWARD JHONATTAN          |             0,00
+12567694    | AVALOS                    | JOHANA LUCILA             |             0,00
+12567695    | PALMA                     | GLORIA MARGARITA          |             0,00
+12567697    | RODRIGUEZ                 | YASMINE ALEXIS            |             0,00
+12567698    | CORDOVA                   | OSCAR EDUARDO             |             0,00
+12567699    | CORDOVA                   | FELICIA                   |             0,00
+12567700    | CALENZANI                 | CAROLINA ROSA             |             0,00
+12567703    | ROJAS                     | RICARDO ARTURO            |             0,00
+12567704    | CHAHUAYO                  | RUTH OLINDA               |             0,00
+12567705    | ZEVALLOS                  | TANIA CAROLINA            |             0,00
+12567706    | SALINAS                   | MANUEL JESUS              |             0,00
+12567709    | GONZALES                  | DAMIAN JULIO              |             0,00
+12567711    | TAPARA                    | ALEJANDRA GUADALUPE       |             0,00
+12567713    | NICHO                     | CHRISTINA DIANA           |             0,00
+12567714    | CAYLLAHUA                 | PATRICIA ELIZABETH        |             0,00
+12567715    | PARIONA                   | HIPOLITO ABRIL            |             0,00
+12567716    | GAYTAN                    | LESLY ANGELICA HANNY      |             0,00
+12567717    | POLETTI                   | ROXANA                    |             0,00
+12567718    | ACUÑA                     | VERONICA MARIBEL          |             0,00
+12567719    | VASQUEZ                   | DANIEL JESUS              |             0,00
+12567722    | HUAMANZANA                | GIANKARLO MATTHEW         |             0,00
+12567724    | ARANGO                    | NESTOR ALCIDES            |             0,00
+12567726    | LUQUE                     | GENARO RICARDO            |             0,00
+12567727    | VELA                      | JORGE ENRIQUE             |             0,00
+12567728    | FLORES                    | JOSE ANDRES               |             0,00
+12567733    | SILVA                     | ELENA                     |             0,00
+12567738    | RAMOS                     | IVONNE MADELEINE          |             0,00
+12567739    | TORRES                    | DIEGO                     |             0,00
+12567740    | DIAZ                      | ROBERT                    |             0,00
+12567741    | VILLANUEVA                | ANA DENISE                |             0,00
+12567742    | GOMEZ                     | JOSE ANDRES               |             0,00
+12567743    | GUTIERREZ                 | NOHEMI LASTENIA           |             0,00
+12567745    | ROJAS                     | JAIME IVAN MARTIN         |             0,00
+12567746    | SANCHEZ                   | LUIS HERNAN               |             0,00
+12567747    | VERGARA                   | RANDY LUZ                 |             0,00
+12567748    | SALVATIERRA               | CARMEN ROSA               |             0,00
+12567751    | UBILLUS                   | ALESSANDRO                |             0,00
+12567752    | SANCHEZ                   | AZUCENA LUCCIANA          |             0,00
+12567753    | VALENCIA                  | DESIREE F                 |             0,00
+12567754    | GEREDA                    | ANDRES                    |             0,00
+12567757    | YARO                      | RUTH TANIA                |             0,00
+12567759    | TRISTAN                   | EDILBERTO                 |             0,00
+12567761    | NUÑEZ                     | LETTY CONCEPCION          |             0,00
+12567762    | ARTEAGA                   | GIULIANA PALOMA           |             0,00
+12567763    | VASQUEZ                   | CARMEN SUSANA             |             0,00
+12567764    | MARTINEZ                  | THOMAS JOSE               |             0,00
+12567765    | TORRICO                   | SACRAMENTO                |             0,00
+12567766    | CHACON DE LOYOLA          | AMIL TAF                  |             0,00
+12567767    | VALVERDE                  | CARLOS ALBERTO            |             0,00
+12567770    | GRIMALDI                  | GISSELLA ANTUANET         |             0,00
+12567772    | CHUMPEN                   | KARIM ARACELLY            |             0,00
+12567774    | BAJONERO                  | RICARDO GERMAN            |             0,00
+12567775    | LAOS                      | ZARELLE GUISELLE          |             0,00
+12567776    | ESTRADA                   | FELICITA VICTORIA         |             0,00
+12567781    | GUEVARA                   | RODOLFO OMAR              |             0,00
+12567786    | ESCOBAR                   | AMIL TAF                  |             0,00
+12567787    | PIÑAS DE CARO             | SERGIO DAVID              |             0,00
+12567788    | SALAZAR                   | SONIA                     |             0,00
+12567789    | VELASQUEZ                 | ROSALIA                   |             0,00
+12567790    | DEL CARPIO                | MOISES DAVID              |             0,00
+12567791    | HAAS                      | JUAN ROBERTO              |             0,00
+12567793    | MATTA                     | ROBERTO AUGUSTO           |             0,00
+12567794    | GARCIA                    | SUT LAN                   |             0,00
+12567795    | VENTOCILLA                | ENA BEATRIZ               |             0,00
+12567796    | RODRIGUEZ                 | MARIA ROCIO               |             0,00
+12567799    | SILVA                     | MIGUEL ANGEL              |             0,00
+12567800    | CALLE DE DODGE            | JAVIER FERNANDO           |             0,00
+12567801    | TENORIO                   | LUIS MIGUEL               |             0,00
+12567802    | BOCANEGRA                 | VICTORIA CELESTINA        |             0,00
+12567805    | SULCA                     | CYNTHIA EUFEMIA MICHELLE  |             0,00
+12567807    | GUIZADO                   | LUIS ALEJANDRO            |             0,00
+12567809    | PATIÑO PATRONI            | GRICELDA CLORINDA         |             0,00
+12567810    | BRACHO                    | RODOLFO DAVID ANTONIO     |             0,00
+12567811    | URIA                      | VICTORIA NORMA            |             0,00
+12567812    | VAGNER                    | VICTORIA NORMA            |             0,00
+12567813    | VIVANCO                   | CARMEN SHERLEY            |             0,00
+12567814    | NUNURA                    | MILAGROS VANESSA          |             0,00
+12567815    | OJEDA                     | NANCY ELIZABETH           |             0,00
+12567818    | BORDER                    | JORGE EDUARDO             |             0,00
+12567820    | CHIRINOS                  | RAUL OSCAR                |             0,00
+12567822    | TAKEUTI                   | MARGORIE DEL CARMEN       |             0,00
+12567823    | YAGUI                     | RAFAEL ARTURO             |             0,00
+12567824    | ACUÑA                     | ROSA ELVIRA               |             0,00
+12567829    | VARESE                    | CARLOS ALFONSO            |             0,00
+12567834    | MANRIQUE                  | GISSET MARGARITA          |             0,00
+12567835    | VELASQUEZ                 | HILDA VIOLETA             |             0,00
+12567836    | BURGA                     | IVONNE LIZETH             |             0,00
+12567837    | ZELAYA                    | JORGE JACKSON             |             0,00
+12567838    | DRAGAÑAC                  | LINA LUZ                  |             0,00
+12567839    | MACCHIAVELLO              | MARIA ESTHER              |             0,00
+12567841    | RODRIGUEZ-PASTOR          | CARLOS                    |             0,00
+12567842    | CAI DE KON                | EDUARDO ULISES            |             0,00
+12567843    | UN                        | EMBERY JESUS              |             0,00
+12567844    | ROSAS                     | LOIDA JUANA               |             0,00
+12567847    | DE SOUZA                  | MARITZA BLANCA            |             0,00
+12567848    | LLANOS                    | MARY GLADYS               |             0,00
+12567849    | OLIVER                    | MIRIAM MARUXA             |             0,00
+12567850    | CAMINO                    | RAUL GREGORIO             |             0,00
+12567853    | TORANZO                   | EDSON JHONATAN            |             0,00
+12567855    | MALQUI                    | ASHLEY IRENE              |             0,00
+12567857    | NEGRETE                   | RICARDO                   |             0,00
+12567858    | AGUILA                    | LUIS ALBERTO              |             0,00
+12567859    | GARCIA                    | JOHANNA                   |             0,00
+12567860    | MEDINA                    | VICTOR LEONIDAS           |             0,00
+12567861    | RODRIGUEZ                 | JORGE ANTONIO             |             0,00
+12567862    | CAMONES                   | JOSE ANTONIO              |             0,00
+12567863    | IBAÑEZ                    | JOSE MIGUEL               |             0,00
+12567866    | HIDALGO                   | SUSAN CATHERINE           |             0,00
+12567868    | MARTINEZ                  | RUBEN FILIBERTO           |             0,00
+12567870    | FLORES                    | CARLOS GUSTAVO            |             0,00
+12567871    | PACHECO                   | LUIS ALBERTO              |             0,00
+12567872    | OROSCO                    | RITA                      |             0,00
+12567877    | SANCHEZ                   | KELLY                     |             0,00
+12567882    | MONTES       

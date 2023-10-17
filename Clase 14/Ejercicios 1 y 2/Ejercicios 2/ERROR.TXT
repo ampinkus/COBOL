@@ -1,0 +1,12 @@
+El empleado ID 12566708 no existe en DIRECCIONES.TXT
+El empleado ID 12566710 no existe en EMPLEADOS.TXT
+El empleado ID 12566712 no existe en DATOS-EXTRA.TXT
+El empleado ID 12566717 no existe en DIRECCIONES.TXT
+El empleado ID 12566891 no existe en EMPLEADOS.TXT
+El empleado ID 12566892 no existe en EMPLEADOS.TXT
+El empleado ID 12567541 no existe en EMPLEADOS.TXT
+El empleado ID 12567585 no existe en DIRECCIONES.TXT
+El empleado ID 12567585 no existe en DIRECCIONES.TXT
+El empleado ID 12567665 no existe en DATOS-EXTRA.TXT
+El empleado ID 12567666 no existe en DATOS-EXTRA.TXT
+El empleado ID 12567827 no existe en EMPLEADOS.TXT
