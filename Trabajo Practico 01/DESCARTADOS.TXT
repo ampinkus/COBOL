@@ -1,0 +1,16 @@
+====================================================================================
+Apellido y Nombre                      |Materia                      |Cantidad
+====================================================================================
+AGUILAR, JUAN                           Química                       00002
+ARAUJO, BRIEL KAELA                     Inglés                        00002
+CASO, DAVID ANGELO                      Física                        00002
+MANRIQUE, SUSAN CATHERINE               Química                       00001
+MANSILLA, LUCAS                         Economía                      00002
+MANTILLA, LIZET                         Física                        00002
+MEJORADA, BENITA                        Inglés                        00002
+MONTENEGRO, CHRISTINA DIANA             Física                        00002
+SOUQUON, ELENA REGINA                   Economía                      00002
+TACZA, DIEGO                            Física                        00002
+ZARZOSA, LUISA ESPERANZA                Matemáticas                   00001
+ZUÑIGA, BRIANNA                         Matemáticas                   00002
+====================================================================================

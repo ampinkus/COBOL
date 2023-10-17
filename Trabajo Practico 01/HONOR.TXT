@@ -1,0 +1,10 @@
+====================================================================================
+Materia                        | Apellido y Nombre                        | Promedio
+====================================================================================
+Economía                       | PALOMINO, SHIRLEY                        |     9,65
+Física                         | FLORES, KAREN ROSSE                      |     9,93
+Informática                    | NECOCHEA, YESSICA                        |    10,00
+Inglés                         | SANCHEZ, RODOLFO DAVID ANTONIO           |     9,64
+Matemáticas                    | PEREZ, KARINA ELIZABETH                  |    10,00
+Química                        | NAVARRO, CAROLINE                        |     9,93
+====================================================================================

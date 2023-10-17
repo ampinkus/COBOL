@@ -1,0 +1,392 @@
+<mxfile host="Electron" modified="2023-10-10T23:30:53.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="UJfMwrAbtdwFyWYtx4tn" version="22.0.2" type="device">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="1098" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="2339" background="#FFF4C3" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-2" value="ABRO&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ALUMNOS.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DESCARTADOS.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PROMEDIOS.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HONOR.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ERROR.TXT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="407" y="256" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-3" value="TP01EJ01" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="787" y="117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-4" value="LEO&lt;br&gt;ALUMNOS.TXT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="647" y="256" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-5" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-size: 24px;&quot;&gt;*&lt;/font&gt;&lt;br&gt;PROCESO&amp;nbsp;&lt;br&gt;HASTA EOF&lt;br&gt;ALUMNOS.TXT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="847" y="256" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-6" value="CIERRO&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;ALUMNOS.TXT&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;DESCARTADOS.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;PROMEDIOS.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;HONOR.TXT&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;ERROR.TXT&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="256" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-2" target="ZZ-dzzMS8n64tk9i_MPQ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="316" as="sourcePoint" />
+            <mxPoint x="817" y="266" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="487" y="216" />
+              <mxPoint x="847" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="316" as="sourcePoint" />
+            <mxPoint x="707" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="316" as="sourcePoint" />
+            <mxPoint x="847" y="216" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="907" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="316" as="sourcePoint" />
+            <mxPoint x="907" y="216" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-12" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;0&lt;/font&gt;&lt;br&gt;EL ALUMNO ES EL MISMO?&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="77" y="781.5" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="359" y="781.5" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-17" value="PROCESO MATERIA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="77" y="941.5" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-17" target="ZZ-dzzMS8n64tk9i_MPQ-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="871.5" as="sourcePoint" />
+            <mxPoint x="527" y="821.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-19" value="PROCESO ALUMNO" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="332" y="942.5" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-20" value="LEO&lt;br&gt;ALUMNOS.TXT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="621" y="781.5" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.535;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-14" target="ZZ-dzzMS8n64tk9i_MPQ-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487" y="832.5" as="sourcePoint" />
+            <mxPoint x="537" y="782.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-24" value="PROCESO MATERIA" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1806" y="240" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-25" value="PROCESO ALUMNO" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="2583.5" y="240" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;0&lt;/font&gt;&lt;br&gt;LA MATERIA ES LA MISMA?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="420" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="420" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;SUMO NOTA AL ACUMULADOR PARA CALCULAR EL&amp;nbsp; PROMEDIO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="544" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-29" target="ZZ-dzzMS8n64tk9i_MPQ-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="574" as="sourcePoint" />
+            <mxPoint x="1340" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2019" y="544" as="sourcePoint" />
+            <mxPoint x="1770" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-34" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;0&lt;/font&gt;&lt;br&gt;TENGO 3 MATERIAS IGUALES?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="544" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2282" y="544" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-36" value="FIN PROCESO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="660" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-36" target="ZZ-dzzMS8n64tk9i_MPQ-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1720" y="584" as="sourcePoint" />
+            <mxPoint x="1770" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-38" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;CALCULO PROMEDIO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="664" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-38" target="ZZ-dzzMS8n64tk9i_MPQ-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1730" y="584" as="sourcePoint" />
+            <mxPoint x="1780" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRABO REGISTRO ALUMNO EN PROMEDIOS.TXT&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1940" y="784" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-40" target="ZZ-dzzMS8n64tk9i_MPQ-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1730" y="584" as="sourcePoint" />
+            <mxPoint x="1780" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2017" y="524" as="sourcePoint" />
+            <mxPoint x="2357.9999999999995" y="544" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2358" y="524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-43" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRABO REGISTRO ALUMNO EN DESCARTADOS.TXT&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2281" y="756" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2038" y="654" as="sourcePoint" />
+            <mxPoint x="1908" y="344" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760" y="384" />
+              <mxPoint x="1908" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1908" y="384" as="sourcePoint" />
+            <mxPoint x="2088" y="604" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2019" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-47" value="FIN PROCESO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1806" y="1350" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-49" value="FIN PROCESO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2302" y="880" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-49" target="ZZ-dzzMS8n64tk9i_MPQ-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1930" y="750" as="sourcePoint" />
+            <mxPoint x="1980" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-52" value="SUMO 1 A TOTAL REGISTROS LEIDOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="847" y="400" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="705.4999999999998" as="sourcePoint" />
+            <mxPoint x="788" y="803.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="438" y="753.5" />
+              <mxPoint x="681" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-58" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="738" y="853.5" as="sourcePoint" />
+            <mxPoint x="438" y="753.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-59" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="738" y="853.5" as="sourcePoint" />
+            <mxPoint x="438" y="753.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="177" y="753.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-60" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;0&lt;/font&gt;&lt;br&gt;EL REGISTRO ES VALIDO?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="520" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-63" value="SUMO 1 A TOTAL REGISTROS PROCESADOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="624" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-64" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-63" target="ZZ-dzzMS8n64tk9i_MPQ-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="814" as="sourcePoint" />
+            <mxPoint x="790" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-66" value="SUMO 1 A TOTAL REGISTROS CON ERROR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="859" y="630" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-70" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919" y="630" as="sourcePoint" />
+            <mxPoint x="989" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-71" value="LEO&lt;br&gt;ALUMNOS.TXT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1059" y="520" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-72" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-71" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919" y="500" as="sourcePoint" />
+            <mxPoint x="989" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1119" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-73" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRABO LA MATERIA, EL&amp;nbsp; NOMBRE DEL ALUMNO,&amp;nbsp; EL PROMEDIO EN VARIABLES DE HONOR&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1714" y="1064" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-74" value="INICIALIZO VARIABLES CUADRO HONOR&lt;br&gt;(UNA POR CADA MATERIA)&lt;br&gt;- MATERIA&lt;br&gt;- NOMBRE Y APELLIDO&lt;br&gt;- PROMEDIO" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="47" y="251" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-76" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="587" y="596" as="sourcePoint" />
+            <mxPoint x="487" y="216" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="187" y="216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-77" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;0&lt;/font&gt;&lt;br&gt;EL PROMEDIO DE LA MATERIIA &lt;br&gt;ES MAYOR QUE LA QUE &lt;br&gt;ESTA EN VARIABLE&amp;nbsp; DE HONOR?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1727" y="914" width="274" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-78" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;/&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2075" y="914" width="158" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-79" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-77" target="ZZ-dzzMS8n64tk9i_MPQ-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1654" y="994" as="sourcePoint" />
+            <mxPoint x="1704" y="944" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1864" y="884" />
+              <mxPoint x="2020" y="884" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-80" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-73" target="ZZ-dzzMS8n64tk9i_MPQ-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1498" y="994" as="sourcePoint" />
+            <mxPoint x="1548" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-81" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-47" target="ZZ-dzzMS8n64tk9i_MPQ-73" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1498" y="994" as="sourcePoint" />
+            <mxPoint x="1548" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2020" y="884" as="sourcePoint" />
+            <mxPoint x="2149.9999999999995" y="914" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2150" y="884" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-83" value="FIN PROCESO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2095" y="1063" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-84" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-83" target="ZZ-dzzMS8n64tk9i_MPQ-78" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1654" y="994" as="sourcePoint" />
+            <mxPoint x="1704" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-85" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRABO SEPARADOR&amp;nbsp;&lt;br&gt;EN LISTADO PROMEDIOS&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2583.5" y="483" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-87" value="FIN PROCESO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2623.5" y="604" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-87" target="ZZ-dzzMS8n64tk9i_MPQ-85" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1931.5" y="794" as="sourcePoint" />
+            <mxPoint x="1981.5" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-90" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-52" target="ZZ-dzzMS8n64tk9i_MPQ-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1183" y="600" as="sourcePoint" />
+            <mxPoint x="1233" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-94" value="" style="endArrow=none;html=1;rounded=0;entryX=0.607;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ZZ-dzzMS8n64tk9i_MPQ-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="500" as="sourcePoint" />
+            <mxPoint x="780" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-95" value="GRABO:&lt;br&gt;&amp;nbsp;- CUADRO DE HONOR.TXT&lt;br&gt;- PROMEDIOS.TXT&lt;br&gt;- DECARTADOS.TXT&lt;br&gt;- ERROR.TXT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="256" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1119" y="252.99999999999977" as="sourcePoint" />
+            <mxPoint x="1119" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-97" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;GRABO REGISTRO ALUMNO EN ERROR.TXT&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="740" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-98" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-60" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="700" as="sourcePoint" />
+            <mxPoint x="920" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-99" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-61" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="700" as="sourcePoint" />
+            <mxPoint x="920" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-100" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-97" target="ZZ-dzzMS8n64tk9i_MPQ-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="780" as="sourcePoint" />
+            <mxPoint x="1120" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-103" value="SUMO 1 A TOTAL REGISTROS DESCARTADOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2301" y="654" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-104" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-103" target="ZZ-dzzMS8n64tk9i_MPQ-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2195" y="794" as="sourcePoint" />
+            <mxPoint x="2245" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZ-dzzMS8n64tk9i_MPQ-105" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZZ-dzzMS8n64tk9i_MPQ-43" target="ZZ-dzzMS8n64tk9i_MPQ-103" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2195" y="794" as="sourcePoint" />
+            <mxPoint x="2245" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sH3PJZNP-16VoSZ_DMae-1" value="PONGO EN CERO EL ACUMULADOR&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2623.5" y="370" width="120" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="sH3PJZNP-16VoSZ_DMae-2" value="PONGO EN CERO EL PROMEDIO CALCULADO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1703.5" y="1200" width="320" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
