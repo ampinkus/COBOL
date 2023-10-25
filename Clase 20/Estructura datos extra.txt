@@ -1,0 +1,6 @@
+FD ENT-DATOS-EXTRA.
+       01 ENT-DATOS-EXTRA-REG.
+          05 ENT-EXT-ID-EMPLEADO            PIC 9(08).
+          05 ENT-EXT-TIPO-DOC               PIC X(03).
+          05 ENT-EXT-NRO-DOC                PIC X(08).
+          05 ENT-EXT-TELEFONO               PIC X(09).
