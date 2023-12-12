@@ -1,0 +1,5 @@
+Descargar la terminal "Vista TN3270" desde https://www.tombrennansoftware.com/download.html
+Version 1.27
+
+Host: mainframe-os390.ddns.net
+Port: 4444

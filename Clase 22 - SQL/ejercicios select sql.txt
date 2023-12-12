@@ -1,0 +1,85 @@
+1a - Obtener Ordenes con estado CANCELADO
+
+SELECT * 
+FROM Ordenes AS Ordenes
+WHERE estadoid = 3;
+ 
+
+SELECT O.id, O.clienteid, O.fechaorden, O.importetotal, E.descripcion 
+FROM Ordenes AS O,
+     Estados as E
+where e.descripcion = 'Cancelado'
+AND estadoid = E.ID;
+
+
+SELECT *
+FROM Ordenes
+WHERE EstadoID = (SELECT ID FROM Estados WHERE Descripcion = 'Cancelado');
+
+SELECT Ordenes.*
+FROM Ordenes
+INNER JOIN Estados ON Ordenes.EstadoID = Estados.ID
+WHERE Estados.Descripcion = 'Cancelado';
+
+
+
+
+------------------------------------------------------------------------------
+1b - Obtener El detalle de las Ordenes de compra que hizo que el cliente 15- Oscar Vargas
+
+
+SELECT *
+FROM Ordenes AS O,
+OrdenesDetalle AS D
+WHERE clienteid = 15
+and ordenid = O.ID
+ORDER BY ID;
+
+SELECT Ordenes.*
+FROM Ordenes
+INNER JOIN Clientes ON Ordenes.clienteid = clienteid
+WHERE Clientes.Apellido = 'Vargas';
+
+------------------------------------------------------------------------------
+1c -Mostrar todos los productos relacionados a la categoria de mueble -10
+
+SELECT C.ID, C.descripcion, P.nombre, P.descripcion
+FROM Categorias as C,
+     Productos  AS P
+WHERE C.ID = 10
+AND C.id = P.CategoriaID;
+
+SELECT Productos.*
+FROM Productos
+INNER JOIN Categorias ON Productos.CategoriaID = Categorias.id
+WHERE Categorias.Descripcion = 'Muebles';
+
+-----------------------------------------
+1d - Obtener Todas los clientes de la ciudad 1
+
+
+SELECT C.id, C.Nombre, C.apellido, D.ciudad
+FROM  
+     Clientes AS C,
+     Domicilios AS D
+WHERE  D.ciudad = 'Ciudad 1'  
+AND C.domicilioid = D.id;
+
+SELECT Clientes.*
+FROM Clientes
+INNER JOIN Domicilios ON Clientes.DomicilioID = Domicilios.ID
+WHERE Domicilios.Ciudad = 'Ciudad 1';
+-----------------------------------------
+
+1e - Obtener Todas las ordenes que estan en estado proceso de la ciudad 1
+
+SELECT O.id, c.Apellido, E.descripcion, D.ciudad
+FROM Ordenes AS O,
+     Estados AS E,
+     Clientes AS C,
+     Domicilios AS D
+WHERE  D.ciudad 		= 'Ciudad 1' 
+AND-    O.estadoid 		= E.ID
+AND    O.clienteid 		= C.ID
+AND    C.domicilioid 	= D.id
+AND    E.Descripcion 	= 'En proceso';

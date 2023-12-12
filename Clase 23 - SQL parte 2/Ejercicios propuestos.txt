@@ -1,0 +1,113 @@
+Clase 23 ejercicios resueltos
+
+----------------------------------------------------------------
+Ej 01
+Obtener la cantidad de Ordenes en estado:  En proceso
+
+-- con Join 
+SELECT count(clienteid) from Ordenes
+INNER JOIN Estados on Ordenes.EstadoID = Estados.ID
+WHERE estados.Descripcion = "En proceso";
+
+----------------------------------------------------------------
+Ej 02
+Obtener el importe total que suman todos las Ordenes en estado Completados
+
+-- con Join 
+SELECT sum(importetotal) from Ordenes
+INNER JOIN Estados on Ordenes.EstadoID = Estados.ID
+WHERE estados.Descripcion = "Completado";
+
+----------------------------------------------------------------
+Ej 03
+Obtener los datos de los Clientes y sus respectivos Domicilios
+
+-- con Join 
+SELECT nombre, apellido, email, cuit, telefono, calle, numero,ciudad, codigopostal, pais  from Clientes
+INNER JOIN Domicilios on  Clientes.DomicilioID = Domicilios.ID;
+
+----------------------------------------------------------------
+Ej 04
+Dado un ClienteID obtener la lista de Ordenes junto los datos del Cliente y su Domicilio
+
+-- con Join 
+SELECT  fechaorden, importetotal, estadoid, nombre, apellido, email, cuit, telefono, calle, numero,ciudad, codigopostal, pais  from Clientes
+INNER join Ordenes on Ordenes.clienteid = Clientes.ID
+INNER JOIN Domicilios on  Clientes.DomicilioID = Domicilios.ID
+WHERE clienteid = 4;
+
+----------------------------------------------------------------
+Ej 05
+A la consulta/query anterior agregar la tabla Estados para obtener la descripción del mismo en vez del id del estado
+
+-- con Join 
+SELECT  fechaorden, importetotal, descripcion, nombre, apellido, email, cuit, telefono, calle, numero,ciudad, codigopostal, pais  from Clientes
+INNER join Ordenes on Ordenes.clienteid = Clientes.ID
+INNER JOIN Domicilios on  Clientes.DomicilioID = Domicilios.ID
+INNER JOIN Estados on  Ordenes.EstadoID = Estados.ID
+WHERE clienteid = 4;
+
+----------------------------------------------------------------
+Ej 06
+Modificar el ejercicio anterior para buscar por un OrdenID y obtener los mismos datos
+
+-- con Join 
+SELECT  fechaorden, importetotal, descripcion, nombre, apellido, email, cuit, telefono, calle, numero,ciudad, codigopostal, pais  from Clientes
+INNER join Ordenes on Ordenes.clienteid = Clientes.ID
+INNER JOIN Domicilios on  Clientes.DomicilioID = Domicilios.ID
+INNER JOIN Estados on  Ordenes.EstadoID = Estados.ID
+WHERE Ordenes.id = 1;
+
+----------------------------------------------------------------
+Ej 07
+En la tabla Domicilios actualizar el contenido del la columna Pais por los siguientes valores:
+• "Pais 1" por "Argentina"
+• "Pais 2" por "Uruguay"
+• "Pais 3" por "Brasil
+
+update Domicilios
+SET pais = "Argentina"
+where pais = "Pais 1";
+update Domicilios
+SET pais = "Uruguay"
+where pais = "Pais 2";
+update Domicilios
+SET pais = "Brasil"
+where pais = "Pais 3";
+
+----------------------------------------------------------------
+Ej 08
+Agregar a la tabla Estados los siguientes valores:
+• 4 = Disponible
+• 5 = Agotado
+
+INSERT into Estados (id, descripcion)
+VALUES (4, "Disponible"), (5, "Agotado");
+
+----------------------------------------------------------------
+Ej 09
+Dado un Id de una Orden obtener los siguiente campos:
+• OrdenId
+• Nombre, Descripcion, Precio Unitario del Producto
+• Cantidad, PrecioTotal del detalle de la orden
+ 
+SELECT OrdenesDetalle.OrdenID, Productos.Nombre, Productos.Descripcion, Productos.Precio AS PrecioUnitario, OrdenesDetalle.Cantidad, 
+OrdenesDetalle.Precio AS PrecioTotal    FROM OrdenesDetalle 
+JOIN Productos  ON Productos.ID = OrdenesDetalle.productoid
+WHERE OrdenesDetalle.OrdenID = 5;
+
+----------------------------------------------------------------
+Ej 10
+Actualizar el Precio en la tabla OrdenesDetalle según la cantidad de productos y el valor
+unitario de la tabla Productos
+
+UPDATE OrdenesDetalle
+   SET precio = (O.cantidad * P.precio)
+  FROM OrdenesDetalle AS O , Productos AS P
+ WHERE O.ProductoID = P.ID;
+
+Update OrdenesDetalle 
+set Precio = Cantidad * (select Precio from Productos Where ProductoID = id)
+
+----------------------------------------------------------------
+Actualizar el Stock de cada Producto según las ordenes de pedidos Completadas

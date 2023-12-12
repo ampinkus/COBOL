@@ -1,0 +1,283 @@
+       IDENTIFICATION DIVISION.                                         00010002
+       PROGRAM-ID. PRGSQL01.                                            00011009
+       TITLE 'PROGRAMA COBOL CON SQL'.                                  00011107
+      *-----------------------------------------------------------------00011207
+       ENVIRONMENT DIVISION.                                            00011307
+      *-----------------------------------------------------------------00011407
+       INPUT-OUTPUT SECTION.                                            00011507
+      *-----------------------------------------------------------------00011607
+       FILE-CONTROL.                                                    00011707
+      *-----------------------------------------------------------------00011807
+       SELECT SALIDA   ASSIGN TO SALIDA                                 00012407
+                       ORGANIZATION IS SEQUENTIAL                       00012507
+                       ACCESS MODE  IS SEQUENTIAL                       00012607
+                       FILE STATUS  IS FS-SALIDA.                       00012707
+      *-----------------------------------------------------------------00013607
+       DATA DIVISION.                                                   00013707
+      *-----------------------------------------------------------------00013807
+       FILE SECTION.                                                    00013907
+                                                                        00014307
+       FD SALIDA.                                                       00014407
+       01 SAL-SALIDA.                                                   00014507
+          03 SAL-ID                         PIC 9(10).                  00014607
+          03 SAL-NOMBRE                     PIC X(50).                  00014707
+          03 SAL-APELLIDO                   PIC X(50).                  00014807
+          03 SAL-NRO-DOCUMENTO              PIC X(08).                  00014907
+          03 SAL-CALLE                      PIC X(50).                  00015007
+          03 SAL-NUMERO                     PIC 9(06).                  00015107
+      *-----------------------------------------------------------------00016007
+       DATA DIVISION.                                                   00023507
+      *-----------------------------------------------------------------00023607
+       FILE SECTION.                                                    00023707
+      *-----------------------------------------------------------------00023807
+       WORKING-STORAGE SECTION.                                         00023907
+                                                                        00024007
+       01 FS-STATUS.                                                    00024107
+          03 FS-SALIDA                      PIC X(02).                  00024607
+             88 FS-SALIDA-OK                    VALUE '00'.             00024707
+             88 FS-SALIDA-EOF                   VALUE '10'.             00024807
+             88 FS-SALIDA-NFD                   VALUE '35'.             00024907
+                                                                        00026007
+       01 WS-CUR-CLIENTE                    PIC X(01).                  00026107
+          88 WS-CUR-CLIENTE-OK                  VALUE 'S'.              00026207
+          88 WS-CUR-CLIENTE-EOF                 VALUE 'N'.              00026307
+                                                                        00026407
+       01 WS-EXISTE-DOMI                    PIC X(01).                  00026507
+          88 WS-EXISTE-DOMI-SI                  VALUE 'S'.              00026607
+          88 WS-EXISTE-DOMI-NO                  VALUE 'N'.              00026707
+                                                                        00027107
+      *CURSORES                                                         00027207
+       EXEC SQL                                                         00027307
+            DECLARE CURSOR_CLIENTE CURSOR FOR                           00027407
+             SELECT C.ID                                                00027507
+                  , C.NOMBRE                                            00027707
+                  , C.APELLIDO                                          00027807
+                  , C.NRO_DOCUMENTO                                     00027907
+               FROM TB_CLIENTE C                                        00028007
+              WHERE C.COD_ESTADO = 'A'                                  00028107
+               WITH UR                                                  00028207
+       END-EXEC.                                                        00028307
+                                                                        00028407
+       EXEC SQL                                                         00029307
+            INCLUDE SQLCA                                               00029407
+       END-EXEC.                                                        00029507
+                                                                        00029607
+       EXEC SQL                                                         00029707
+            INCLUDE CPYCLIEN                                            00029807
+       END-EXEC.                                                        00029907
+                                                                        00030007
+       EXEC SQL                                                         00030107
+            INCLUDE CPYDOMIC                                            00030207
+       END-EXEC.                                                        00030307
+                                                                        00030407
+      *-----------------------------------------------------------------00030507
+       PROCEDURE DIVISION.                                              00030607
+                                                                        00030707
+           PERFORM 1000-INICIAR-PROGRAMA                                00030807
+              THRU 1000-INICIAR-PROGRAMA-FIN.                           00030907
+                                                                        00031007
+           IF WS-CUR-CLIENTE-OK AND FS-SALIDA-OK                        00031207
+              PERFORM 2000-PROCESAR-PROGRAMA                            00031307
+                 THRU 2000-PROCESAR-PROGRAMA-FIN                        00031407
+                UNTIL WS-CUR-CLIENTE-EOF                                00031507
+           END-IF.                                                      00031607
+                                                                        00031707
+           PERFORM 3000-FINALIZAR-PROGRAMA                              00031807
+              THRU 3000-FINALIZAR-PROGRAMA-FIN.                         00031907
+                                                                        00032007
+           STOP RUN.                                                    00032107
+      *-----------------------------------------------------------------00032207
+       1000-INICIAR-PROGRAMA.                                           00032307
+                                                                        00032407
+           PERFORM 1100-ABRIR-CURSOR-DOM                                00032507
+              THRU 1100-ABRIR-CURSOR-DOM-FIN                            00032607
+                                                                        00032707
+           PERFORM 1200-ABRIR-SALIDA                                    00032807
+              THRU 1200-ABRIR-SALIDA-FIN.                               00032907
+                                                                        00033007
+       1000-INICIAR-PROGRAMA-FIN.                                       00033107
+           EXIT.                                                        00033207
+      *-----------------------------------------------------------------00033307
+       1100-ABRIR-CURSOR-DOM.                                           00033407
+                                                                        00033507
+           EXEC SQL                                                     00033607
+               OPEN CURSOR_CLIENTE                                      00033707
+           END-EXEC.                                                    00033807
+                                                                        00033907
+           EVALUATE SQLCODE                                             00034007
+               WHEN 0                                                   00034107
+                    PERFORM 1110-LEER-CURSOR-CLIE                       00034207
+                       THRU 1110-LEER-CURSOR-CLIE-FIN                   00034307
+               WHEN OTHER                                               00034407
+                    MOVE 'CURSOR CLIENTE'   TO WS-ERR-CURS-NAME         00034507
+                    MOVE SQLCODE            TO WS-ERR-CURS-SQLCODE      00034607
+                    SET TRUE                TO WS-ERR-CURS-OPEN         00034707
+                    PERFORM 9990-FIN-CON-ERROR                          00034807
+                       THRU 9990-FIN-CON-ERROR-FIN                      00034907
+           END-EVALUATE.                                                00035007
+                                                                        00036007
+       1100-ABRIR-CURSOR-DOM-FIN.                                       00036707
+           EXIT.                                                        00036807
+      *-----------------------------------------------------------------00036907
+       1110-LEER-CURSOR-CLIE.                                           00037007
+                                                                        00037107
+           EXEC SQL                                                     00037207
+                FETCH CURSOR_CLIENTE                                    00037307
+                 INTO :CLIE-ID                                          00037407
+                    , :CLIE-NOMBRE                                      00037507
+                    , :CLIE-APELLIDO                                    00037607
+                    , :CLIE-NRO-DOCUMENTO                               00037707
+           END-EXEC.                                                    00038307
+                                                                        00038407
+           EVALUATE SQLCODE                                             00038507
+               WHEN 0                                                   00038607
+                    SET WS-CUR-CLIENTE-OK   TO TRUE                     00038707
+               WHEN 0                                                   00038807
+                    SET WS-CUR-CLIENTE-EOF  TO TRUE                     00038907
+               WHEN OTHER                                               00039007
+                    MOVE 'CURSOR CLIENTE'   TO WS-ERR-CURS-NAME         00039107
+                    MOVE SQLCODE            TO WS-ERR-CURS-SQLCODE      00039207
+                    SET TRUE                TO WS-ERR-CURS-FETCH        00039307
+                    PERFORM 9990-FIN-CON-ERROR                          00039407
+                       THRU 9990-FIN-CON-ERROR-FIN                      00039507
+           END-EVALUATE.                                                00039607
+                                                                        00039707
+       1110-LEER-CURSOR-CLIE-FIN.                                       00039807
+           EXIT.                                                        00039907
+      *-----------------------------------------------------------------00040007
+       1200-ABRIR-SALIDA.                                               00040107
+                                                                        00040207
+           OPEN OUTPUT SALIDA.                                          00040307
+                                                                        00040407
+           EVALUATE FS-SALIDA                                           00040507
+               WHEN '00'                                                00040607
+                    CONTINUE                                            00040707
+               WHEN OTHER                                               00040807
+                    MOVE 'ARCHIVO SALIDA'   TO WS-ERR-FILE-NAME         00040907
+                    MOVE FS-SALIDA          TO WS-ERR-FILE-STATUS       00041007
+                    SET TRUE                TO WS-ERR-FILE-OPEN         00041107
+                    PERFORM 9990-FIN-CON-ERROR                          00041207
+                       THRU 9990-FIN-CON-ERROR-FIN                      00041307
+           END-EVALUATE.                                                00041407
+                                                                        00041507
+       1200-ABRIR-SALIDA-FIN.                                           00041607
+           EXIT.                                                        00041707
+      *-----------------------------------------------------------------00041807
+       2000-PROCESAR-PROGRAMA.                                          00041907
+                                                                        00042007
+           MOVE CLIE-ID                     TO SAL-ID.                  00042107
+           MOVE CLIE-NOMBRE                 TO SAL-NOMBRE.              00042207
+           MOVE CLIE-APELLIDO               TO SAL-APELLIDO.            00042307
+           MOVE CLIE-NRO-DOCUMENTO          TO SAL-NRO-DOCUMENTO.       00042407
+                                                                        00042507
+           MOVE CLIE-ID                     TO DOMI-ID.                 00042607
+           PERFORM 2100-SELECT-DOMICILIO                                00043207
+              THRU 2100-SELECT-DOMICILIO-FIN.                           00043307
+                                                                        00043407
+           IF WS-EXISTE-DOMI-SI                                         00043507
+              MOVE DOMI-CALLE               TO SAL-CALLE                00043607
+              MOVE DOMI-NUMERO              TO SAL-NUMERO               00043707
+           ELSE                                                         00043807
+              MOVE SPACES                   TO SAL-CALLE                00044107
+              MOVE ZEROES                   TO SAL-NUMERO               00044207
+           END-IF.                                                      00044307
+                                                                        00044407
+           PERFORM 2200-GRABAR-SALIDA                                   00044507
+              THRU 2200-GRABAR-SALIDA-FIN.                              00044607
+                                                                        00044707
+           PERFORM 1110-LEER-CURSOR-CLIE                                00044807
+              THRU 1110-LEER-CURSOR-CLIE-FIN.                           00044907
+                                                                        00045007
+       2000-PROCESAR-PROGRAMA-FIN.                                      00045107
+           EXIT.                                                        00045207
+      *-----------------------------------------------------------------00045307
+       2100-SELECT-DOMICILIO.                                           00045407
+                                                                        00045507
+           EXEC SQL                                                     00045607
+                SELECT CALLE                                            00045707
+                     , NUMERO                                           00045807
+                  INTO DOMI-CALLE                                       00045907
+                     ,:DOMI-NUMERO                                      00046007
+                  FROM TB_DOMICILIO                                     00046107
+                 WHERE ID = :DOMI-ID                                    00046207
+                  WITH UR                                               00046307
+           END-EXEC.                                                    00046407
+                                                                        00046507
+           EVALUATE SQLCODE                                             00046607
+               WHEN 0                                                   00046707
+                    SET WS-EXISTE-DOMI-SI   TO TRUE                     00046807
+               WHEN 100                                                 00046910
+                    SET WS-EXISTE-DOMI-NO   TO TRUE                     00047007
+               WHEN OTHER                                               00047110
+                    MOVE 'SELECT DOMICILIO' TO WS-ERR-CURS-NAME         00047210
+                    MOVE SQLCODE            TO WS-ERR-CURS-SQLCODE      00047310
+                    SET TRUE                TO WS-ERR-SQL-SELECT        00047410
+                    PERFORM 9990-FIN-CON-ERROR                          00047510
+                       THRU 9990-FIN-CON-ERROR-FIN                      00047610
+           END-EVALUATE.                                                00047907
+                                                                        00048007
+       2100-SELECT-DOMICILIO-FIN.                                       00048107
+           EXIT.                                                        00048207
+      *-----------------------------------------------------------------00048307
+       2200-GRABAR-SALIDA.                                              00048407
+                                                                        00048507
+           WRITE SAL-SALIDA.                                            00048607
+                                                                        00048707
+           IF NOT FS-SALIDA-OK                                          00048807
+              MOVE 'ARCHIVO SALIDA'   TO WS-ERR-FILE-NAME               00048907
+              MOVE FS-SALIDA          TO WS-ERR-FILE-STATUS             00049007
+              SET TRUE                TO WS-ERR-FILE-WRITE              00049107
+              PERFORM 9990-FIN-CON-ERROR                                00049207
+                 THRU 9990-FIN-CON-ERROR-FIN                            00049307
+           END-IF.                                                      00050007
+                                                                        00050407
+       2200-GRABAR-SALIDA-FIN.                                          00050507
+           EXIT.                                                        00050607
+      *-----------------------------------------------------------------00050707
+       3000-FINALIZAR-PROGRAMA.                                         00050807
+                                                                        00050907
+           PERFORM 3100-CERRAR-CURSOR-DOM                               00051007
+              THRU 3100-CERRAR-CURSOR-DOM-FIN.                          00051107
+                                                                        00051207
+           PERFORM 3200-CERRAR-SALIDA                                   00051307
+              THRU 3200-CERRAR-SALIDA-FIN.                              00051407
+                                                                        00051507
+       3000-FINALIZAR-PROGRAMA-FIN.                                     00051607
+           EXIT.                                                        00051707
+      *-----------------------------------------------------------------00051807
+       3100-CERRAR-CURSOR-DOM                                           00051907
+                                                                        00052007
+           EXEC SQL                                                     00052107
+                CLOSE CURSOR_CLIENTE                                    00052207
+           END-EXEC.                                                    00052307
+                                                                        00052407
+           IF SQLCODE NOT EQUAL ZEROS                                   00052507
+              MOVE 'CURSOR CLIENTE'   TO WS-ERR-CURS-NAME               00052607
+              MOVE SQLCODE            TO WS-ERR-CURS-SQLCODE            00052707
+              SET TRUE                TO WS-ERR-CURS-CLOSE              00052807
+              PERFORM 9990-FIN-CON-ERROR                                00052907
+                 THRU 9990-FIN-CON-ERROR-FIN                            00053007
+           END-IF.                                                      00053107
+                                                                        00053207
+       3100-CERRAR-CURSOR-DOM-FIN.                                      00053307
+           EXIT.                                                        00053407
+      *-----------------------------------------------------------------00053507
+       3200-CERRAR-SALIDA.                                              00053607
+                                                                        00053707
+           CLOSE SALIDA.                                                00053807
+                                                                        00053907
+           IF NOT FS-SALIDA-OK                                          00054007
+              MOVE 'ARCHIVO SALIDA'   TO WS-ERR-FILE-NAME               00054107
+              MOVE FS-SALIDA          TO WS-ERR-FILE-STATUS             00054207
+              SET TRUE                TO WS-ERR-FILE-CLOSE              00054307
+              PERFORM 9990-FIN-CON-ERROR                                00054407
+                 THRU 9990-FIN-CON-ERROR-FIN                            00054507
+           END-IF.                                                      00054607
+                                                                        00054707
+       3200-CERRAR-SALIDA-FIN.                                          00054807
+          EXIT.                                                         00054907
+      *-----------------------------------------------------------------00055007
+      *    COPY RUTINA DE ERROR                                         00055107
+      *-----------------------------------------------------------------00055207
+           COPY CPYERROR.                                               00055307
+      *-----------------------------------------------------------------00055407
